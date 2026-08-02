@@ -65,7 +65,52 @@
         "priority": "unclear",
         "note": "Проверить самостоятельность (возможно тот же Boshi)",
         "social": {}
+      },
+      {
+        "name": "Robo-Business.ru",
+        "website": "https://www.robo-business.ru",
+        "priority": "high",
+        "note": "РФ-рынок робототехники: новости, кейсы, аналитика",
+        "social": {}
+      },
+      {
+        "name": "RoboJobs (Telegram)",
+        "website": null,
+        "priority": "medium",
+        "note": "Вакансии/сообщество робототехники РФ",
+        "social": { "telegram": "https://t.me/RoboJobsRU" }
+      },
+      {
+        "name": "Robo.ooo",
+        "website": "https://robo.ooo",
+        "priority": "high",
+        "note": "РФ-платформа/сообщество по робототехнике",
+        "social": {}
+      },
+      {
+        "name": "RoboUnion",
+        "website": "https://robotunion.ru",
+        "priority": "high",
+        "note": "РФ-объединение участников рынка робототехники",
+        "social": {}
+      },
+      {
+        "name": "НАУРР (Национальная ассоциация участников рынка робототехники)",
+        "website": "https://robogeek.ru/companies/natsionalnaya-assotsiatsiya-uchastnikov-rynka-robototehniki",
+        "priority": "medium",
+        "note": "Отраслевая ассоциация РФ, публикуется на robogeek.ru",
+        "social": {}
       }
+    ],
+    "international_media": [
+      { "name": "IEEE Spectrum – Robotics", "website": "https://spectrum.ieee.org/topic/robotics/", "priority": "high", "note": "Глубокая техническая аналитика по автономности, дизайну роботов", "social": {} },
+      { "name": "The Robot Report", "website": "https://www.therobotreport.com", "priority": "high", "note": "Ведущее отраслевое СМИ по робототехнике и инвестициям", "social": {} },
+      { "name": "Robotics & Automation News", "website": "https://roboticsandautomationnews.com", "priority": "high", "note": "Новости индустрии робототехники и автоматизации", "social": {} },
+      { "name": "Robohub", "website": "https://robohub.org", "priority": "high", "note": "Сообщество исследователей и инженеров робототехники", "social": {} },
+      { "name": "RoboticsTomorrow", "website": "https://www.roboticstomorrow.com", "priority": "medium", "note": "Индустриальная робототехника и автоматизация производства", "social": {} },
+      { "name": "TechCrunch – Robotics", "website": "https://techcrunch.com/tag/robotics/", "priority": "medium", "note": "Стартапы и инвестиции в робототехнику", "social": {} },
+      { "name": "New Atlas – Robotics", "website": "https://newatlas.com/robotics/", "priority": "medium", "note": "Новые разработки и прототипы роботов", "social": {} },
+      { "name": "Tech Xplore – Robotics", "website": "https://techxplore.com/robotics-news/", "priority": "medium", "note": "Научно-исследовательские новости по робототехнике", "social": {} }
     ]
   },
   "globaltechtour": {

@@ -21,7 +21,7 @@
         "website_en": "https://en.miciall.com",
         "priority": "high",
         "note": "№1 стратегический ориентир, HQ в Шанхае, разворот в двусторонний мост (inbound)",
-        "social": {}
+        "social": { "linkedin": "https://www.linkedin.com/company/mici" }
       },
       {
         "name": "对标考察网 / 企业考察网",
@@ -29,7 +29,7 @@
         "website_alt": ["https://qykc.cn", "https://benchmarking.duibiao.org"],
         "priority": "medium",
         "note": "Крупнейший каталог целей, ориентир по ценам",
-        "social": {}
+        "social": { "linkedin": "https://cn.linkedin.com/company/中国标杆学习俱乐部" }
       },
       {
         "name": "学标杆网 / Xuebiaogan",
@@ -64,14 +64,19 @@
         "website": "https://91kaocha.com",
         "priority": "unclear",
         "note": "Проверить самостоятельность (возможно тот же Boshi)",
-        "social": {}
+        "social": { "linkedin": "https://www.linkedin.com/company/中国标杆企业考察培训中心" }
       },
       {
         "name": "Robo-Business.ru",
         "website": "https://www.robo-business.ru",
         "priority": "high",
-        "note": "РФ-рынок робототехники: новости, кейсы, аналитика",
-        "social": {}
+        "note": "РФ-рынок робототехники: новости, кейсы, аналитика (бывш. RoboJobs, прямой конкурент — бизнес-миссии в Китай на WRC/CeMAT/CIIF/WAIC)",
+        "social": {
+          "telegram": "https://t.me/RoboJobsRU",
+          "youtube": "https://youtube.com/@alisarobotics",
+          "vk": "https://vk.ru/alisarobotics",
+          "facebook": "https://facebook.com/alisa.konuhovskay"
+        }
       },
       {
         "name": "RoboJobs (Telegram)",
@@ -84,7 +89,7 @@
         "name": "Robo.ooo",
         "website": "https://robo.ooo",
         "priority": "high",
-        "note": "РФ-платформа/сообщество по робототехнике",
+        "note": "РФ-платформа/сообщество по робототехнике (вендор клининговых роботов, не тур-оператор)",
         "social": {}
       },
       {
@@ -92,25 +97,25 @@
         "website": "https://robotunion.ru",
         "priority": "high",
         "note": "РФ-объединение участников рынка робототехники",
-        "social": {}
+        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics" }
       },
       {
         "name": "НАУРР (Национальная ассоциация участников рынка робототехники)",
         "website": "https://robogeek.ru/companies/natsionalnaya-assotsiatsiya-uchastnikov-rynka-robototehniki",
         "priority": "medium",
         "note": "Отраслевая ассоциация РФ, публикуется на robogeek.ru",
-        "social": {}
+        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics" }
       }
     ],
     "international_media": [
-      { "name": "IEEE Spectrum – Robotics", "website": "https://spectrum.ieee.org/topic/robotics/", "priority": "high", "note": "Глубокая техническая аналитика по автономности, дизайну роботов", "social": {} },
-      { "name": "The Robot Report", "website": "https://www.therobotreport.com", "priority": "high", "note": "Ведущее отраслевое СМИ по робототехнике и инвестициям", "social": {} },
-      { "name": "Robotics & Automation News", "website": "https://roboticsandautomationnews.com", "priority": "high", "note": "Новости индустрии робототехники и автоматизации", "social": {} },
-      { "name": "Robohub", "website": "https://robohub.org", "priority": "high", "note": "Сообщество исследователей и инженеров робототехники", "social": {} },
+      { "name": "IEEE Spectrum – Robotics", "website": "https://spectrum.ieee.org/topic/robotics/", "priority": "high", "note": "Глубокая техническая аналитика по автономности, дизайну роботов", "social": { "facebook": "https://facebook.com/48576411181", "mastodon": "https://mastodon.social/@ieeespectrum", "bluesky": "https://bsky.app/profile/spectrum.ieee.org" } },
+      { "name": "The Robot Report", "website": "https://www.therobotreport.com", "priority": "high", "note": "Ведущее отраслевое СМИ по робототехнике и инвестициям", "social": { "facebook": "https://facebook.com/TheRobotReport", "twitter": "https://twitter.com/therobotreport", "linkedin": "https://www.linkedin.com/company/the-robot-report", "youtube": "https://youtube.com/@therobotreport", "instagram": "https://instagram.com/therobotreport" } },
+      { "name": "Robotics & Automation News", "website": "https://roboticsandautomationnews.com", "priority": "high", "note": "Новости индустрии робототехники и автоматизации", "social": { "facebook": "https://facebook.com/roboticsandautomationnews", "twitter": "https://twitter.com/MechatronixNews", "youtube": "https://youtube.com/@roboticsandautomationnews" } },
+      { "name": "Robohub", "website": "https://robohub.org", "priority": "high", "note": "Сообщество исследователей и инженеров робототехники", "social": { "linkedin": "https://www.linkedin.com/company/robohub", "facebook": "https://facebook.com/Robohuborg", "twitter": "https://twitter.com/Robohub", "bluesky": "https://bsky.app/profile/robohub.org", "youtube": "https://youtube.com/@robohuborg", "substack": "https://robohub.substack.com" } },
       { "name": "RoboticsTomorrow", "website": "https://www.roboticstomorrow.com", "priority": "medium", "note": "Индустриальная робототехника и автоматизация производства", "social": {} },
-      { "name": "TechCrunch – Robotics", "website": "https://techcrunch.com/tag/robotics/", "priority": "medium", "note": "Стартапы и инвестиции в робототехнику", "social": {} },
-      { "name": "New Atlas – Robotics", "website": "https://newatlas.com/robotics/", "priority": "medium", "note": "Новые разработки и прототипы роботов", "social": {} },
-      { "name": "Tech Xplore – Robotics", "website": "https://techxplore.com/robotics-news/", "priority": "medium", "note": "Научно-исследовательские новости по робототехнике", "social": {} }
+      { "name": "TechCrunch – Robotics", "website": "https://techcrunch.com/tag/robotics/", "priority": "medium", "note": "Стартапы и инвестиции в робототехнику", "social": { "twitter": "https://twitter.com/TechCrunch" } },
+      { "name": "New Atlas – Robotics", "website": "https://newatlas.com/robotics/", "priority": "medium", "note": "Новые разработки и прототипы роботов", "social": { "twitter": "https://twitter.com/nwtls" } },
+      { "name": "Tech Xplore – Robotics", "website": "https://techxplore.com/robotics-news/", "priority": "medium", "note": "Научно-исследовательские новости по робототехнике", "social": { "facebook": "https://facebook.com/1410647052543567" } }
     ]
   },
   "globaltechtour": {
@@ -122,10 +127,17 @@
       "食品/foodtech экспедиции"
     ],
     "competitors": [
-      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": {} },
-      { "name": "RetailTech", "website": "https://retailtech.ru", "priority": "high", "social": {} },
-      { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": {} },
-      { "name": "PromTourism", "website": "https://promtourism.ru", "priority": "medium", "social": {} }
+      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": { "telegram": "https://t.me/DariaSecrets" } },
+      { "name": "RetailTech", "website": "https://retailtech.ru", "priority": "high", "social": { "telegram": "https://t.me/RetailTECHNet", "vk": "https://vk.ru/public214841887" } },
+      { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": { "telegram": "https://t.me/ellevorontsova" } },
+      { "name": "PromTourism", "website": "https://promtourism.ru", "priority": "medium", "social": { "telegram": "https://t.me/s/promtourismonline", "vk": "https://vk.com/promtourismru" } }
+    ],
+    "international_sources": [
+      { "name": "Study Tour China", "website": "https://studytourchina.com", "priority": "medium", "note": "Найдено 2026-08-02. Executive & Business Programs 5-10 дней: рынок/AI/retail Shenzhen/Hangzhou/Beijing", "social": {} },
+      { "name": "Chozan (Ashley Dudarenok)", "website": "https://chozan.co", "priority": "medium", "note": "Найдено 2026-08-02. China Innovation & Tech Tour (retail/AI/robotics/design), инфлюенсер-формат", "social": {} },
+      { "name": "BetterChinaTrip", "website": "https://betterchinatrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Tailor-Made Corporate Learning Visits для делегаций", "social": {} },
+      { "name": "K5 X-pedition / China Tech Trip", "website": "https://chinatechtrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Chinese Retail Innovation Study Tour, прямой аналог retail-tech вертикали GTT", "social": {} },
+      { "name": "Inno APAC", "website": null, "priority": "low", "note": "Найдено 2026-08-02. AI & Robotics China Tech Tour (Jiangsu), живой daily-контент в LinkedIn во время поездки", "social": {} }
     ],
     "note": "Также отслеживать иностранные источники (не только русскоязычные) по теме бизнес-туризма/индустриального туризма в Китай."
   },

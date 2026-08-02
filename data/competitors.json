@@ -1,0 +1,88 @@
+{
+  "aura_robotics": {
+    "topics": [
+      "робототехника Китай",
+      "гуманоидные роботы",
+      "производство роботов",
+      "бенчмарк-туры на заводы",
+      "закупки оборудования в Китае"
+    ],
+    "competitors": [
+      {
+        "name": "迈迪尔 / Myidea",
+        "website": "https://szmyidea.com",
+        "priority": "reference",
+        "note": "Источник продукта/структуры тура (референс)",
+        "social": {}
+      },
+      {
+        "name": "华制国际 / MICI (Huazhi Int'l)",
+        "website": "https://miciall.com",
+        "website_en": "https://en.miciall.com",
+        "priority": "high",
+        "note": "№1 стратегический ориентир, HQ в Шанхае, разворот в двусторонний мост (inbound)",
+        "social": {}
+      },
+      {
+        "name": "对标考察网 / 企业考察网",
+        "website": "https://duibiao.org",
+        "website_alt": ["https://qykc.cn", "https://benchmarking.duibiao.org"],
+        "priority": "medium",
+        "note": "Крупнейший каталог целей, ориентир по ценам",
+        "social": {}
+      },
+      {
+        "name": "学标杆网 / Xuebiaogan",
+        "website": "https://xuebiaogan.com",
+        "priority": "high",
+        "note": "Ближайший продукт к робо-делегациям Aura; доступ к Unitree/AgiBot/DJI",
+        "social": {}
+      },
+      {
+        "name": "游学天下 / Youxue World",
+        "website": "https://youxueworld.cn",
+        "priority": "medium",
+        "note": "Робо-фокус + базы робототехники, тот же район что Myidea",
+        "social": {}
+      },
+      {
+        "name": "标杆考察游学网 / Boshi",
+        "website": "https://kaocha.org",
+        "priority": "medium",
+        "note": "Самый широкий каталог целей, активный AI-блок",
+        "social": {}
+      },
+      {
+        "name": "新时代企业家游学",
+        "website": "https://cnhcxsd.com",
+        "priority": "unclear",
+        "note": "Премиум/Fortune-500-позиционирование",
+        "social": {}
+      },
+      {
+        "name": "跨界标杆考察网",
+        "website": "https://91kaocha.com",
+        "priority": "unclear",
+        "note": "Проверить самостоятельность (возможно тот же Boshi)",
+        "social": {}
+      }
+    ]
+  },
+  "globaltechtour": {
+    "topics": [
+      "бизнес-туризм Китай",
+      "промышленный туризм",
+      "деловые экспедиции на заводы",
+      "retail tech Китай",
+      "食品/foodtech экспедиции"
+    ],
+    "competitors": [
+      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": {} },
+      { "name": "RetailTech", "website": "https://retailtech.ru", "priority": "high", "social": {} },
+      { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": {} },
+      { "name": "PromTourism", "website": "https://promtourism.ru", "priority": "medium", "social": {} }
+    ],
+    "note": "Также отслеживать иностранные источники (не только русскоязычные) по теме бизнес-туризма/индустриального туризма в Китай."
+  },
+  "monitor_channels": ["website", "telegram", "facebook", "instagram", "linkedin"]
+}

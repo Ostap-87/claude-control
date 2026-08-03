@@ -139,7 +139,17 @@
       { "name": "K5 X-pedition / China Tech Trip", "website": "https://chinatechtrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Chinese Retail Innovation Study Tour, прямой аналог retail-tech вертикали GTT", "social": {} },
       { "name": "Inno APAC", "website": null, "priority": "low", "note": "Найдено 2026-08-02. AI & Robotics China Tech Tour (Jiangsu), живой daily-контент в LinkedIn во время поездки", "social": {} }
     ],
-    "note": "Также отслеживать иностранные источники (не только русскоязычные) по теме бизнес-туризма/индустриального туризма в Китай."
+    "china_industry_media": [
+      { "name": "Jing Daily", "website": "https://jingdaily.com", "priority": "high", "note": "Ведущее издание про luxury-потребление и retail-тренды в Китае" },
+      { "name": "Dao Insights", "website": "https://daoinsights.com", "priority": "high", "note": "Китайский digital-маркетинг, соцсети, кейсы брендов, потребительские инсайты" },
+      { "name": "KrASIA", "website": "https://kr-asia.com", "priority": "high", "note": "Бизнес и e-commerce в Китае и Азии в целом" },
+      { "name": "TechNode", "website": "https://technode.com", "priority": "medium", "note": "Технологии и retail tech в Китае" },
+      { "name": "WalkTheChat", "website": "https://walkthechat.com", "priority": "medium", "note": "WeChat-маркетинг и соцкоммерция в Китае" },
+      { "name": "Alizila", "website": "https://alizila.com", "priority": "medium", "note": "Новостной ресурс Alibaba про e-commerce и retail в Китае" },
+      { "name": "Retail in Asia", "website": "https://retailinasia.com", "priority": "medium", "note": "Ритейл-тренды по всей Азии, включая Китай" },
+      { "name": "Daxue Consulting (блог)", "website": "https://daxueconsulting.com/blog", "priority": "medium", "note": "Маркет-ресёрч и аналитика по китайскому рынку и потребителю" }
+    ],
+    "note": "Также отслеживать иностранные источники (не только русскоязычные) по теме бизнес-туризма/индустриального туризма в Китай. Для статей про ритейл/маркетинг/рекламу в Китае — использовать china_industry_media выше как основной источник фактуры (цифры, названия компаний, тренды)."
   },
   "monitor_channels": ["website", "telegram", "facebook", "instagram", "linkedin"]
 }

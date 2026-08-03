@@ -73,9 +73,13 @@
         "note": "РФ-рынок робототехники: новости, кейсы, аналитика (бывш. RoboJobs, прямой конкурент — бизнес-миссии в Китай на WRC/CeMAT/CIIF/WAIC)",
         "social": {
           "telegram": "https://t.me/RoboJobsRU",
+          "telegram_founder": "https://t.me/asialiferobots",
           "youtube": "https://youtube.com/@alisarobotics",
           "vk": "https://vk.ru/alisarobotics",
-          "facebook": "https://facebook.com/alisa.konuhovskay"
+          "facebook": "https://facebook.com/alisa.konuhovskay",
+          "instagram": "https://instagram.com/alisarobotics",
+          "rutube": "https://rutube.ru/channel/76138857",
+          "vc.ru": "https://vc.ru/asialiferobots"
         }
       },
       {
@@ -97,7 +101,7 @@
         "website": "https://robotunion.ru",
         "priority": "high",
         "note": "РФ-объединение участников рынка робототехники",
-        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics" }
+        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics", "dzen": "https://dzen.ru/naurr", "rutube": "https://rutube.ru/channel/25685300" }
       },
       {
         "name": "НАУРР (Национальная ассоциация участников рынка робототехники)",
@@ -127,7 +131,7 @@
       "食品/foodtech экспедиции"
     ],
     "competitors": [
-      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": { "telegram": "https://t.me/DariaSecrets" } },
+      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": { "telegram": "https://t.me/DariaSecrets", "max": "https://max.ru/u/f9LHodD0" } },
       { "name": "RetailTech", "website": "https://retailtech.ru", "priority": "high", "social": { "telegram": "https://t.me/RetailTECHNet", "vk": "https://vk.ru/public214841887" } },
       { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": { "telegram": "https://t.me/ellevorontsova" } },
       { "name": "PromTourism", "website": "https://promtourism.ru", "priority": "medium", "social": { "telegram": "https://t.me/s/promtourismonline", "vk": "https://vk.com/promtourismru" } }
@@ -137,7 +141,8 @@
       { "name": "Chozan (Ashley Dudarenok)", "website": "https://chozan.co", "priority": "medium", "note": "Найдено 2026-08-02. China Innovation & Tech Tour (retail/AI/robotics/design), инфлюенсер-формат", "social": {} },
       { "name": "BetterChinaTrip", "website": "https://betterchinatrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Tailor-Made Corporate Learning Visits для делегаций", "social": {} },
       { "name": "K5 X-pedition / China Tech Trip", "website": "https://chinatechtrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Chinese Retail Innovation Study Tour, прямой аналог retail-tech вертикали GTT", "social": {} },
-      { "name": "Inno APAC", "website": null, "priority": "low", "note": "Найдено 2026-08-02. AI & Robotics China Tech Tour (Jiangsu), живой daily-контент в LinkedIn во время поездки", "social": {} }
+      { "name": "Inno APAC", "website": null, "priority": "low", "note": "Найдено 2026-08-02. AI & Robotics China Tech Tour (Jiangsu), живой daily-контент в LinkedIn во время поездки", "social": {} },
+      { "name": "HelloChinaTrip", "website": "https://hellochinatrip.com", "priority": "low", "note": "Найдено 2026-08-03. В основном leisure-туризм (Великая стена, панды), но есть блог-пост 'China Factory Sourcing Tourism Guide' — пограничная релевантность, не подтверждённый прямой конкурент", "social": {} }
     ],
     "china_industry_media": [
       { "name": "Jing Daily", "website": "https://jingdaily.com", "priority": "high", "note": "Ведущее издание про luxury-потребление и retail-тренды в Китае" },

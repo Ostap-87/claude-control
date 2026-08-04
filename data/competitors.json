@@ -79,7 +79,8 @@
           "facebook": "https://facebook.com/alisa.konuhovskay",
           "instagram": "https://instagram.com/alisarobotics",
           "rutube": "https://rutube.ru/channel/76138857",
-          "vc.ru": "https://vc.ru/asialiferobots"
+          "vc.ru": "https://vc.ru/asialiferobots",
+          "telegram_team": "https://t.me/Robo_jobs"
         }
       },
       {
@@ -101,14 +102,14 @@
         "website": "https://robotunion.ru",
         "priority": "high",
         "note": "РФ-объединение участников рынка робототехники",
-        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics", "dzen": "https://dzen.ru/naurr", "rutube": "https://rutube.ru/channel/25685300" }
+        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics", "dzen": "https://dzen.ru/naurr", "rutube": "https://rutube.ru/channel/25685300", "facebook": "https://facebook.com/RARobotics", "apple_podcasts": "https://podcasts.apple.com/search?term=Роботы%20в%20деле", "yandex_music": "https://music.yandex.ru/album/35288399" }
       },
       {
         "name": "НАУРР (Национальная ассоциация участников рынка робототехники)",
         "website": "https://robogeek.ru/companies/natsionalnaya-assotsiatsiya-uchastnikov-rynka-robototehniki",
         "priority": "medium",
         "note": "Отраслевая ассоциация РФ, публикуется на robogeek.ru",
-        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics" }
+        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics", "facebook": "https://facebook.com/RARobotics" }
       }
     ],
     "international_media": [
@@ -131,9 +132,9 @@
       "食品/foodtech экспедиции"
     ],
     "competitors": [
-      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": { "telegram": "https://t.me/DariaSecrets", "max": "https://max.ru/u/f9LHodD0" } },
+      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": { "telegram": "https://t.me/DariaSecrets", "max": "https://max.ru/u/f9LHodD0", "whatsapp": "+79852899913" } },
       { "name": "RetailTech", "website": "https://retailtech.ru", "priority": "high", "social": { "telegram": "https://t.me/RetailTECHNet", "vk": "https://vk.ru/public214841887" } },
-      { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": { "telegram": "https://t.me/ellevorontsova" } },
+      { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": { "telegram": "https://t.me/ellevorontsova", "telegram_channel": "https://t.me/FoodRetailcom", "telegram_team": "https://t.me/FoodRetail_Club" } },
       { "name": "PromTourism", "website": "https://promtourism.ru", "priority": "medium", "social": { "telegram": "https://t.me/s/promtourismonline", "vk": "https://vk.com/promtourismru" } }
     ],
     "international_sources": [

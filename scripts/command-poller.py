@@ -18,7 +18,7 @@ import sys
 import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from telegram_client import get_updates, send_message
+from telegram_client import get_updates, publish_outbox_item
 
 REPO_DIR = "/opt/claude-control"
 BOT_TOKEN = os.environ["COMMAND_BOT_TOKEN"]
@@ -110,8 +110,9 @@ def handle_outbox():
         with open(path) as f:
             item = json.load(f)
         text = item.get("text")
-        if text:
-            ok, detail = send_message(BOT_TOKEN, ALLOWED_CHAT_ID, text)
+        image_url = item.get("image")
+        if text or image_url:
+            ok, detail = publish_outbox_item(BOT_TOKEN, ALLOWED_CHAT_ID, text, image_url)
             log(f"outbox[{filename}]: {'OK' if ok else 'FAILED — ' + detail}")
             if not ok:
                 continue  # leave it in outbox, retry next loop

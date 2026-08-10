@@ -147,7 +147,8 @@
       { "name": "Learning Expeditions Asia", "website": "https://learning-expeditions-asia.com", "priority": "medium", "note": "Найдено 2026-08-05. Retail Tours in China (Shanghai/Beijing) для executives, плюс Сингапур/Лондон/Париж", "social": {} },
       { "name": "GL Open (China Retail Tour)", "website": "https://gl-open.com", "priority": "medium", "note": "Найдено 2026-08-05. China Retail Tour для executives/инвесторов вокруг того, как глобальные бренды переопределяют ритейл", "social": {} },
       { "name": "China Experience", "website": "https://china-experience.com", "priority": "medium", "note": "Найдено 2026-08-05. Executive Learning / Business Deep Dive / Virtual Learning программы, не только retail", "social": {} },
-      { "name": "Alilmi Travel", "website": "https://alilmitravel.com", "priority": "low", "note": "Найдено 2026-08-09. Corporate Visit in China / Business Delegation & Factory Tour — advanced manufacturing/робототехника/зелёная энергетика; уверенность в релевантности не подтверждена", "social": {} }
+      { "name": "Alilmi Travel", "website": "https://alilmitravel.com", "priority": "low", "note": "Найдено 2026-08-09. Corporate Visit in China / Business Delegation & Factory Tour — advanced manufacturing/робототехника/зелёная энергетика; уверенность в релевантности не подтверждена", "social": {} },
+      { "name": "PandaStudyTour", "website": "https://pandastudytour.com", "priority": "medium", "note": "Найдено 2026-08-10. China Enterprise Visit (в т.ч. отдельные страницы по провинциям, напр. Guizhou) + study tours/university visits/медтуризм — прямая модель конкурента", "social": {} }
     ],
     "china_industry_media": [
       { "name": "Jing Daily", "website": "https://jingdaily.com", "priority": "high", "note": "Ведущее издание про luxury-потребление и retail-тренды в Китае" },

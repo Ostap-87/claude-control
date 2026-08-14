@@ -5,6 +5,8 @@ import {
   interpolate,
   spring,
   AbsoluteFill,
+  Img,
+  staticFile,
 } from "remotion";
 
 export type ArticleAnnounceProps = {
@@ -13,6 +15,10 @@ export type ArticleAnnounceProps = {
   excerpt: string;
   siteUrl: string;
   accentColor: string;
+  /** Filename under public/logos/ (e.g. "huawei.svg"). Resolved via staticFile() internally — pass just the filename, not a path. Optional. */
+  logoFile?: string;
+  /** Remote https URL for a real article cover image. Optional — falls back to plain brand background. */
+  coverSrc?: string;
 };
 
 export const ArticleAnnounceComposition = () => {
@@ -32,6 +38,8 @@ export const ArticleAnnounceComposition = () => {
           "Huawei — единственный крупный игрок, который в 2026 году показывает рост продаж смартфонов, а не падение. Доля 20% в Китае, 48% мирового рынка складных телефонов.",
         siteUrl: "globaltechtour.ru",
         accentColor: "#2563eb",
+        logoFile: "huawei.svg",
+        coverSrc: undefined,
       } satisfies ArticleAnnounceProps}
     />
   );
@@ -46,9 +54,21 @@ export const ArticleAnnounce: React.FC<ArticleAnnounceProps> = ({
   excerpt,
   siteUrl,
   accentColor,
+  logoFile,
+  coverSrc,
 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
+
+  // staticFile() must be called with a literal-looking path inside the
+  // component for Remotion to allow serving it — a raw path string handed
+  // in via --props (even an identical one) is rejected as unsafe.
+  const logoSrc = logoFile ? staticFile(`logos/${logoFile}`) : undefined;
+
+  const logoOpacity = interpolate(frame, [0, 15], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
 
   const barWidth = spring({ frame, fps, config: { damping: 200 } });
 
@@ -91,6 +111,9 @@ export const ArticleAnnounce: React.FC<ArticleAnnounceProps> = ({
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
   );
 
+  const textColor = coverSrc ? "#ffffff" : "#17171d";
+  const excerptColor = coverSrc ? "rgba(255,255,255,0.85)" : "#45454e";
+
   return (
     <AbsoluteFill
       style={{
@@ -98,12 +121,37 @@ export const ArticleAnnounce: React.FC<ArticleAnnounceProps> = ({
         opacity: outOpacity,
         fontFamily:
           "Inter, ui-sans-serif, system-ui, -apple-system, sans-serif",
-        padding: "100px 90px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
       }}
     >
+      {coverSrc ? (
+        <>
+          <Img
+            src={coverSrc}
+            style={{
+              position: "absolute",
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
+          {/* darken the photo so white title/excerpt text stays legible */}
+          <AbsoluteFill
+            style={{
+              background:
+                "linear-gradient(180deg, rgba(15,23,42,0.35) 0%, rgba(15,23,42,0.75) 100%)",
+            }}
+          />
+        </>
+      ) : null}
+
+      <AbsoluteFill
+        style={{
+          padding: "100px 90px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
       {/* accent bar, top-left — mirrors the site's single blue accent */}
       <div
         style={{
@@ -132,7 +180,7 @@ export const ArticleAnnounce: React.FC<ArticleAnnounceProps> = ({
         style={{
           opacity: titleOpacity,
           transform: `translateY(${titleY}px)`,
-          color: "#17171d",
+          color: textColor,
           fontSize: 64,
           fontWeight: 600,
           letterSpacing: "-0.03em",
@@ -146,7 +194,7 @@ export const ArticleAnnounce: React.FC<ArticleAnnounceProps> = ({
       <div
         style={{
           opacity: excerptOpacity,
-          color: "#45454e",
+          color: excerptColor,
           fontSize: 32,
           lineHeight: 1.5,
           maxWidth: 820,
@@ -181,6 +229,31 @@ export const ArticleAnnounce: React.FC<ArticleAnnounceProps> = ({
           {siteUrl}
         </div>
       </div>
+      </AbsoluteFill>
+
+      {logoSrc ? (
+        <div
+          style={{
+            position: "absolute",
+            top: 90,
+            right: 90,
+            opacity: logoOpacity,
+            width: 96,
+            height: 96,
+            borderRadius: 20,
+            backgroundColor: "#eeeef2",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: 18,
+          }}
+        >
+          <Img
+            src={logoSrc}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          />
+        </div>
+      ) : null}
     </AbsoluteFill>
   );
 };

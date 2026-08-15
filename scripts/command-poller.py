@@ -95,6 +95,77 @@ def handle_incoming(updates):
         commit_and_push("New command(s) from Telegram")
 
 
+CHANNELS = [
+    {
+        "project": "globaltechtour",
+        "env_file": "/etc/content-publish.env",
+        "queue_dir": os.path.join(REPO_DIR, "data", "tg-publish", "globaltechtour"),
+    },
+    {
+        "project": "aura",
+        "env_file": "/etc/aura-telegram.env",
+        "queue_dir": os.path.join(REPO_DIR, "data", "tg-publish", "aura"),
+    },
+]
+
+
+def load_env_file(path):
+    values = {}
+    if not os.path.exists(path):
+        return values
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            values[key.strip()] = value.strip()
+    return values
+
+
+def handle_channel_publish():
+    """Publish queued posts straight to each project's public Telegram
+    channel — entirely independent of that project's site deploy/build.
+    Same drop-a-JSON-and-push mechanism as handle_outbox(), but targets
+    the project's own bot/chat (loaded from its site's existing env file
+    on this VPS) instead of the shared control chat, reading from
+    data/tg-publish/<project>/ instead of commands/outbox/. This is what
+    lets a Telegram post go out in seconds, regardless of how long (or
+    whether) the site's own build/deploy pipeline is currently taking."""
+    any_moved = False
+    for channel in CHANNELS:
+        queue_dir = channel["queue_dir"]
+        if not os.path.isdir(queue_dir):
+            continue
+        env = load_env_file(channel["env_file"])
+        bot_token = env.get("TELEGRAM_BOT_TOKEN")
+        chat_id = env.get("TELEGRAM_CHAT_ID")
+        if not bot_token or not chat_id:
+            continue
+
+        sent_dir = os.path.join(queue_dir, "sent")
+        os.makedirs(sent_dir, exist_ok=True)
+        for filename in sorted(os.listdir(queue_dir)):
+            if not filename.endswith(".json"):
+                continue
+            path = os.path.join(queue_dir, filename)
+            with open(path) as f:
+                item = json.load(f)
+            text = item.get("text")
+            if not text:
+                log(f"tg-publish[{channel['project']}/{filename}]: skipped, no 'text'")
+                continue
+            image_url = item.get("image")
+            ok, detail = publish_outbox_item(bot_token, chat_id, text, image_url)
+            log(f"tg-publish[{channel['project']}/{filename}]: {'OK' if ok else 'FAILED — ' + detail}")
+            if not ok:
+                continue  # leave it queued, retry next loop
+            os.rename(path, os.path.join(sent_dir, filename))
+            any_moved = True
+    if any_moved:
+        commit_and_push("Mark channel post(s) as sent")
+
+
 def handle_outbox():
     git("pull", "origin", "main")
     outbox_dir = os.path.join(REPO_DIR, "commands", "outbox")
@@ -141,6 +212,11 @@ def main():
             handle_outbox()
         except Exception as e:
             log(f"outbox error: {e}")
+
+        try:
+            handle_channel_publish()
+        except Exception as e:
+            log(f"channel publish error: {e}")
 
 
 if __name__ == "__main__":

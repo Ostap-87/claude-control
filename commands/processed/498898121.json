@@ -1,0 +1,7 @@
+{
+  "update_id": 498898121,
+  "message_id": 76,
+  "date": 1786984778,
+  "text": "Публикуй",
+  "result": "Type A (confirmation). Interpreted as confirming the 4 TG posts for 18 Aug already approved live in chat (GTT 09:00 DJI, GTT 18:00 Li Auto, Aura 09:00 QIO, Aura 18:00 DAX) — those were already placed in data/tg-queue/ before this inbox message arrived, nothing further to publish for them. No article draft exists in data/drafts/ for today (2026-08-17/18). Found two stale unpublished draft folders (2026-08-08, 2026-08-09, old 3-slot tg-1/2/3 schema, predates current 2-slot policy) — did NOT auto-publish them as today's content (would backdate 9-day-old orphaned drafts under today's date); flagged to user via outbox for a decision instead."
+}

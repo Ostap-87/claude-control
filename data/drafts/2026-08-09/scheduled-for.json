@@ -1,6 +1,0 @@
-{
-  "scheduled_publish_date": "2026-08-18",
-  "confirmed_by_user": true,
-  "confirmed_at": "2026-08-17T16:XX MSK (chat, in response to \"публикуй завтра\")",
-  "note": "Stale orphaned draft (article never published, TG posts in old 0830/1400/1900 3-slot format). User confirmed: publish articles tomorrow (2026-08-18) under that real date, do NOT queue the old-format tg-1/2/3 files — 18 Aug TG slots are already filled by the current plan (DJI/Li Auto for GTT, QIO/DAX for Aura). Any cycle running on or after scheduled_publish_date should treat this as an already-confirmed type-A publish command for the two *-article.json files only, then write meta-published.json here."
-}

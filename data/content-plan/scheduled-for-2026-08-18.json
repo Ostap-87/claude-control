@@ -1,0 +1,21 @@
+{
+  "scheduled_publish_date": "2026-08-18",
+  "confirmed_by_user": true,
+  "confirmed_at": "2026-08-17 (chat)",
+  "source": "current active 15-day batches, NOT the stale 2026-08-09 orphaned drafts (those were dropped — no ready covers, Aura missing coverCaption_ru/en)",
+  "articles": [
+    {
+      "project": "globaltechtour",
+      "slug": "chery-export-empire",
+      "source_file": "data/content-plan/gtt-blog-15day-batch.json",
+      "cover_verified": "public/covers/chery-export-empire.png + .webp already exist in sinotech repo"
+    },
+    {
+      "project": "aura",
+      "slug": "qio-o1-autonomous-retail-humanoid",
+      "source_file": "data/content-plan/aura-blog-15day-batch.json",
+      "cover_verified": "public/covers/qio-o1-autonomous-retail-humanoid.png already exists in aura repo; coverCaption_ru/en present in batch entry"
+    }
+  ],
+  "note": "On or after scheduled_publish_date: pull the matching entry from the batch JSON by slug, set date/publishedAt to the real current date, append to site_content.example.json (GTT) / write content/blog/<slug>.json (Aura), rebuild (SINOTECH: tsc+vite only, push both branches; Aura: npm run sync && npm run build, push main), then write meta-published marker here and confirm via commands/outbox/."
+}

@@ -23,7 +23,7 @@
     "slug": "qio-o1-autonomous-retail-humanoid",
     "title_ru": "QIO Robotics O1: гуманоид, который сам себе продавец",
     "title_en": "QIO Robotics O1: the humanoid that runs its own storefront",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/qio-o1-autonomous-retail-humanoid.png",
     "publishedAt": "2026-08-18",
     "published": true,
     "excerpt_ru": "QIO Robotics / 启物科技 — пекинский стартап 2024 года с командой из Цинхуа, Huawei и Baidu, показавший гуманоида O1 в роли автономной торговой точки: 43 степени свободы, 3D-лидар и ходьба с грузом 40 кг.",
@@ -37,13 +37,15 @@
       "вендинг"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a tall humanoid robot standing behind a small automated retail counter in a bright modern store, offering a boxed product to an off-frame customer with one hand, soft retail lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a tall humanoid robot standing behind a small automated retail counter in a bright modern store, offering a boxed product to an off-frame customer with one hand, soft retail lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Гуманоид Qio O1 обслуживает покупателя в автономном магазине",
+    "coverCaption_en": "Qio O1 humanoid serving a customer in an autonomous store"
   },
   {
     "slug": "noetix-n2-bumi-affordable-humanoids",
     "title_ru": "Noetix Robotics: гуманоид за 9998 юаней и робот-марафонец на одной платформе",
     "title_en": "Noetix Robotics: a humanoid starting at 9,998 yuan, and a marathon runner on the same platform",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/noetix-n2-bumi-affordable-humanoids.png",
     "publishedAt": "2026-08-19",
     "published": true,
     "excerpt_ru": "Noetix Robotics / 松延动力 — пекинская компания 2023 года: флагман N2 с 2500+ заказами бежал полумарафон роботов, а компактный Bumi (94 см, 12 кг) стал одним из самых доступных гуманоидов на рынке.",
@@ -57,13 +59,15 @@
       "доступные роботы"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo split composition: a compact friendly-looking small humanoid robot sitting on a classroom desk beside a tablet, bright cheerful daylight, and in soft background blur a taller athletic humanoid robot mid-stride on an outdoor running track, shallow depth of field, cinematic photorealistic lighting, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo split composition: a compact friendly-looking small humanoid robot sitting on a classroom desk beside a tablet, bright cheerful daylight, and in soft background blur a taller athletic humanoid robot mid-stride on an outdoor running track, shallow depth of field, cinematic photorealistic lighting, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Noetix N2 и Bumi — доступные гуманоиды для дома и спорта",
+    "coverCaption_en": "Noetix N2 and Bumi — affordable humanoids for home and sport"
   },
   {
     "slug": "engineai-dynamic-humanoids-t800",
     "title_ru": "EngineAI: гуманоиды, которые ходят быстрее человека",
     "title_en": "EngineAI: humanoids that walk faster than a person",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/engineai-dynamic-humanoids-t800.png",
     "publishedAt": "2026-08-20",
     "published": true,
     "excerpt_ru": "EngineAI / 众擎机器人 из Шэньчжэня строит открытую линейку гуманоидов с упором на динамику движений: флагман T800 разгоняется до 7 м/с и держит момент в приводах до 450 Н·м.",
@@ -77,13 +81,15 @@
       "открытая платформа"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of an athletic-looking humanoid robot captured mid-stride in fast dynamic motion inside a large modern industrial testing hall, motion blur on legs suggesting high speed, dramatic side lighting, dust particles catching light, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of an athletic-looking humanoid robot captured mid-stride in fast dynamic motion inside a large modern industrial testing hall, motion blur on legs suggesting high speed, dramatic side lighting, dust particles catching light, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "EngineAI T800 в динамическом движении на испытательном стенде",
+    "coverCaption_en": "EngineAI T800 in dynamic motion on a test rig"
   },
   {
     "slug": "leju-kuavo-aelos-roban-modular-humanoids",
     "title_ru": "Leju Robotics: один и тот же гуманоид для завода и для школьного кружка",
     "title_en": "Leju Robotics: the same humanoid heritage for a factory floor and a school robotics club",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/leju-kuavo-aelos-roban-modular-humanoids.png",
     "publishedAt": "2026-08-21",
     "published": true,
     "excerpt_ru": "Leju Robotics / 乐聚机器人 с 2016 года разрабатывает собственные моментные сервоприводы и алгоритмы двуногой походки: промышленный Kuavo с моментом до 360 Н·м и образовательные Aelos и Roban на одной базе знаний.",
@@ -97,13 +103,15 @@
       "двуногая ходьба"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo split scene: on one side a rugged industrial bipedal humanoid robot standing on a factory floor near machinery, on the other side blurred in soft background a smaller friendly humanoid robot on a classroom table with a laptop nearby, bright even lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo split scene: on one side a rugged industrial bipedal humanoid robot standing on a factory floor near machinery, on the other side blurred in soft background a smaller friendly humanoid robot on a classroom table with a laptop nearby, bright even lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Leju Kuavo, Aelos и Roban — модульные гуманоиды для разных задач",
+    "coverCaption_en": "Leju Kuavo, Aelos and Roban — modular humanoids for different tasks"
   },
   {
     "slug": "zerith-z-h-series-hospitality-humanoids",
     "title_ru": "Zerith: гуманоид, который убирает гостиничные номера серийно",
     "title_en": "Zerith: the humanoid cleaning hotel rooms on a production line",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/zerith-z-h-series-hospitality-humanoids.png",
     "publishedAt": "2026-08-22",
     "published": true,
     "excerpt_ru": "Zerith / 零次方机器人 держит две линейки: двуногую серию Z для сложных задач и колёсную серию H для гостиничного клининга — модель H1 уже выпускается серийно, свыше 100 единиц в месяц.",
@@ -117,13 +125,15 @@
       "клининг"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a sleek wheeled humanoid robot with an articulated arm cleaning inside a modern hotel bathroom, holding a cleaning tool, bright clean tiled interior, soft natural window light, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a sleek wheeled humanoid robot with an articulated arm cleaning inside a modern hotel bathroom, holding a cleaning tool, bright clean tiled interior, soft natural window light, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Гуманоид Zerith Z/H убирает номер в отеле",
+    "coverCaption_en": "Zerith Z/H humanoid cleaning a hotel room"
   },
   {
     "slug": "step-industrial-robots-own-servo",
     "title_ru": "STEP: промышленные роботы от производителя лифтовой автоматики",
     "title_en": "STEP: industrial robots from an elevator-automation heritage",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/step-industrial-robots-own-servo.png",
     "publishedAt": "2026-08-23",
     "published": true,
     "excerpt_ru": "STEP / 新时达 из Шанхая делает собственные контроллеры и сервосистемы для промышленных роботов: модель SR175/2700 несёт 175 кг при вылете 2,7 м с точностью повторяемости ±0,06 мм.",
@@ -137,13 +147,15 @@
       "сварочные роботы"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a heavy-duty six-axis industrial robotic arm handling a large metal workpiece in a clean modern manufacturing hall, sparks-free precise motion, bright industrial lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a heavy-duty six-axis industrial robotic arm handling a large metal workpiece in a clean modern manufacturing hall, sparks-free precise motion, bright industrial lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Промышленный робот STEP с собственными сервоприводами",
+    "coverCaption_en": "STEP industrial robot with proprietary servo drives"
   },
   {
     "slug": "efort-painting-welding-cells",
     "title_ru": "Efort: публичная компания, выросшая из автопрома, продаёт готовые ячейки, а не только роботов",
     "title_en": "Efort: an automotive-born public company selling turnkey cells, not just robots",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/efort-painting-welding-cells.png",
     "publishedAt": "2026-08-24",
     "published": true,
     "excerpt_ru": "Efort / 埃夫特智能装备 из Уху — публичная компания с европейскими интеграторскими активами: сильна в готовых окрасочных и сварочных ячейках, а не только в поставке манипуляторов.",
@@ -157,13 +169,15 @@
       "окрасочные роботы"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of an industrial robotic arm spray-painting a car body panel inside a bright automotive paint booth, fine mist visible in the light beam, protective enclosure, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of an industrial robotic arm spray-painting a car body panel inside a bright automotive paint booth, fine mist visible in the light beam, protective enclosure, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Робот EFORT красит кузов автомобиля в покрасочной камере",
+    "coverCaption_en": "EFORT robot painting a car body in a paint booth"
   },
   {
     "slug": "borunte-injection-molding-robots",
     "title_ru": "Borunte: биржевой производитель роботов, который снимает детали прямо из термопластавтомата",
     "title_en": "Borunte: a publicly traded robot maker that pulls parts straight out of the molding machine",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/borunte-injection-molding-robots.png",
     "publishedAt": "2026-08-25",
     "published": true,
     "excerpt_ru": "Borunte Robot / 伯朗特 из Дунгуаня работает с 2008 года и с 2014-го торгуется на New Third Board — линейка охватывает шестиосевые роботы грузоподъёмностью от 1 до 500 кг и специализированные роботы для термопластавтоматов.",
@@ -177,13 +191,15 @@
       "штамповка"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a compact six-axis robotic arm extracting a freshly molded plastic part from an injection molding machine in a modern factory, faint steam or heat shimmer near the mold, bright clean industrial lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a compact six-axis robotic arm extracting a freshly molded plastic part from an injection molding machine in a modern factory, faint steam or heat shimmer near the mold, bright clean industrial lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Робот Borunte извлекает деталь из литьевой машины",
+    "coverCaption_en": "Borunte robot extracting a part from an injection molding machine"
   },
   {
     "slug": "senad-vision-sorting-logistics-robots",
     "title_ru": "Senad: машинное зрение вместо переоборудования склада",
     "title_en": "Senad: machine vision instead of retrofitting the warehouse",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/senad-vision-sorting-logistics-robots.png",
     "publishedAt": "2026-08-26",
     "published": true,
     "excerpt_ru": "SENAD / 上海赛纳德 из Шанхая строит логистические роботы вокруг машинного зрения — от разгрузки контейнеров до депаллетирования неупорядоченных грузов, среди клиентов DHL, EMS, Lazada и JD.",
@@ -197,13 +213,15 @@
       "логистика"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of an industrial robotic arm sorting a mixed pile of differently sized cardboard boxes on a large modern warehouse conveyor belt, overhead vision sensors and cables visible, bright warehouse lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of an industrial robotic arm sorting a mixed pile of differently sized cardboard boxes on a large modern warehouse conveyor belt, overhead vision sensors and cables visible, bright warehouse lighting, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Робот Senad сортирует посылки на складском конвейере",
+    "coverCaption_en": "Senad robot sorting packages on a warehouse conveyor"
   },
   {
     "slug": "yanc-central-kitchen-airline-catering",
     "title_ru": "YANC: оборудование центральной кухни от завода с историей с 1983 года",
     "title_en": "YANC: central-kitchen equipment from a factory with roots going back to 1983",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/yanc-central-kitchen-airline-catering.png",
     "publishedAt": "2026-08-27",
     "published": true,
     "excerpt_ru": "YANC / 燕诚智能 из Ланфана ведёт историю с 1983 года как государственный завод пищевого машиностроения: свыше 2000 реализованных проектов центральных кухонь, включая бортовое питание China Southern Airlines.",
@@ -217,13 +235,15 @@
       "авиационный кейтеринг"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a large industrial stainless steel central kitchen with automated rice cooking lines and steam rising, workers in the background, bright clean commercial food-production facility, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a large industrial stainless steel central kitchen with automated rice cooking lines and steam rising, workers in the background, bright clean commercial food-production facility, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Автоматизированная линия YANC для бортового питания авиакомпаний",
+    "coverCaption_en": "YANC automated line for airline catering"
   },
   {
     "slug": "xiangying-robot-chef-central-kitchen",
     "title_ru": "Xiangying: робот-повар R3 в линейке из 2000 типоразмеров оборудования",
     "title_en": "Xiangying: a chef robot inside a line of 2,000 equipment sizes",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/xiangying-robot-chef-central-kitchen.png",
     "publishedAt": "2026-08-28",
     "published": true,
     "excerpt_ru": "Xiangying / 浙江翔鹰中央厨房设备 из Нинбо совмещает японскую и европейскую школы кухонного оборудования с китайской кухней: 15 продуктовых серий, около 2000 типоразмеров и собственный робот-повар R3.",
@@ -237,13 +257,15 @@
       "пищевое оборудование"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a robotic arm equipped with a wok-shaped attachment stir-frying food over an automated cooking station in a modern industrial kitchen, steam and motion, bright clean stainless steel environment, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a robotic arm equipped with a wok-shaped attachment stir-frying food over an automated cooking station in a modern industrial kitchen, steam and motion, bright clean stainless steel environment, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Робот-повар Xiangying готовит блюдо в воке",
+    "coverCaption_en": "Xiangying robot chef cooking with a wok"
   },
   {
     "slug": "xixiang-unmanned-canteens-barista-robots",
     "title_ru": "Xixiang: безлюдная столовая как готовый сценарий, а не набор автоматов",
     "title_en": "Xixiang: the unmanned canteen as a ready scenario, not a pile of vending machines",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/xixiang-unmanned-canteens-barista-robots.png",
     "publishedAt": "2026-08-29",
     "published": true,
     "excerpt_ru": "Xixiang / 熙香科技 поставляет не отдельные машины, а готовые сценарии обслуживания: умные столовые, роботизированные лапшичные и роботы-бариста в связке с собственной платформой аналитики.",
@@ -257,13 +279,15 @@
       "робот-бариста"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a sleek unmanned automated coffee kiosk with a robotic arm brewing a cup of coffee behind a glass panel in a busy modern train station or office lobby, warm ambient lighting, blurred passersby, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a sleek unmanned automated coffee kiosk with a robotic arm brewing a cup of coffee behind a glass panel in a busy modern train station or office lobby, warm ambient lighting, blurred passersby, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Робот-бариста Xixiang готовит кофе в безлюдной точке",
+    "coverCaption_en": "Xixiang barista robot brewing coffee at an unmanned kiosk"
   },
   {
     "slug": "leying-rice-lines-national-standards",
     "title_ru": "Leying: производитель, который сам пишет отраслевые стандарты для рисоварочных линий",
     "title_en": "Leying: the manufacturer that helps write the industry standards for rice-cooking lines",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/leying-rice-lines-national-standards.png",
     "publishedAt": "2026-08-30",
     "published": true,
     "excerpt_ru": "Leying / 南京乐鹰科技 из Нанкина работает с 1991 года, направляет на R&D около 10% выручки и участвует в разработке национальных стандартов на рисоварочные линии — среди клиентов 7-Eleven, LAWSON, FamilyMart и Foxconn.",
@@ -277,13 +301,15 @@
       "пищевое оборудование"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of a large automated industrial rice-cooking line with rows of stainless steel pots and steam rising in a bright modern food-production facility, no visible workers, clean orderly environment, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of a large automated industrial rice-cooking line with rows of stainless steel pots and steam rising in a bright modern food-production facility, no visible workers, clean orderly environment, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Автоматизированная линия Leying по производству рисовой продукции",
+    "coverCaption_en": "Leying automated rice production line"
   },
   {
     "slug": "poultry-processing-slaughter-deboning-sorting-china",
     "title_ru": "От убоя до сортировки: как выглядит полностью оснащённая линия переработки птицы из Китая",
     "title_en": "From slaughter to sorting: what a fully equipped Chinese poultry line looks like",
-    "cover": "",
+    "cover": "https://aura-robotics.ru/covers/poultry-processing-slaughter-deboning-sorting-china.png",
     "publishedAt": "2026-08-31",
     "published": true,
     "excerpt_ru": "Полный цикл переработки птицы собирается из разных поставщиков: линии убоя Qingdao Raniche, роботизированная обвалка Mayekawa China и Foodmate, весовая сортировка Nanjing Eruis, Guangdong Easyweigh, Dongguan Coso и Shigan Industrial.",
@@ -297,6 +323,8 @@
       "пищевое оборудование"
     ],
     "author": "Aura Robotics",
-    "image_prompt": "Photorealistic editorial photo of an automated poultry processing facility interior, a precision robotic deboning arm working over a conveyor with X-ray inspection equipment visible nearby, bright clean stainless steel industrial food-safety environment, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image."
+    "image_prompt": "Photorealistic editorial photo of an automated poultry processing facility interior, a precision robotic deboning arm working over a conveyor with X-ray inspection equipment visible nearby, bright clean stainless steel industrial food-safety environment, shallow depth of field, cinematic photorealistic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.",
+    "coverCaption_ru": "Робот-манипулятор на линии переработки птицы",
+    "coverCaption_en": "Robotic arm on a poultry processing line"
   }
 ]

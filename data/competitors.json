@@ -21,15 +21,22 @@
         "website_en": "https://en.miciall.com",
         "priority": "high",
         "note": "№1 стратегический ориентир, HQ в Шанхае, разворот в двусторонний мост (inbound)",
-        "social": { "linkedin": "https://www.linkedin.com/company/mici" }
+        "social": {
+          "linkedin": "https://www.linkedin.com/company/mici"
+        }
       },
       {
         "name": "对标考察网 / 企业考察网",
         "website": "https://duibiao.org",
-        "website_alt": ["https://qykc.cn", "https://benchmarking.duibiao.org"],
+        "website_alt": [
+          "https://qykc.cn",
+          "https://benchmarking.duibiao.org"
+        ],
         "priority": "medium",
         "note": "Крупнейший каталог целей, ориентир по ценам",
-        "social": { "linkedin": "https://cn.linkedin.com/company/中国标杆学习俱乐部" }
+        "social": {
+          "linkedin": "https://cn.linkedin.com/company/中国标杆学习俱乐部"
+        }
       },
       {
         "name": "学标杆网 / Xuebiaogan",
@@ -64,7 +71,9 @@
         "website": "https://91kaocha.com",
         "priority": "unclear",
         "note": "Проверить самостоятельность (возможно тот же Boshi)",
-        "social": { "linkedin": "https://www.linkedin.com/company/中国标杆企业考察培训中心" }
+        "social": {
+          "linkedin": "https://www.linkedin.com/company/中国标杆企业考察培训中心"
+        }
       },
       {
         "name": "Robo-Business.ru",
@@ -88,7 +97,9 @@
         "website": null,
         "priority": "medium",
         "note": "Вакансии/сообщество робототехники РФ",
-        "social": { "telegram": "https://t.me/RoboJobsRU" }
+        "social": {
+          "telegram": "https://t.me/RoboJobsRU"
+        }
       },
       {
         "name": "Robo.ooo",
@@ -102,25 +113,147 @@
         "website": "https://robotunion.ru",
         "priority": "high",
         "note": "РФ-объединение участников рынка робототехники",
-        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics", "dzen": "https://dzen.ru/naurr", "rutube": "https://rutube.ru/channel/25685300", "facebook": "https://facebook.com/RARobotics", "apple_podcasts": "https://podcasts.apple.com/search?term=Роботы%20в%20деле", "yandex_music": "https://music.yandex.ru/album/35288399" }
+        "social": {
+          "telegram": "https://t.me/RussianRoboticsClub",
+          "vk": "https://vk.com/rarobotics",
+          "dzen": "https://dzen.ru/naurr",
+          "rutube": "https://rutube.ru/channel/25685300",
+          "facebook": "https://facebook.com/RARobotics",
+          "apple_podcasts": "https://podcasts.apple.com/search?term=Роботы%20в%20деле",
+          "yandex_music": "https://music.yandex.ru/album/35288399"
+        }
       },
       {
         "name": "НАУРР (Национальная ассоциация участников рынка робототехники)",
         "website": "https://robogeek.ru/companies/natsionalnaya-assotsiatsiya-uchastnikov-rynka-robototehniki",
         "priority": "medium",
         "note": "Отраслевая ассоциация РФ, публикуется на robogeek.ru",
-        "social": { "telegram": "https://t.me/RussianRoboticsClub", "vk": "https://vk.com/rarobotics", "facebook": "https://facebook.com/RARobotics" }
+        "social": {
+          "telegram": "https://t.me/RussianRoboticsClub",
+          "vk": "https://vk.com/rarobotics",
+          "facebook": "https://facebook.com/RARobotics"
+        }
       }
     ],
     "international_media": [
-      { "name": "IEEE Spectrum – Robotics", "website": "https://spectrum.ieee.org/topic/robotics/", "priority": "high", "note": "Глубокая техническая аналитика по автономности, дизайну роботов", "social": { "facebook": "https://facebook.com/48576411181", "mastodon": "https://mastodon.social/@ieeespectrum", "bluesky": "https://bsky.app/profile/spectrum.ieee.org" } },
-      { "name": "The Robot Report", "website": "https://www.therobotreport.com", "priority": "high", "note": "Ведущее отраслевое СМИ по робототехнике и инвестициям", "social": { "facebook": "https://facebook.com/TheRobotReport", "twitter": "https://twitter.com/therobotreport", "linkedin": "https://www.linkedin.com/company/the-robot-report", "youtube": "https://youtube.com/@therobotreport", "instagram": "https://instagram.com/therobotreport" } },
-      { "name": "Robotics & Automation News", "website": "https://roboticsandautomationnews.com", "priority": "high", "note": "Новости индустрии робототехники и автоматизации", "social": { "facebook": "https://facebook.com/roboticsandautomationnews", "twitter": "https://twitter.com/MechatronixNews", "youtube": "https://youtube.com/@roboticsandautomationnews" } },
-      { "name": "Robohub", "website": "https://robohub.org", "priority": "high", "note": "Сообщество исследователей и инженеров робототехники", "social": { "linkedin": "https://www.linkedin.com/company/robohub", "facebook": "https://facebook.com/Robohuborg", "twitter": "https://twitter.com/Robohub", "bluesky": "https://bsky.app/profile/robohub.org", "youtube": "https://youtube.com/@robohuborg", "substack": "https://robohub.substack.com" } },
-      { "name": "RoboticsTomorrow", "website": "https://www.roboticstomorrow.com", "priority": "medium", "note": "Индустриальная робототехника и автоматизация производства", "social": {} },
-      { "name": "TechCrunch – Robotics", "website": "https://techcrunch.com/tag/robotics/", "priority": "medium", "note": "Стартапы и инвестиции в робототехнику", "social": { "twitter": "https://twitter.com/TechCrunch" } },
-      { "name": "New Atlas – Robotics", "website": "https://newatlas.com/robotics/", "priority": "medium", "note": "Новые разработки и прототипы роботов", "social": { "twitter": "https://twitter.com/nwtls" } },
-      { "name": "Tech Xplore – Robotics", "website": "https://techxplore.com/robotics-news/", "priority": "medium", "note": "Научно-исследовательские новости по робототехнике", "social": { "facebook": "https://facebook.com/1410647052543567" } }
+      {
+        "name": "IEEE Spectrum – Robotics",
+        "website": "https://spectrum.ieee.org/topic/robotics/",
+        "priority": "high",
+        "note": "Глубокая техническая аналитика по автономности, дизайну роботов",
+        "social": {
+          "facebook": "https://facebook.com/48576411181",
+          "mastodon": "https://mastodon.social/@ieeespectrum",
+          "bluesky": "https://bsky.app/profile/spectrum.ieee.org"
+        }
+      },
+      {
+        "name": "The Robot Report",
+        "website": "https://www.therobotreport.com",
+        "priority": "high",
+        "note": "Ведущее отраслевое СМИ по робототехнике и инвестициям",
+        "social": {
+          "facebook": "https://facebook.com/TheRobotReport",
+          "twitter": "https://twitter.com/therobotreport",
+          "linkedin": "https://www.linkedin.com/company/the-robot-report",
+          "youtube": "https://youtube.com/@therobotreport",
+          "instagram": "https://instagram.com/therobotreport"
+        }
+      },
+      {
+        "name": "Robotics & Automation News",
+        "website": "https://roboticsandautomationnews.com",
+        "priority": "high",
+        "note": "Новости индустрии робототехники и автоматизации",
+        "social": {
+          "facebook": "https://facebook.com/roboticsandautomationnews",
+          "twitter": "https://twitter.com/MechatronixNews",
+          "youtube": "https://youtube.com/@roboticsandautomationnews"
+        }
+      },
+      {
+        "name": "Robohub",
+        "website": "https://robohub.org",
+        "priority": "high",
+        "note": "Сообщество исследователей и инженеров робототехники",
+        "social": {
+          "linkedin": "https://www.linkedin.com/company/robohub",
+          "facebook": "https://facebook.com/Robohuborg",
+          "twitter": "https://twitter.com/Robohub",
+          "bluesky": "https://bsky.app/profile/robohub.org",
+          "youtube": "https://youtube.com/@robohuborg",
+          "substack": "https://robohub.substack.com"
+        }
+      },
+      {
+        "name": "RoboticsTomorrow",
+        "website": "https://www.roboticstomorrow.com",
+        "priority": "medium",
+        "note": "Индустриальная робототехника и автоматизация производства",
+        "social": {}
+      },
+      {
+        "name": "TechCrunch – Robotics",
+        "website": "https://techcrunch.com/tag/robotics/",
+        "priority": "medium",
+        "note": "Стартапы и инвестиции в робототехнику",
+        "social": {
+          "twitter": "https://twitter.com/TechCrunch"
+        }
+      },
+      {
+        "name": "New Atlas – Robotics",
+        "website": "https://newatlas.com/robotics/",
+        "priority": "medium",
+        "note": "Новые разработки и прототипы роботов",
+        "social": {
+          "twitter": "https://twitter.com/nwtls"
+        }
+      },
+      {
+        "name": "Tech Xplore – Robotics",
+        "website": "https://techxplore.com/robotics-news/",
+        "priority": "medium",
+        "note": "Научно-исследовательские новости по робототехнике",
+        "social": {
+          "facebook": "https://facebook.com/1410647052543567"
+        }
+      },
+      {
+        "name": "robot-china.com (中国机器人网)",
+        "website": "https://robot-china.com",
+        "priority": "high",
+        "note": "Главный отраслевой портал робототехники Китая: новости, IPO, финансирования. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "OFweek机器人网",
+        "website": "https://robot.ofweek.com",
+        "priority": "high",
+        "note": "Гуманоиды, коботы, отраслевые 'синие книги' (蓝皮书) с аналитикой рынка. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "robot.gkzhan.com",
+        "website": "https://robot.gkzhan.com",
+        "priority": "medium",
+        "note": "B2B-портал: промышленные/сельскохозяйственные роботы, поиск производителей. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "机器人科学网 / RobotSci",
+        "website": "https://robotsci.com.cn",
+        "priority": "medium",
+        "note": "Научно-академический уклон, трекинг финансирований embodied AI стартапов. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "中国机器人产业联盟 (CRIA)",
+        "website": null,
+        "priority": "medium",
+        "note": "Официальная отраслевая ассоциация, статистика рынка (публикуется через ofweek и напрямую). Добавлено 2026-08-17.",
+        "social": {}
+      }
     ]
   },
   "globaltechtour": {
@@ -132,35 +265,245 @@
       "食品/foodtech экспедиции"
     ],
     "competitors": [
-      { "name": "SauceTour", "website": "https://saucetour.ru", "priority": "high", "social": { "telegram": "https://t.me/DariaSecrets", "max": "https://max.ru/u/f9LHodD0", "whatsapp": "+79852899913" } },
-      { "name": "RetailTech", "website": "https://retailtech.ru", "priority": "high", "social": { "telegram": "https://t.me/RetailTECHNet", "vk": "https://vk.ru/public214841887" } },
-      { "name": "FoodRetail Club", "website": "https://foodretail.club", "priority": "medium", "social": { "telegram": "https://t.me/ellevorontsova", "telegram_channel": "https://t.me/FoodRetailcom", "telegram_team": "https://t.me/FoodRetail_Club", "whatsapp": "+79035847966" } },
-      { "name": "PromTourism", "website": "https://promtourism.ru", "priority": "medium", "social": { "telegram": "https://t.me/s/promtourismonline", "vk": "https://vk.com/promtourismru" } }
+      {
+        "name": "SauceTour",
+        "website": "https://saucetour.ru",
+        "priority": "high",
+        "social": {
+          "telegram": "https://t.me/DariaSecrets",
+          "max": "https://max.ru/u/f9LHodD0",
+          "whatsapp": "+79852899913"
+        }
+      },
+      {
+        "name": "RetailTech",
+        "website": "https://retailtech.ru",
+        "priority": "high",
+        "social": {
+          "telegram": "https://t.me/RetailTECHNet",
+          "vk": "https://vk.ru/public214841887"
+        }
+      },
+      {
+        "name": "FoodRetail Club",
+        "website": "https://foodretail.club",
+        "priority": "medium",
+        "social": {
+          "telegram": "https://t.me/ellevorontsova",
+          "telegram_channel": "https://t.me/FoodRetailcom",
+          "telegram_team": "https://t.me/FoodRetail_Club",
+          "whatsapp": "+79035847966"
+        }
+      },
+      {
+        "name": "PromTourism",
+        "website": "https://promtourism.ru",
+        "priority": "medium",
+        "social": {
+          "telegram": "https://t.me/s/promtourismonline",
+          "vk": "https://vk.com/promtourismru"
+        }
+      }
     ],
     "international_sources": [
-      { "name": "Study Tour China", "website": "https://studytourchina.com", "priority": "medium", "note": "Найдено 2026-08-02. Executive & Business Programs 5-10 дней: рынок/AI/retail Shenzhen/Hangzhou/Beijing", "social": {} },
-      { "name": "Chozan (Ashley Dudarenok)", "website": "https://chozan.co", "priority": "medium", "note": "Найдено 2026-08-02. China Innovation & Tech Tour (retail/AI/robotics/design), инфлюенсер-формат", "social": {} },
-      { "name": "BetterChinaTrip", "website": "https://betterchinatrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Tailor-Made Corporate Learning Visits для делегаций", "social": {} },
-      { "name": "K5 X-pedition / China Tech Trip", "website": "https://chinatechtrip.com", "priority": "medium", "note": "Найдено 2026-08-02. Chinese Retail Innovation Study Tour, прямой аналог retail-tech вертикали GTT", "social": {} },
-      { "name": "Inno APAC", "website": null, "priority": "low", "note": "Найдено 2026-08-02. AI & Robotics China Tech Tour (Jiangsu), живой daily-контент в LinkedIn во время поездки", "social": {} },
-      { "name": "HelloChinaTrip", "website": "https://hellochinatrip.com", "priority": "low", "note": "Найдено 2026-08-03. В основном leisure-туризм (Великая стена, панды), но есть блог-пост 'China Factory Sourcing Tourism Guide' — пограничная релевантность, не подтверждённый прямой конкурент", "social": {} },
-      { "name": "Learning Expeditions Asia", "website": "https://learning-expeditions-asia.com", "priority": "medium", "note": "Найдено 2026-08-05. Retail Tours in China (Shanghai/Beijing) для executives, плюс Сингапур/Лондон/Париж", "social": {} },
-      { "name": "GL Open (China Retail Tour)", "website": "https://gl-open.com", "priority": "medium", "note": "Найдено 2026-08-05. China Retail Tour для executives/инвесторов вокруг того, как глобальные бренды переопределяют ритейл", "social": {} },
-      { "name": "China Experience", "website": "https://china-experience.com", "priority": "medium", "note": "Найдено 2026-08-05. Executive Learning / Business Deep Dive / Virtual Learning программы, не только retail", "social": {} },
-      { "name": "Alilmi Travel", "website": "https://alilmitravel.com", "priority": "low", "note": "Найдено 2026-08-09. Corporate Visit in China / Business Delegation & Factory Tour — advanced manufacturing/робототехника/зелёная энергетика; уверенность в релевантности не подтверждена", "social": {} },
-      { "name": "PandaStudyTour", "website": "https://pandastudytour.com", "priority": "medium", "note": "Найдено 2026-08-10. China Enterprise Visit (в т.ч. отдельные страницы по провинциям, напр. Guizhou) + study tours/university visits/медтуризм — прямая модель конкурента", "social": {} }
+      {
+        "name": "Study Tour China",
+        "website": "https://studytourchina.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-02. Executive & Business Programs 5-10 дней: рынок/AI/retail Shenzhen/Hangzhou/Beijing",
+        "social": {}
+      },
+      {
+        "name": "Chozan (Ashley Dudarenok)",
+        "website": "https://chozan.co",
+        "priority": "medium",
+        "note": "Найдено 2026-08-02. China Innovation & Tech Tour (retail/AI/robotics/design), инфлюенсер-формат",
+        "social": {}
+      },
+      {
+        "name": "BetterChinaTrip",
+        "website": "https://betterchinatrip.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-02. Tailor-Made Corporate Learning Visits для делегаций",
+        "social": {}
+      },
+      {
+        "name": "K5 X-pedition / China Tech Trip",
+        "website": "https://chinatechtrip.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-02. Chinese Retail Innovation Study Tour, прямой аналог retail-tech вертикали GTT",
+        "social": {}
+      },
+      {
+        "name": "Inno APAC",
+        "website": null,
+        "priority": "low",
+        "note": "Найдено 2026-08-02. AI & Robotics China Tech Tour (Jiangsu), живой daily-контент в LinkedIn во время поездки",
+        "social": {}
+      },
+      {
+        "name": "HelloChinaTrip",
+        "website": "https://hellochinatrip.com",
+        "priority": "low",
+        "note": "Найдено 2026-08-03. В основном leisure-туризм (Великая стена, панды), но есть блог-пост 'China Factory Sourcing Tourism Guide' — пограничная релевантность, не подтверждённый прямой конкурент",
+        "social": {}
+      },
+      {
+        "name": "Learning Expeditions Asia",
+        "website": "https://learning-expeditions-asia.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-05. Retail Tours in China (Shanghai/Beijing) для executives, плюс Сингапур/Лондон/Париж",
+        "social": {}
+      },
+      {
+        "name": "GL Open (China Retail Tour)",
+        "website": "https://gl-open.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-05. China Retail Tour для executives/инвесторов вокруг того, как глобальные бренды переопределяют ритейл",
+        "social": {}
+      },
+      {
+        "name": "China Experience",
+        "website": "https://china-experience.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-05. Executive Learning / Business Deep Dive / Virtual Learning программы, не только retail",
+        "social": {}
+      },
+      {
+        "name": "Alilmi Travel",
+        "website": "https://alilmitravel.com",
+        "priority": "low",
+        "note": "Найдено 2026-08-09. Corporate Visit in China / Business Delegation & Factory Tour — advanced manufacturing/робототехника/зелёная энергетика; уверенность в релевантности не подтверждена",
+        "social": {}
+      },
+      {
+        "name": "PandaStudyTour",
+        "website": "https://pandastudytour.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-10. China Enterprise Visit (в т.ч. отдельные страницы по провинциям, напр. Guizhou) + study tours/university visits/медтуризм — прямая модель конкурента",
+        "social": {}
+      },
+      {
+        "name": "Asia Food & Beverages Report",
+        "website": "https://asiafoodbeverages.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-17. Ведущий отраслевой журнал ЮВА по food/beverage, включая Китай/HK.",
+        "social": {}
+      },
+      {
+        "name": "Food & Hotel Asia (блог)",
+        "website": "https://foodnhotelasia.com",
+        "priority": "medium",
+        "note": "Найдено 2026-08-17. Блог + выставка FHA (Сингапур), тренды foodtech и supply chain ЮВА.",
+        "social": {}
+      },
+      {
+        "name": "Momentum Works (The Lowdown)",
+        "website": "https://thelowdown.momentum.asia",
+        "priority": "high",
+        "note": "Найдено 2026-08-17. Аналитика по e-commerce, food delivery, платформенной экономике ЮВА, отчёты с цифрами GMV.",
+        "social": {}
+      },
+      {
+        "name": "DealStreetAsia",
+        "website": "https://dealstreetasia.com",
+        "priority": "high",
+        "note": "Найдено 2026-08-17. Сделки, венчурные раунды, PE/VC в ЮВА (часть Nikkei), country-срезы.",
+        "social": {}
+      }
     ],
     "china_industry_media": [
-      { "name": "Jing Daily", "website": "https://jingdaily.com", "priority": "high", "note": "Ведущее издание про luxury-потребление и retail-тренды в Китае" },
-      { "name": "Dao Insights", "website": "https://daoinsights.com", "priority": "high", "note": "Китайский digital-маркетинг, соцсети, кейсы брендов, потребительские инсайты" },
-      { "name": "KrASIA", "website": "https://kr-asia.com", "priority": "high", "note": "Бизнес и e-commerce в Китае и Азии в целом" },
-      { "name": "TechNode", "website": "https://technode.com", "priority": "medium", "note": "Технологии и retail tech в Китае" },
-      { "name": "WalkTheChat", "website": "https://walkthechat.com", "priority": "medium", "note": "WeChat-маркетинг и соцкоммерция в Китае" },
-      { "name": "Alizila", "website": "https://alizila.com", "priority": "medium", "note": "Новостной ресурс Alibaba про e-commerce и retail в Китае" },
-      { "name": "Retail in Asia", "website": "https://retailinasia.com", "priority": "medium", "note": "Ритейл-тренды по всей Азии, включая Китай" },
-      { "name": "Daxue Consulting (блог)", "website": "https://daxueconsulting.com/blog", "priority": "medium", "note": "Маркет-ресёрч и аналитика по китайскому рынку и потребителю" }
+      {
+        "name": "Jing Daily",
+        "website": "https://jingdaily.com",
+        "priority": "high",
+        "note": "Ведущее издание про luxury-потребление и retail-тренды в Китае"
+      },
+      {
+        "name": "Dao Insights",
+        "website": "https://daoinsights.com",
+        "priority": "high",
+        "note": "Китайский digital-маркетинг, соцсети, кейсы брендов, потребительские инсайты"
+      },
+      {
+        "name": "KrASIA",
+        "website": "https://kr-asia.com",
+        "priority": "high",
+        "note": "Бизнес и e-commerce в Китае и Азии в целом"
+      },
+      {
+        "name": "TechNode",
+        "website": "https://technode.com",
+        "priority": "medium",
+        "note": "Технологии и retail tech в Китае"
+      },
+      {
+        "name": "WalkTheChat",
+        "website": "https://walkthechat.com",
+        "priority": "medium",
+        "note": "WeChat-маркетинг и соцкоммерция в Китае"
+      },
+      {
+        "name": "Alizila",
+        "website": "https://alizila.com",
+        "priority": "medium",
+        "note": "Новостной ресурс Alibaba про e-commerce и retail в Китае"
+      },
+      {
+        "name": "Retail in Asia",
+        "website": "https://retailinasia.com",
+        "priority": "medium",
+        "note": "Ритейл-тренды по всей Азии, включая Китай"
+      },
+      {
+        "name": "Daxue Consulting (блог)",
+        "website": "https://daxueconsulting.com/blog",
+        "priority": "medium",
+        "note": "Маркет-ресёрч и аналитика по китайскому рынку и потребителю"
+      },
+      {
+        "name": "FoodTalks (foodtalks.cn)",
+        "website": "https://foodtalks.cn",
+        "priority": "high",
+        "note": "Новости пищепрома Китая, база компаний/поставщиков, мэтчинг спроса-предложения. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "Foodaily每日食品",
+        "website": "https://foodaily.com",
+        "priority": "high",
+        "note": "Инновации и тренды food&beverage, организатор FBIC и Foodaily EXPO — топ по нишевым новым продуктам. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "食品伙伴网 / Foodmate",
+        "website": "https://foodmate.net",
+        "priority": "medium",
+        "note": "Стандарты, техрегламенты, безопасность, отраслевые white paper (report.foodmate.net). Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "news.foodmate.net",
+        "website": "https://news.foodmate.net",
+        "priority": "high",
+        "note": "Ежедневная новостная лента: сделки, новые заводы пищепрома Китая. Добавлено 2026-08-17.",
+        "social": {}
+      },
+      {
+        "name": "Pandaily",
+        "website": "https://pandaily.com",
+        "priority": "medium",
+        "note": "Техно-Китай, сильнее в EV/AI. Добавлено 2026-08-17.",
+        "social": {}
+      }
     ],
     "note": "Также отслеживать иностранные источники (не только русскоязычные) по теме бизнес-туризма/индустриального туризма в Китай. Для статей про ритейл/маркетинг/рекламу в Китае — использовать china_industry_media выше как основной источник фактуры (цифры, названия компаний, тренды)."
   },
-  "monitor_channels": ["website", "telegram", "facebook", "instagram", "linkedin"]
+  "monitor_channels": [
+    "website",
+    "telegram",
+    "facebook",
+    "instagram",
+    "linkedin"
+  ]
 }

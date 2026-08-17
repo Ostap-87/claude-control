@@ -12,9 +12,12 @@ resolution in case this specific IP stops working later.
 """
 import http.client
 import json
+import mimetypes
 import socket
 import ssl
 import urllib.parse
+import urllib.request
+import uuid
 
 TELEGRAM_HOST = "api.telegram.org"
 KNOWN_GOOD_IPS = ["149.154.167.220"]
@@ -31,7 +34,7 @@ def _connect(connect_target, timeout):
     return conn
 
 
-def _request(method, path, timeout, body=None):
+def _request(method, path, timeout, body=None, content_type="application/json"):
     last_error = None
     for target in KNOWN_GOOD_IPS + [TELEGRAM_HOST]:
         conn = None
@@ -39,7 +42,7 @@ def _request(method, path, timeout, body=None):
             conn = _connect(target, timeout)
             headers = {"Host": TELEGRAM_HOST}
             if body is not None:
-                headers["Content-Type"] = "application/json"
+                headers["Content-Type"] = content_type
             conn.request(method, path, body=body, headers=headers)
             resp = conn.getresponse()
             return resp.status, resp.read()
@@ -61,6 +64,36 @@ def _call(bot_token, method, payload_dict, timeout=10):
     return False, json.dumps(parsed)
 
 
+def _build_multipart(fields, file_field, filename, file_bytes):
+    boundary = uuid.uuid4().hex
+    content_type = mimetypes.guess_type(filename)[0] or "application/octet-stream"
+    parts = []
+    for name, value in fields.items():
+        parts.append(
+            f"--{boundary}\r\nContent-Disposition: form-data; name=\"{name}\"\r\n\r\n{value}\r\n".encode()
+        )
+    parts.append(
+        (
+            f"--{boundary}\r\nContent-Disposition: form-data; name=\"{file_field}\"; filename=\"{filename}\"\r\n"
+            f"Content-Type: {content_type}\r\n\r\n"
+        ).encode()
+        + file_bytes
+        + b"\r\n"
+    )
+    parts.append(f"--{boundary}--\r\n".encode())
+    return b"".join(parts), f"multipart/form-data; boundary={boundary}"
+
+
+def _call_multipart(bot_token, method, fields, file_field, filename, file_bytes, timeout=20):
+    path = f"/bot{bot_token}/{method}"
+    body, content_type = _build_multipart(fields, file_field, filename, file_bytes)
+    status, resp_body = _request("POST", path, timeout, body=body, content_type=content_type)
+    parsed = json.loads(resp_body)
+    if 200 <= status < 300:
+        return parsed.get("ok", False), json.dumps(parsed)
+    return False, json.dumps(parsed)
+
+
 def send_message(bot_token, chat_id, text):
     return _call(bot_token, "sendMessage", {"chat_id": chat_id, "text": text, "parse_mode": "HTML"})
 
@@ -68,12 +101,29 @@ def send_message(bot_token, chat_id, text):
 # Telegram caption limit is 1024 chars — outbox summaries can run longer,
 # so these take an optional caption and let the caller (publish_outbox_item)
 # decide whether it fits or needs a separate follow-up send_message().
+#
+# sendPhoto is given the raw file bytes (multipart upload), not the URL.
+# Passing a URL makes Telegram's own servers fetch it, and that fetch path
+# repeatedly rejected valid, correctly-typed PNGs hosted on
+# raw.githubusercontent.com with "wrong type of the web page content" —
+# even a brand-new, never-before-seen image failed identically, which ruled
+# out the image content and pointed at Telegram's URL-fetch/preview
+# mechanism itself. Downloading the bytes ourselves and uploading them
+# directly sidesteps that fetch path entirely.
 def send_photo(bot_token, chat_id, photo_url, caption=None):
-    payload = {"chat_id": chat_id, "photo": photo_url}
+    payload = {"chat_id": chat_id}
     if caption:
         payload["caption"] = caption
         payload["parse_mode"] = "HTML"
-    return _call(bot_token, "sendPhoto", payload)
+
+    try:
+        with urllib.request.urlopen(photo_url, timeout=20) as resp:
+            image_bytes = resp.read()
+    except Exception as e:
+        return False, json.dumps({"ok": False, "error": f"failed to download photo_url: {e}"})
+
+    filename = urllib.parse.urlparse(photo_url).path.rsplit("/", 1)[-1] or "photo.png"
+    return _call_multipart(bot_token, "sendPhoto", payload, "photo", filename, image_bytes)
 
 
 TELEGRAM_CAPTION_LIMIT = 1024

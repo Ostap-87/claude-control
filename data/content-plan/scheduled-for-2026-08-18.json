@@ -17,5 +17,8 @@
       "cover_verified": "public/covers/qio-o1-autonomous-retail-humanoid.png already exists in aura repo; coverCaption_ru/en present in batch entry"
     }
   ],
-  "note": "On or after scheduled_publish_date: pull the matching entry from the batch JSON by slug, set date/publishedAt to the real current date, append to site_content.example.json (GTT) / write content/blog/<slug>.json (Aura), rebuild (SINOTECH: tsc+vite only, push both branches; Aura: npm run sync && npm run build, push main), then write meta-published marker here and confirm via commands/outbox/."
+  "note": "On or after scheduled_publish_date: pull the matching entry from the batch JSON by slug, set date/publishedAt to the real current date, append to site_content.example.json (GTT) / write content/blog/<slug>.json (Aura), rebuild (SINOTECH: tsc+vite only, push both branches; Aura: npm run sync && npm run build, push main), then write meta-published marker here and confirm via commands/outbox/.",
+  "status": "published",
+  "actually_published_date": "2026-08-19",
+  "note_final": "Both articles delayed from 2026-08-18 to 2026-08-19 due to the VPS poller/git-divergence outage — published with the real (19 Aug) date, not backdated to the originally scheduled 18 Aug."
 }

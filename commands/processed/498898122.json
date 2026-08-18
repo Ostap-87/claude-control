@@ -1,0 +1,7 @@
+{
+  "update_id": 498898122,
+  "message_id": 78,
+  "date": 1787065442,
+  "text": "А где посты?",
+  "result": "User asked where the posts are (during the poller outage). Root cause found and fixed: VPS git repo had diverged (local unpushed merge conflict on git pull), poller silently failed its pull every cycle for ~18 hours. Fixed by merging on VPS + pushing. Confirmed: both 09:00 (18 Aug) posts (GTT DJI, Aura QIO) actually sent successfully during the outage window and are now visible in tg-publish/*/sent/. The 18:00 (18 Aug) slot (GTT Li Auto, Aura DAX) was deliberately held back during the outage to avoid a batch-send on recovery, and is now overdue — asked user whether to send it now as a one-off catch-up or skip it."
+}

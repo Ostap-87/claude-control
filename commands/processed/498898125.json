@@ -1,0 +1,7 @@
+{
+  "update_id": 498898125,
+  "message_id": 132,
+  "date": 1787533178,
+  "text": "Публикуй",
+  "result": "Late confirmation (00:59:38 UTC) — arrived after auto-publish timeout already fired (~00:53 UTC) for both articles (mao-geping-luxury-beauty, step-industrial-robots-own-servo). Informed user via outbox that material already published; no further action taken."
+}

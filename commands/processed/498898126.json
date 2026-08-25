@@ -1,0 +1,7 @@
+{
+  "update_id": 498898126,
+  "message_id": 143,
+  "date": 1787619946,
+  "text": "Публикуй",
+  "result": "Late confirmation (01:05:46 UTC) — arrived after auto-publish timeout already fired (~00:53 UTC) for both articles (yatsen-perfect-diary-turnaround, efort-painting-welding-cells). Informed user via outbox that material already published; no further action taken."
+}

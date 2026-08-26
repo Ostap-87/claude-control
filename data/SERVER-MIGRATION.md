@@ -3,7 +3,7 @@
 Снято 26.08.2026 со старого сервера `root@80.78.245.43` (Ubuntu 26.04 LTS, 956 МБ RAM, 8.55 ГБ диска, забит на 93.6%).
 Используется как чек-лист при переносе на новый сервер.
 
-## Сайты и сервисы (6 systemd-юнитов + nginx)
+## Сайты и сервисы (7 systemd-юнитов + nginx)
 
 | Сервис | Что делает | Рабочая директория | Порт |
 |---|---|---|---|
@@ -13,6 +13,24 @@
 | `aura.service` | сам сайт Aura Robotics (**Next.js app**, не статика!) | `/opt/aura` | 3000 |
 | `aura-deploy-webhook.service` | деплой Aura по пушу в GitHub | `/opt/aura` | 9001 |
 | `claude-control-poller.service` | опрос команд Telegram + доставка `tg-publish/` | `/opt/claude-control` | — |
+| `globaltechtour-lead.service` | приём лидов с формы сайта GTT + отправка в LinkedIn (`lead-intake.py`, читает `globaltechtour-lead.env` и `linkedin.env`) | `/var/www/globaltechtour/scripts` | — |
+
+```ini
+[Unit]
+Description=Global Tech Tour lead-capture backend
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/globaltechtour/scripts
+EnvironmentFile=/etc/globaltechtour-lead.env
+ExecStart=/usr/bin/python3 /var/www/globaltechtour/scripts/lead-intake.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
 
 Плюс cron: `0 3 * * 1 /usr/bin/bash /opt/aura/scripts/deploy.sh` (еженедельный принудительный редеплой Aura, пн 3:00 UTC).
 
@@ -42,9 +60,9 @@
 - `/etc/aura-telegram.env` — токен Telegram-бота Aura
 - `/etc/claude-control.env` — читает `claude-control-poller.service`
 - `/etc/content-publish.env` — читает `content-publish.service`
-- `/etc/globaltechtour-lead.env` — не используется ни в одном увиденном юните напрямую, проверить на сервере кто читает
+- `/etc/globaltechtour-lead.env` — читает `globaltechtour-lead.service` (приём лидов)
 - `/etc/globaltechtour-webhook.env` — читает `gh-webhook.service`
-- `/etc/linkedin.env` — LinkedIn-интеграция (найдена в этой сессии, детали не изучены — проверить на сервере, что её использует)
+- `/etc/linkedin.env` — тоже читает `lead-intake.py` (тот же `globaltechtour-lead.service`) — отправка лидов/контента в LinkedIn
 
 ### 2. Секрет внутри unit-файла (не в `.env`!)
 `aura-deploy-webhook.service` содержит `WEBHOOK_SECRET=e110-0923-6114-2c3d-9ab1-206d` прямо в тексте юнита.
@@ -71,16 +89,14 @@
 2. Склонировать все 3 репозитория (sinotech, aura, claude-control) в те же пути (`/var/www/globaltechtour`, `/opt/aura`, `/opt/claude-control`).
 3. `npm install` + сборка в каждом (GlobalTechTour: `npm run build` с пререндером; Aura: `npm run build` для Next.js).
 4. Скопировать вручную: 7 `.env`-файлов, медиа-папки (`aura-media`, `globaltechtour-media`), личный сайт `ostapdotcenko.ru`.
-5. Создать все 6 systemd-юнитов (тексты выше), сгенерировать новый `WEBHOOK_SECRET` для Aura и обновить его на GitHub.
+5. Создать все 7 systemd-юнитов (тексты выше), сгенерировать новый `WEBHOOK_SECRET` для Aura и обновить его на GitHub.
 6. Настроить nginx (конфиги сняты полностью — см. историю чата от 26.08.2026), пока БЕЗ SSL — на HTTP, чтобы проверить, что всё поднялось.
-7. Прогнать полную проверку на новом сервере через IP (curl с `Host:` заголовком или временную запись в `/etc/hosts` на своей машине) — все 3 сайта, все 6 сервисов.
+7. Прогнать полную проверку на новом сервере через IP (curl с `Host:` заголовком или временную запись в `/etc/hosts` на своей машине) — все 3 сайта, все 7 сервисов.
 8. Только когда всё проверено — переключить DNS A-записи (`globaltechtour.ru`, `aura-robotics.ru`, `ostapdotcenko.ru`) на IP нового сервера.
 9. После распространения DNS — выпустить SSL через `certbot --nginx` на новом сервере для всех доменов.
 10. Настроить cron (еженедельный `aura/scripts/deploy.sh`).
 11. Убедиться, что своп-файл настроен (если новый сервер тоже с небольшим RAM — см. `editorial-policy.md`/историю про `CONCURRENCY = 2` в `prerender.mjs`, менять нельзя).
 12. Погонять неделю на старом+новом параллельно (DNS TTL истечёт не сразу), затем выключить сервисы на старом сервере.
 
-## Открытые вопросы (нужно уточнить на сервере)
-- Кто использует `/etc/globaltechtour-lead.env`? Не встретился ни в одном из 5 просмотренных unit-файлов.
-- Что использует `/etc/linkedin.env`? Отдельный процесс/скрипт для LinkedIn не был найден в списке запущенных сервисов.
-- Есть ли у `ostapdotcenko.ru` свой git-репозиторий, или это только файлы на сервере?
+## Открытые вопросы — закрыто
+Все секреты, сервисы и зависимости учтены (7/7 systemd-юнитов, 7/7 `.env`-файлов сопоставлены сервисам). `ostapdotcenko.ru` подтверждён без git — при переносе просто копируется каталог целиком.

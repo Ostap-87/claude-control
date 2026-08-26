@@ -25,6 +25,8 @@
 **Image prompt:**
 Photorealistic editorial photo of a dense Shenzhen electronics manufacturing district at dusk, illuminated factory buildings and cranes, small delivery trucks on the street, warm city lights reflecting off wet pavement, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-05-shenzhen-hardware-cluster-2026.png
+
 **Internal link target:** none (analytical 09:00 slot — no link required per format).
 
 **Sources checked:** CEIC Shenzhen export data, Startup Genome Shenzhen ecosystem report, 2025-2027 municipal embodied intelligence robotics action plan coverage (2026).
@@ -45,6 +47,8 @@ Bilibili / 哔哩哔哩 в первом квартале 2026 года нара�
 
 **Image prompt:**
 Photorealistic editorial photo of a young content creator recording a video in a small modern home studio with ring light and a video streaming interface visible on a monitor in the background, warm ambient lighting, shallow depth of field, cinematic color grading. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-05-bilibili-user-growth-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (verified exists: yes, source: tours.json id "china-tech-giants-expedition", sector "flagship"; no dedicated company card for Bilibili, tour used as closest thematic fallback).
 
@@ -69,6 +73,8 @@ Photorealistic editorial photo of a young content creator recording a video in a
 **Image prompt:**
 Photorealistic editorial photo of a giant panda calmly eating bamboo in a modern zoo enclosure with lush green landscaping, soft natural daylight, shallow depth of field, cinematic nature photography style, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-06-panda-diplomacy-soft-power-2026.png
+
 **Internal link target:** none (analytical 09:00 slot — no link required per format).
 
 **Sources checked:** American University Magazine explainer, Harvard PON negotiation program, Insights on India panda diplomacy overview (2026).
@@ -89,6 +95,8 @@ Full Truck Alliance / 满帮集团 (Manbang) за второй квартал 20
 
 **Image prompt:**
 Photorealistic editorial photo of a long line of freight trucks at a busy Chinese highway logistics hub at sunrise, drivers checking a mobile app near their cabs, wide industrial scale, cinematic golden lighting, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-06-full-truck-alliance-freight-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-logistics-top10-expedition (verified exists: yes, source: tours.json id "china-logistics-top10-expedition", sector "logistics"; no dedicated company card for Full Truck Alliance).
 
@@ -113,6 +121,8 @@ Photorealistic editorial photo of a long line of freight trucks at a busy Chines
 **Image prompt:**
 Photorealistic editorial photo of a modern industrial park under construction in Southeast Asia with new factory buildings and cranes, tropical vegetation in the background, workers in safety vests, bright midday light, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-07-china-sea-localization-2026.png
+
 **Internal link target:** none (analytical 09:00 slot — no link required per format).
 
 **Sources checked:** ARC Group manufacturing relocation overview, MTG Transform tariff/reshoring analysis, Lehigh University SEA-in-media brief (2026).
@@ -133,6 +143,8 @@ JinkoSolar / 晶科能源 в первом квартале 2026 года отг�
 
 **Image prompt:**
 Photorealistic editorial photo of workers inspecting rows of solar panels at a large-scale solar farm under a clear blue sky, drone-eye wide angle, crisp daylight, cinematic composition, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-07-jinkosolar-overseas-shipments-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-waste-management-expedition (verified exists: yes, source: tours.json id "china-waste-management-expedition", sector "heavy" — closest available sustainability/heavy-industry tour; no dedicated solar-specific tour or company card exists for JinkoSolar, flagged as an imperfect thematic fallback for human review).
 
@@ -157,6 +169,8 @@ Photorealistic editorial photo of workers inspecting rows of solar panels at a l
 **Image prompt:**
 Photorealistic editorial photo of a modern automated waste sorting facility with conveyor belts separating recyclable materials, workers monitoring control screens, clean industrial lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-08-china-circular-economy-2026.png
+
 **Internal link target:** none (analytical 09:00 slot — no link required per format).
 
 **Sources checked:** Mordor Intelligence China Waste Management Market report, IndexBox coverage of China's 2026-2030 solid waste plan, Xinhua circular economy overview.
@@ -177,6 +191,8 @@ China Tourism Group Duty Free (CDF) / 中国旅游集团中免股份 получ�
 
 **Image prompt:**
 Photorealistic editorial photo of a spacious upscale duty-free shopping mall interior with glossy floors, luxury storefronts, and travelers browsing with shopping bags, bright modern lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-08-cdf-hainan-duty-free-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-global-brands-expedition (verified exists: yes, source: tours.json id "china-global-brands-expedition", sector "consumer"; no dedicated company card for CDF).
 
@@ -201,6 +217,8 @@ China Southern Airlines в марте 2026 года нарастила межд�
 **Image prompt:**
 Photorealistic editorial photo of a wide-body passenger airplane taking off at golden hour from a modern international airport runway, dramatic sky, motion blur on landing gear retraction, cinematic aviation photography, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-09-china-airlines-international-routes-2026.png
+
 **Internal link target:** none (analytical 09:00 slot — no link required per format).
 
 **Sources checked:** Aviation Week "By The Numbers: China Q2 2026", Travel And Tour World coverage of China Southern/China Eastern 2026 route expansion.
@@ -221,6 +239,8 @@ Kingsoft Office / 金山办公 (WPS) отчиталась о 676 млн акти
 
 **Image prompt:**
 Photorealistic editorial photo of a professional working on office productivity software on a laptop in a bright modern co-working space, multiple documents visible on screen in soft focus, natural window light, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-09-kingsoft-wps-overseas-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (verified exists: yes, source: tours.json id "china-tech-giants-expedition", sector "flagship"; no dedicated company card for Kingsoft/WPS).
 
@@ -245,6 +265,8 @@ Hengrui Medicine / 恒瑞医药 с 2023 года заключила 13 сдел�
 **Image prompt:**
 Photorealistic editorial photo of a modern pharmaceutical research laboratory with scientists in white coats examining molecular structure models on a large screen, clean bright lighting, shallow depth of field, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-10-hengrui-medicine-licensing-2026.png
+
 **Internal link target:** none (analytical 09:00 slot — no link required per format).
 
 **Sources checked:** Hengrui Pharma H1 2026 interim results (BioSpace, PRNewswire), BigGo Finance coverage of innovative drug revenue.
@@ -265,6 +287,8 @@ Niu Technologies / 小牛电动 нарастила зарубежную диле
 
 **Image prompt:**
 Photorealistic editorial photo of a sleek electric motorcycle parked in front of a small international dealership storefront with large display windows, bright daylight, shallow depth of field, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-10-niu-technologies-overseas-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-appliances-expedition (verified exists: yes, source: tours.json id "china-appliances-expedition", sector "electronics" — closest available fallback; no dedicated company card or EV-specific tour exists for Niu, flagged for human review).
 
@@ -287,6 +311,8 @@ Photorealistic editorial photo of a sleek electric motorcycle parked in front of
 **Image prompt:**
 Photorealistic editorial photo of a massive international trade fair exhibition hall in Guangzhou with countless product booths and crowds of international buyers, bright convention lighting, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-11-canton-fair-spring-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** CGTN Canton Fair coverage (April 2026), Canton Fair official autumn 2026 schedule.
@@ -307,6 +333,8 @@ Photorealistic editorial photo of a massive international trade fair exhibition 
 
 **Image prompt:**
 Photorealistic editorial photo of a modern electric sedan on display in a sleek European car showroom with large glass windows, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-11-xpeng-europe-expansion-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-auto-plants-expedition (verified exists: tours.json tour_id "china-auto-plants-expedition", sector "auto"; company card exists: /companies/xpeng, sector "auto").
 
@@ -331,6 +359,8 @@ Photorealistic editorial photo of a modern electric sedan on display in a sleek 
 **Image prompt:**
 Photorealistic editorial photo of a small electric passenger aircraft (eVTOL) taking off vertically from an urban rooftop pad at dusk, city skyline in the background, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-12-china-low-altitude-economy-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** Aviation International News (China low-altitude economy, Jan 2026), lowaltitudeeconomy.aero 2026 coverage.
@@ -351,6 +381,8 @@ EHang первым в мире завершил полную «четырёхс�
 
 **Image prompt:**
 Photorealistic editorial photo of a sleek autonomous passenger drone aircraft on a landing pad with a small group of curious onlookers, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-12-ehang-evtol-certification-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-parks-expedition (verified exists: tours.json tour_id "china-tech-parks-expedition", sector "government"; no dedicated company card for EHang).
 
@@ -375,6 +407,8 @@ Photorealistic editorial photo of a sleek autonomous passenger drone aircraft on
 **Image prompt:**
 Photorealistic editorial photo of a semiconductor cleanroom with technicians in full protective suits working near wafer fabrication equipment, sterile bright lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-13-china-chip-self-sufficiency-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** TechWireAsia (China chip self-sufficiency, May 2026), Astute Group coverage of domestic equipment mandate.
@@ -395,6 +429,8 @@ Photorealistic editorial photo of a semiconductor cleanroom with technicians in 
 
 **Image prompt:**
 Photorealistic editorial photo of a close-up of a silicon wafer being inspected under bright industrial lighting in a semiconductor fab, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-13-smic-7nm-production-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (verified exists: sector "flagship"; company card exists: /companies/smic, sector "electronics").
 
@@ -417,6 +453,8 @@ Photorealistic editorial photo of a close-up of a silicon wafer being inspected 
 **Image prompt:**
 Photorealistic editorial photo of a group of Chinese tourists with luggage at a busy international airport departure gate, bright terminal lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-14-china-outbound-tourism-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** IAG/asgam.com (China outbound tourism 2026), Skift (aviation capacity constraints, July 2026).
@@ -437,6 +475,8 @@ Photorealistic editorial photo of a group of Chinese tourists with luggage at a 
 
 **Image prompt:**
 Photorealistic editorial photo of a food delivery courier on an electric scooter navigating a modern Middle Eastern city street at dusk, city lights and skyline in the background, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-14-meituan-keeta-middle-east-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-retail-showrooms-expedition (verified exists: tours.json tour_id "china-retail-showrooms-expedition", sector "internet"; company card exists: /companies/meituan, sector "internet").
 
@@ -461,6 +501,8 @@ Photorealistic editorial photo of a food delivery courier on an electric scooter
 **Image prompt:**
 Photorealistic editorial photo of a bustling Southeast Asian port with cargo ships and container cranes at sunrise, wide industrial shot, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-15-rcep-asean-trade-growth-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** SCMP (China-Indonesia cross-border QR payments, 2026), digitalinasia.com SEA payments overview.
@@ -481,6 +523,8 @@ Photorealistic editorial photo of a bustling Southeast Asian port with cargo shi
 
 **Image prompt:**
 Photorealistic editorial photo of a modern data center facility interior with rows of server racks and blue ambient lighting, technician monitoring systems, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-15-alibaba-cloud-international-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/uae-ai-tech-expedition (verified exists: tours.json tour_id "uae-ai-tech-expedition", sector "ai"; company card exists: /companies/alibaba-cloud-me, sector "ai").
 
@@ -505,6 +549,8 @@ Photorealistic editorial photo of a modern data center facility interior with ro
 **Image prompt:**
 Photorealistic editorial photo of a young content creator recording a video with a smartphone gimbal in a bright modern home studio, warm ambient lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-16-china-short-video-livecommerce-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** ExpandedRamblings/SendShort CapCut statistics 2026, RestOfWorld CapCut MAU coverage.
@@ -525,6 +571,8 @@ Photorealistic editorial photo of a young content creator recording a video with
 
 **Image prompt:**
 Photorealistic editorial photo of a smartphone screen showing a video editing app interface with colorful timeline tracks, held by a hand, blurred creative studio background, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-16-bytedance-capcut-global-growth-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (company card exists: /companies/bytedance, sector "internet").
 
@@ -547,6 +595,8 @@ Photorealistic editorial photo of a smartphone screen showing a video editing ap
 **Image prompt:**
 Photorealistic editorial photo of an active elderly Chinese couple using a modern tablet device in a bright comfortable home setting, warm natural lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-17-china-silver-economy-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** People's Daily Online (robotics eldercare fast track), Global Times (eldercare sector resilience, 2026).
@@ -567,6 +617,8 @@ Photorealistic editorial photo of an active elderly Chinese couple using a moder
 
 **Image prompt:**
 Photorealistic editorial photo of a modern appliance manufacturing facility exterior with company delivery trucks loading products, bright daylight, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-17-midea-overseas-obm-growth-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-appliances-expedition (company card exists: /companies/midea, sector "electronics").
 
@@ -591,6 +643,8 @@ Photorealistic editorial photo of a modern appliance manufacturing facility exte
 **Image prompt:**
 Photorealistic editorial photo of an automated battery swap station for electric vehicles with a car positioned for service, bright clean facility lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-18-china-battery-swap-standard-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** NIO official press release (100 million battery swaps, Feb 2026), FuelCellsWorks (9,000 stations milestone, June 2026).
@@ -611,6 +665,8 @@ Photorealistic editorial photo of an automated battery swap station for electric
 
 **Image prompt:**
 Photorealistic editorial photo of a modern NIO-style battery swap station in a European city setting with an electric car being serviced, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-18-nio-europe-battery-swap-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-auto-plants-expedition (company card exists: /companies/nio, sector "auto").
 
@@ -635,6 +691,8 @@ Photorealistic editorial photo of a modern NIO-style battery swap station in a E
 **Image prompt:**
 Photorealistic editorial photo of glass bottles of dark soy sauce and condiments displayed on a wooden kitchen counter with fresh ingredients nearby, warm natural lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-19-china-condiment-export-growth-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** Coherent Market Insights (dark soy sauce market forecast), thebambooworks.com Haitian IPO coverage.
@@ -655,6 +713,8 @@ Photorealistic editorial photo of glass bottles of dark soy sauce and condiments
 
 **Image prompt:**
 Photorealistic editorial photo of a modern condiment bottling production line with glass bottles moving along a conveyor, bright clean industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-19-haitian-flavouring-global-push-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tea-coffee-retail-expedition (company card exists: /companies/haitian, sector "food").
 
@@ -677,6 +737,8 @@ Photorealistic editorial photo of a modern condiment bottling production line wi
 **Image prompt:**
 Photorealistic editorial photo of a modern pharmaceutical manufacturing cleanroom with bioreactor tanks and technicians in protective gear, bright clinical lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-20-china-pharma-cdmo-boom-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** BigGo Finance (WuXi AppTec H1 2026 results), BioSpace (WuXi AppTec Q1 2026 growth).
@@ -697,6 +759,8 @@ Photorealistic editorial photo of a modern pharmaceutical manufacturing cleanroo
 
 **Image prompt:**
 Photorealistic editorial photo of scientists in a modern pharmaceutical research lab examining molecular structure models on a large screen, bright clean lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-20-wuxi-apptec-overtakes-lonza-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (company card exists: /companies/wuxi-apptec, sector "medtech").
 
@@ -721,6 +785,8 @@ Photorealistic editorial photo of scientists in a modern pharmaceutical research
 **Image prompt:**
 Photorealistic editorial photo of a modern electric car interior showcasing a large touchscreen infotainment display and minimalist dashboard design, soft ambient lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-21-huawei-smart-ev-ecosystem-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** ChoZan (Seres/Aito/Huawei smart EV strategy), Reuters via Timeslive (Aito 1M sales target, April 2026).
@@ -741,6 +807,8 @@ Photorealistic editorial photo of a modern electric car interior showcasing a la
 
 **Image prompt:**
 Photorealistic editorial photo of a modern electric SUV parked at a luxury car dealership showroom in the Middle East with desert-inspired architecture visible outside, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-21-aito-middle-east-expansion-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (no dedicated Aito/Seres company card; linking via Huawei ecosystem tour as closest thematic fallback — company card /companies/huawei exists separately for direct Huawei mentions).
 
@@ -765,6 +833,8 @@ Photorealistic editorial photo of a modern electric SUV parked at a luxury car d
 **Image prompt:**
 Photorealistic editorial photo of a massive modern petrochemical industrial complex with steam and pipelines under a clear sky, wide industrial shot, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-22-foreign-heavy-industry-fdi-china-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** company data from GlobalTechTour's own companies.json (BASF Zhanjiang Verbund record, verified against public BASF project announcements).
@@ -785,6 +855,8 @@ BASF Zhanjiang Verbund — седьмая интегрированная про�
 
 **Image prompt:**
 Photorealistic editorial photo of a large modern chemical plant with steam crackers and industrial towers powered by visible wind turbines in the background, bright daylight, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-22-basf-zhanjiang-verbund-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-petrochemicals-guangdong-expedition (verified exists: tours.json tour_id "china-petrochemicals-guangdong-expedition", sector "heavy"; company card exists: /companies/basf-zhanjiang, sector "heavy").
 
@@ -807,6 +879,8 @@ Photorealistic editorial photo of a large modern chemical plant with steam crack
 **Image prompt:**
 Photorealistic editorial photo of international business visitors examining robotic exhibits at a large trade show booth, bright convention lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-23-china-robotics-investment-benchmarking-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** robot-china.com (WRC 2026 coverage), CGTN (World Robot Conference, Aug 2026).
@@ -827,6 +901,8 @@ Photorealistic editorial photo of international business visitors examining robo
 
 **Image prompt:**
 Photorealistic editorial photo of a small group of international business visitors touring a modern robotics factory floor with an engineer guide explaining equipment, bright industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-23-robotics-expedition-tour-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/robotics-expedition (verified exists: tours.json tour_id "robotics-expedition", sector "robotics").
 
@@ -851,6 +927,8 @@ Photorealistic editorial photo of a small group of international business visito
 **Image prompt:**
 Photorealistic editorial photo of a street food vendor in Southeast Asia accepting a mobile QR code payment from a customer's smartphone, warm evening market lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-24-china-cross-border-payments-sea-2026.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** SCMP (China-Indonesia cross-border QR payments), Xinhua (Indonesia-China QRIS launch, May 2026), Businesswire (Alipay+ bank partners, July 2026).
@@ -871,6 +949,8 @@ Photorealistic editorial photo of a street food vendor in Southeast Asia accepti
 
 **Image prompt:**
 Photorealistic editorial photo of a modern fintech company office with a large screen displaying global payment transaction flows, professionals discussing near the display, bright office lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-24-china-fintech-giants-tour-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-fintech-giants-expedition (verified exists: tours.json tour_id "china-fintech-giants-expedition", sector "finance").
 
@@ -895,6 +975,8 @@ Photorealistic editorial photo of a modern fintech company office with a large s
 **Image prompt:**
 Photorealistic editorial photo of a diverse montage-style scene showing a modern factory, a shipping port, and a retail storefront in soft transition lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-25-china-business-2026-mid-year-scorecard.png
+
 **Internal link target:** none (analytical 09:00 slot).
 
 **Sources checked:** recap of previously verified sources from this batch (CnEVPost XPeng, BigGo Finance WuXi AppTec, Caixin Midea, CGTN Canton Fair).
@@ -915,6 +997,8 @@ Photorealistic editorial photo of a diverse montage-style scene showing a modern
 
 **Image prompt:**
 Photorealistic editorial photo of a small group of international business travelers being welcomed at a modern Chinese tech company headquarters entrance, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-25-china-tech-giants-tour-wrapup-2026.png
 
 **Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (verified exists: tours.json tour_id "china-tech-giants-expedition", sector "flagship").
 

@@ -35,6 +35,8 @@ JAKA / 节卡机器人 — один из ведущих мировых прои�
 **Image prompt:**
 Professional editorial photograph of a small compact six-axis collaborative robot arm mounted on a laboratory workbench performing precise tabletop assembly of tiny electronic components, bright clean lab lighting, shallow depth of field, photorealistic, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-05-jaka-minicobo-compact-cobot.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/cobots/factory/jaka (verified exists: yes, source: factories.csv id "jaka", category "cobots"). Note: JAKA already has a combined blog post ("geekplus-warehouse-jaka-dobot-cobots") covering its Zu-series cobots generally — this post is specifically about MiniCobo, a distinct model not named in that piece.
 
 ## 2026-09-05 — Aura Robotics — Dobot Magician / Atom (slot 2)
@@ -53,6 +55,8 @@ Dobot / 越疆科技 закрывает весь диапазон от наст�
 
 **Image prompt:**
 Professional editorial photograph of a small desktop educational robotic arm on a classroom table surrounded by students' laptops and notebooks, bright daylight through windows, shallow depth of field, photorealistic, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-05-dobot-magician-atom-education.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/education/factory/dobot (verified exists: yes, source: factories.csv id "dobot", category "education"). Note: Dobot appears in the same combined blog post as JAKA above ("geekplus-warehouse-jaka-dobot-cobots"), which per its title focuses on warehouse/cobot models (CR series, Nova) — Magician/Atom are the desktop-education line, a distinct product family not detailed there.
 
@@ -77,6 +81,8 @@ Pudu Robotics / 普渡机器人 — мировой лидер в доставк�
 **Image prompt:**
 Professional editorial photograph of a compact autonomous floor-cleaning robot working in a large bright shopping mall corridor, wet-clean trail visible behind it, shoppers blurred in the background, photorealistic, high detail, cinematic color grading. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-06-pudu-cc1-sh1-cleaning-robots.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/cleaning/factory/pudu (verified exists: yes, source: factories.csv id "pudu", category "cleaning"). Note: existing blog post "pudu-orionstar-service-robots" covers Pudu's restaurant delivery robots (BellaBot/KettyBot) — CC1/SH1 are the cleaning line, a distinct application not detailed there.
 
 ## 2026-09-06 — Aura Robotics — Fourier ExoMotus (slot 2)
@@ -95,6 +101,8 @@ Fourier / 傅利叶智能 выросла из реабилитационной �
 
 **Image prompt:**
 Professional editorial photograph of a patient using a robotic lower-limb exoskeleton to walk with support bars in a modern rehabilitation clinic, physical therapist observing nearby, bright clinical lighting, photorealistic, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-06-fourier-exomotus-rehabilitation.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/medical/factory/fourier (verified exists: yes, source: factories.csv id "fourier", category "medical"). Note: existing blog post "fourier-brainco-medical-robots" already covers Fourier's medical angle broadly — this post narrows specifically to the ExoMotus exoskeleton model, flagged as the closest available new angle since the factory-level topic is not fresh; treat with more caution than the other 5 posts in this file.
 
@@ -119,6 +127,8 @@ AgiBot / 智元机器人 — один из самых быстрорастущи
 **Image prompt:**
 Professional editorial photograph of an open-frame humanoid robot chassis on a workbench with visible internal wiring and joints, a developer's laptop with code open nearby, bright workshop lighting, photorealistic, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-07-agibot-lingxi-x1-open-source.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid/factory/agibot (verified exists: yes, source: factories.csv id "agibot", category "humanoid"). Note: AgiBot already has two dedicated comparison posts ("agibot-robotera-ubtech-humanoid-factories", "agibot-yuanzheng-a2-vs-robotera-l7") focused on the Yuanzheng A2 flagship humanoid — Lingxi X1 is a distinct open-source platform not detailed in either.
 
 ## 2026-09-07 — Aura Robotics — UBTech Cruzr (slot 2)
@@ -137,6 +147,8 @@ UBTech / 优必选 известна прежде всего гуманоидом
 
 **Image prompt:**
 Professional editorial photograph of a friendly wheeled service robot with a screen face greeting visitors in a bright modern retail showroom, soft ambient lighting, shallow depth of field, photorealistic, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-07-ubtech-cruzr-service-robot.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/service/factory/ubtech (verified exists: yes, source: factories.csv id "ubtech", category "service"). Note: existing content ("ubtech-walker-s-humanoid-factory" blog post, plus TG/blog comparison pieces) covers Walker S specifically — Cruzr is UBTech's wheeled service line, a distinct product not detailed elsewhere.
 
@@ -159,6 +171,8 @@ Unitree показал на WRC 2026 гуманоида Superman — по зая
 **Image prompt:**
 Photorealistic editorial photo of an athletic humanoid robot captured mid-jump in a bright indoor arena, dynamic action pose, cinematic lighting, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-08-unitree-superman-humanoid-specs.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid (verified exists: yes, category "humanoid" in categories.csv). External source: robot-china.com (WRC 2026 coverage).
 
 ## 2026-09-08 — Aura Robotics — BYD enters humanoid robotics (slot 2)
@@ -177,6 +191,8 @@ Photorealistic editorial photo of an athletic humanoid robot captured mid-jump i
 
 **Image prompt:**
 Photorealistic editorial photo of a humanoid robot on stage in a modern automotive showroom with electric vehicles in the background, bright studio lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-08-byd-humanoid-di-space-launch.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog (general catalog, no specific factory match).
 
@@ -201,6 +217,8 @@ Photorealistic editorial photo of a humanoid robot on stage in a modern automoti
 **Image prompt:**
 Photorealistic editorial photo of a heavy-duty industrial humanoid robot near an aircraft fuselage inside a hangar, technicians nearby, bright industrial lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-09-avic-fengxing-001-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/industrial (verified exists: yes, category "industrial").
 
 ## 2026-09-09 — Aura Robotics — Xinghai Tuo Nexo (slot 2)
@@ -219,6 +237,8 @@ Xinghai Tuo (星海图) показал на WRC 2026 новое поколени
 
 **Image prompt:**
 Photorealistic editorial photo of a wheeled-base humanoid robot with dual arms performing a lifting task in a bright modern warehouse, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-09-xinghaituo-nexo-wheeled-humanoid.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid. External source: robot.ofweek.com.
 
@@ -243,6 +263,8 @@ Photorealistic editorial photo of a wheeled-base humanoid robot with dual arms p
 **Image prompt:**
 Photorealistic editorial photo of a rugged humanoid robot equipped with firefighting gear approaching a smoke-filled building entrance, emergency lighting, dramatic atmosphere, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-10-linglong-v2-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog (general).
 
 ## 2026-09-10 — Aura Robotics — WRC 2026 stats (slot 2)
@@ -261,6 +283,8 @@ Photorealistic editorial photo of a rugged humanoid robot equipped with firefigh
 
 **Image prompt:**
 Photorealistic editorial photo of a massive robotics trade show exhibition hall with dozens of humanoid robots on display stands and crowds of visitors, bright modern lighting, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-10-wrc-2026-stats-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog. External source: robot-china.com.
 
@@ -283,6 +307,8 @@ Photorealistic editorial photo of a massive robotics trade show exhibition hall 
 **Image prompt:**
 Photorealistic editorial photo of several humanoid robots competing in a long jump event inside a large indoor sports arena, spectators in stands, dynamic action pose, bright arena lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-11-world-humanoid-robot-games-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid.
 
 ## 2026-09-11 — Aura Robotics — Embodied AI financing boom (slot 2)
@@ -301,6 +327,8 @@ Photorealistic editorial photo of several humanoid robots competing in a long ju
 
 **Image prompt:**
 Photorealistic editorial photo of a modern robotics startup office with engineers testing a robotic arm prototype and financial growth charts on a wall screen, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-11-embodied-ai-financing-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog. External source: robot.ofweek.com.
 
@@ -325,6 +353,8 @@ Zhiping Fang (智平方) закрыла раунд B на сумму свыше 
 **Image prompt:**
 Photorealistic editorial photo of a robotics lab with engineers analyzing perception algorithm data on large monitors, a robotic arm prototype nearby, bright modern lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-12-zhiping-fang-shenzhen-unicorn.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog. External source: robot.ofweek.com.
 
 ## 2026-09-12 — Aura Robotics — China cobot market (slot 2)
@@ -343,6 +373,8 @@ Photorealistic editorial photo of a robotics lab with engineers analyzing percep
 
 **Image prompt:**
 Photorealistic editorial photo of a small collaborative robot arm working safely alongside a human worker on an electronics assembly line, bright clean factory lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-12-china-cobot-market-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/cobots (verified exists: category "cobots"). External source: robot.gkzhan.com.
 
@@ -367,6 +399,8 @@ Photorealistic editorial photo of a small collaborative robot arm working safely
 **Image prompt:**
 Photorealistic editorial photo of two different types of compact collaborative robot arms side by side on a factory testing bench, bright industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-13-aubo-elite-robots-price-war.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/cobots.
 
 ## 2026-09-13 — Aura Robotics — Agricultural robot strawberry picker (slot 2)
@@ -385,6 +419,8 @@ Photorealistic editorial photo of two different types of compact collaborative r
 
 **Image prompt:**
 Photorealistic editorial photo of a robotic arm carefully picking ripe strawberries in a bright modern greenhouse, soft natural light, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-13-agricultural-robot-strawberry-picker-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog. External source: Xinhua (news.cn) — not in review-sources.md list, no hyperlink required per policy (attribution rule applies specifically to review-sources.md resources); named in plain text.
 
@@ -407,6 +443,8 @@ Shanghai Sweet AI Technology развернула флот из свыше 60 р
 **Image prompt:**
 Photorealistic editorial photo of multiple small agricultural robots working autonomously in neat crop rows on a large farm field, bright daylight, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-14-shanghai-sweet-ai-farm-fleet.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
 ## 2026-09-14 — Aura Robotics — Galbot rise (slot 2)
@@ -425,6 +463,8 @@ Galbot (银河通用) — колёсная человекоподобная пл
 
 **Image prompt:**
 Photorealistic editorial photo of a wheeled humanoid robot with dual arms retrieving a product from a pharmacy shelf and handing it to a customer, bright retail lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-14-galbot-rise-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid/factory/galbot (verified exists: factories.csv id "galbot", category "humanoid").
 
@@ -449,6 +489,8 @@ Dobot / 越疆科技 — компания, известная линейкой �
 **Image prompt:**
 Photorealistic editorial photo of a compact consumer quadruped robot dog walking alongside its owner on an outdoor trail, bright natural daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-15-dobot-rover-x1-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/cobots/factory/dobot (verified exists: factories.csv id "dobot", category "cobots").
 
 ## 2026-09-15 — Aura Robotics — Vita Dynamics Vbot preorders (slot 2)
@@ -467,6 +509,8 @@ Vita Dynamics (维他动力) объявила, что число предзак�
 
 **Image prompt:**
 Photorealistic editorial photo of a sleek consumer robot dog demonstration in a bright modern showroom with a small crowd watching, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-15-vita-dynamics-vbot-preorders.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -491,6 +535,8 @@ Photorealistic editorial photo of a sleek consumer robot dog demonstration in a 
 **Image prompt:**
 Photorealistic editorial photo of a compact quadruped robot dog patrolling an industrial facility corridor at night, mounted sensors visible, cool ambient lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-16-feiyun-robot-dog-chile-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
 ## 2026-09-16 — Aura Robotics — Deep Robotics market leader (slot 2)
@@ -509,6 +555,8 @@ Deep Robotics (云深处科技) занимает первое место в ми
 
 **Image prompt:**
 Photorealistic editorial photo of a robust quadruped robot navigating rough industrial terrain during an inspection task, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-16-deep-robotics-market-leader-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -531,6 +579,8 @@ Geek+ / 极智嘉 разместилась на Гонконгской бирж�
 **Image prompt:**
 Photorealistic editorial photo of a large modern automated warehouse with rows of orange autonomous mobile robots carrying shelving units, bright industrial lighting, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-17-geek-plus-hk-ipo-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/agv/factory/geekplus (verified exists: factories.csv id "geekplus", category "agv").
 
 ## 2026-09-17 — Aura Robotics — Quicktron 42,000 AMRs (slot 2)
@@ -549,6 +599,8 @@ Quicktron внедрила свыше 42 000 автономных мобильн
 
 **Image prompt:**
 Photorealistic editorial photo of dozens of autonomous mobile robots navigating a busy international distribution center floor, bright industrial lighting, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-17-quicktron-42000-amrs-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/agv (verified exists: category "agv").
 
@@ -573,6 +625,8 @@ Photorealistic editorial photo of dozens of autonomous mobile robots navigating 
 **Image prompt:**
 Photorealistic editorial photo of a cargo shipping port with containers and a customs inspection area, overcast daylight, documentary photography style, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-18-us-fcc-ban-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
 ## 2026-09-18 — Aura Robotics — Pivot to Europe (slot 2)
@@ -591,6 +645,8 @@ Photorealistic editorial photo of a cargo shipping port with containers and a cu
 
 **Image prompt:**
 Photorealistic editorial photo of a humanoid robot crate being unloaded at a European logistics facility, workers checking documentation, overcast daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-18-china-robotics-pivot-europe-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -615,6 +671,8 @@ Photorealistic editorial photo of a humanoid robot crate being unloaded at a Eur
 **Image prompt:**
 Photorealistic editorial photo of a sleek humanoid robot's bionic hand gripping a small mechanical part on an assembly line, close-up shot, bright factory lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-19-xiaomi-cyberone-bionic-hand-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid.
 
 ## 2026-09-19 — Aura Robotics — CyberOne factory training (slot 2)
@@ -633,6 +691,8 @@ Photorealistic editorial photo of a sleek humanoid robot's bionic hand gripping 
 
 **Image prompt:**
 Photorealistic editorial photo of a humanoid robot working steadily on an automotive assembly line next to human coworkers, bright industrial daylight, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-19-xiaomi-cyberone-factory-training-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -655,6 +715,8 @@ Photorealistic editorial photo of a humanoid robot working steadily on an automo
 **Image prompt:**
 Photorealistic editorial photo of a large modern robotics manufacturing floor with multiple humanoid robots in various assembly stages, bright industrial lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-20-five-year-plan-robotics-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
 ## 2026-09-20 — Aura Robotics — Price forecast drop (slot 2)
@@ -673,6 +735,8 @@ Photorealistic editorial photo of a large modern robotics manufacturing floor wi
 
 **Image prompt:**
 Photorealistic editorial photo of a row of identical humanoid robots on an assembly line conveyor in a bright modern factory, wide industrial shot, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-20-humanoid-price-forecast-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -697,6 +761,8 @@ Kenqing Technology вывела на рынок экзоскелет весом 
 **Image prompt:**
 Photorealistic editorial photo of an elderly person walking with the assistance of a lightweight robotic hip exoskeleton in a bright modern care facility corridor, warm natural lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-21-kenqing-eldercare-exoskeleton-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/medical (verified exists: category "medical").
 
 ## 2026-09-21 — Aura Robotics — Beijing smart eldercare center (slot 2)
@@ -715,6 +781,8 @@ Photorealistic editorial photo of an elderly person walking with the assistance 
 
 **Image prompt:**
 Photorealistic editorial photo of a bright modern eldercare facility interior with assistive robotic devices and caregivers helping residents, warm daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-21-beijing-smart-eldercare-center-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -739,6 +807,8 @@ UBTech / 优必选 развернула решение для навигации
 **Image prompt:**
 Photorealistic editorial photo of a friendly wheeled service robot with a screen interface guiding a patient through a bright modern hospital reception area, soft clinical lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-22-ubtech-hospital-guidance-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid/factory/ubtech (verified exists: factories.csv id "ubtech", category "humanoid").
 
 ## 2026-09-22 — Aura Robotics — DroidUp Moya healthcare robot (slot 2)
@@ -757,6 +827,8 @@ DroidUp готовит первую партию из 50 экземпляров 
 
 **Image prompt:**
 Photorealistic editorial photo of a lifelike humanoid robot with soft expressive facial features interacting warmly with a patient in a bright rehabilitation clinic, soft lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-22-droidup-moya-healthcare-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid/factory/droidup (verified exists: factories.csv id "droidup", category "humanoid").
 
@@ -779,6 +851,8 @@ Photorealistic editorial photo of a lifelike humanoid robot with soft expressive
 **Image prompt:**
 Photorealistic editorial photo of a humanoid robot working steadily at a warehouse sorting station next to human coworkers, bright industrial daylight, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-23-work-mode-10000-robots-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
 ## 2026-09-23 — Aura Robotics — Estun servo localization (slot 2)
@@ -797,6 +871,8 @@ Photorealistic editorial photo of a humanoid robot working steadily at a warehou
 
 **Image prompt:**
 Photorealistic editorial photo of a large industrial robotic arm performing precision welding on a factory production line, sparks visible, bright industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-23-estun-servo-localization-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/industrial/factory/estun (verified exists: factories.csv id "estun", category "industrial").
 
@@ -821,6 +897,8 @@ Levo Harmonic в 2025 финансовом году отгрузил 425 200 г�
 **Image prompt:**
 Photorealistic editorial photo of precision mechanical reducers and gears arranged on a clean workbench in a component manufacturing facility, macro detail, bright industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-24-levo-harmonic-reducers-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
 ## 2026-09-24 — Aura Robotics — Huawei Ascend chip localization (slot 2)
@@ -839,6 +917,8 @@ Photorealistic editorial photo of precision mechanical reducers and gears arrang
 
 **Image prompt:**
 Photorealistic editorial photo of a close-up of an open humanoid robot's chest cavity revealing circuit boards and a processing unit, bright clean lab lighting, macro detail, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-24-huawei-ascend-chip-localization-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog.
 
@@ -863,6 +943,8 @@ Robotera / 星尘智能 привлекла свыше 340 млн долларо�
 **Image prompt:**
 Photorealistic editorial photo of a humanoid robot sorting parcels at a busy logistics distribution center conveyor line, bright industrial lighting, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
 
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-25-robotera-scaling-tg.png
+
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid.
 
 ## 2026-09-25 — Aura Robotics — AgiBot global expansion (slot 2)
@@ -881,5 +963,7 @@ AgiBot / 智元机器人 объявил о выходе на рынок США �
 
 **Image prompt:**
 Photorealistic editorial photo of a row of identical humanoid robots on an assembly line conveyor in a bright modern factory, quality control workers checking units, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Image URL:** https://raw.githubusercontent.com/Ostap-87/aura/main/public/tg-media/2026-09-25-agibot-global-expansion-tg.png
 
 **Internal link target:** https://www.aura-robotics.ru/catalog/humanoid/factory/agibot (verified exists: factories.csv id "agibot", category "humanoid").

@@ -72,6 +72,12 @@ WantedBy=multi-user.target
 - `/var/www/aura-media/` — 13 МБ
 - `/var/www/globaltechtour-media/` — 51 МБ
 
+Внутри — 6 GTT + 1 Aura файл дублируют то, что уже закоммичено в `public/covers/` (перенесены в git 26.08.2026, см. коммиты `d079bb0`/`173320f`). Ещё 4 файла (3 GTT + 1 Aura) **опциональны** — проверено 26.08.2026: ни один не упоминается ни в `site_content.example.json`, ни в `aura/content/blog/` ни одной живой статьёй, значит на сайте на них ничего не ссылается и от их потери ничего не сломается. Список опциональных (можно не переносить):
+- `cover-china-beauty-retail-2026-08-05.png` (GTT)
+- `kuaishou-douyin-livestream-commerce-china.png` (GTT)
+- `miniso-global-retail-expansion.png` (GTT)
+- `cover-humanoid-factory-2026-08-05.png` (Aura)
+
 ### 4. Личный сайт
 - `/var/www/ostapdotcenko.ru/` — 120 КБ (не в git вообще, проверить, есть ли у него отдельный репозиторий)
 

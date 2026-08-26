@@ -791,31 +791,6 @@ Photorealistic editorial photo of a modern electric car interior showcasing a la
 
 **Sources checked:** ChoZan (Seres/Aito/Huawei smart EV strategy), Reuters via Timeslive (Aito 1M sales target, April 2026).
 
-## 2026-09-21 — GlobalTechTour — Aito Middle East expansion (18:00, sales)
-**Slug:** aito-middle-east-expansion-2026
-
-**Post text (HTML, ready to send):**
-<b>Aito, бренд на платформе Huawei, выходит в ОАЭ, Саудовскую Аравию и Катар</b>
-
-问界 / Aito — автомобильный бренд Seres Group на программной платформе Huawei — в феврале 2026 года подписал соглашение с абудабийским дилером Performance Plus Motors для выхода на рынок Ближнего Востока, а к концу года планирует розничное присутствие по всему региону Персидского залива с фокусом на Саудовскую Аравию и Катар; про технологическую экосистему Huawei подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-tech-giants-expedition">«Технологические гиганты Китая»</a>. Сейчас на зарубежные продажи приходится менее 1% объёма бренда — компания рассчитывает довести эту долю до 20% в течение трёх лет.
-
-🔗 https://globaltechtour.ru/ — программы туров
-
-#GTT #GlobalTechTour #Техтуризм #Aito #Huawei
-
-**Character count:** 786
-
-**Image prompt:**
-Photorealistic editorial photo of a modern electric SUV parked at a luxury car dealership showroom in the Middle East with desert-inspired architecture visible outside, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
-
-**Image URL:** https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/tg-media/2026-09-21-aito-middle-east-expansion-2026.png
-
-**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (no dedicated Aito/Seres company card; linking via Huawei ecosystem tour as closest thematic fallback — company card /companies/huawei exists separately for direct Huawei mentions).
-
-**Sources checked:** Technobezz (Aito UAE market entry), chinaglobalsouth.com (Aito Middle East, Feb 2026).
-
----
-
 # 2026-09-22
 
 ## 2026-09-22 — GlobalTechTour — Foreign heavy-industry FDI resilience (09:00, analytical)

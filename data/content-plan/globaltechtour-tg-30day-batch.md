@@ -269,3 +269,653 @@ Photorealistic editorial photo of a sleek electric motorcycle parked in front of
 **Internal link target:** https://globaltechtour.ru/expeditions/china-appliances-expedition (verified exists: yes, source: tours.json id "china-appliances-expedition", sector "electronics" — closest available fallback; no dedicated company card or EV-specific tour exists for Niu, flagged for human review).
 
 **Sources checked:** Niu Technologies Q1/Q2 2026 financial results (GlobeNewswire, StockTitan, Yahoo Finance).
+
+# 2026-09-11
+
+## 2026-09-11 — GlobalTechTour — Canton Fair 2026 (09:00, analytical)
+**Slug:** canton-fair-spring-2026
+
+**Post text (HTML, ready to send):**
+<b>Canton Fair 2026: 32 000 экспонентов и роботы как новый локомотив выставки</b>
+
+Весенняя сессия Canton Fair 2026 в Гуанчжоу собрала свыше 32 000 экспонентов и около 210 000 предзарегистрированных зарубежных байеров — рекордная явка для крупнейшей торговой выставки Китая. Интересный сдвиг структуры: интеллектуальная продукция вроде промышленных и сервисных роботов стала одним из главных драйверов роста, а один из производителей робототехники прогнозировал рост своего экспорта в 5-10 раз за год. Осенняя сессия пройдёт в три этапа с 15 октября по 4 ноября — для тех, кто следит за структурными сдвигами китайского экспорта, именно состав экспонентов на таких площадках красноречивее любой макростатистики.
+
+#GTT #GlobalTechTour #Техтуризм #Экспорт #Гуанчжоу
+
+**Character count:** 780
+
+**Image prompt:**
+Photorealistic editorial photo of a massive international trade fair exhibition hall in Guangzhou with countless product booths and crowds of international buyers, bright convention lighting, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** CGTN Canton Fair coverage (April 2026), Canton Fair official autumn 2026 schedule.
+
+## 2026-09-11 — GlobalTechTour — XPeng Europe expansion (18:00, sales)
+**Slug:** xpeng-europe-expansion-2026
+
+**Post text (HTML, ready to send):**
+<b>XPeng: 290 салонов в Европе и рост зарубежных поставок на 96% за год</b>
+
+小鹏汽车 / XPeng нарастил зарубежные поставки до 45 008 машин в 2025 году (+96% год к году), работает уже в 60 странах и охватывает 28 стран Европы через 290 розничных точек — про то, как устроено производство и экспорт китайских электромобилей, рассказываем в программе <a href="https://globaltechtour.ru/expeditions/china-auto-plants-expedition">по автозаводам Китая</a>. В 2026 году компания намерена удвоить зарубежные продажи, ориентируясь примерно на 90 000 регистраций вне Китая — модель P7+ уже запущена одновременно в 36 странах.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #EV #XPeng
+
+**Character count:** 726
+
+**Image prompt:**
+Photorealistic editorial photo of a modern electric sedan on display in a sleek European car showroom with large glass windows, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-auto-plants-expedition (verified exists: tours.json tour_id "china-auto-plants-expedition", sector "auto"; company card exists: /companies/xpeng, sector "auto").
+
+**Sources checked:** CnEVPost XPeng overseas footprint coverage (Jan 2026), Gasgoo XPeng global expansion report.
+
+---
+
+# 2026-09-12
+
+## 2026-09-12 — GlobalTechTour — Low-altitude economy policy (09:00, analytical)
+**Slug:** china-low-altitude-economy-2026
+
+**Post text (HTML, ready to send):**
+<b>«Низковысотная экономика»: Китай законодательно закрепляет рынок дронов и eVTOL</b>
+
+Два обязательных национальных стандарта по идентификации и регистрации беспилотников вступают в силу 1 мая 2026 года, а обновлённый Закон о гражданской авиации — с 1 июля, закрепляя обязательства по развитию низковысотной инфраструктуры на уровне местных властей. Рынок пилотируемых eVTOL и связанных сервисов в Китае, по прогнозам, достигнет 200-400 млрд юаней (28-56 млрд долларов) в год к 2035-му — и это уже не футуристический прогноз, а рынок с реальными коммерческими операторами и туристическими маршрутами в Гуанчжоу и Хэфэе.
+
+#GTT #GlobalTechTour #Техтуризм #Дроны #eVTOL
+
+**Character count:** 692
+
+**Image prompt:**
+Photorealistic editorial photo of a small electric passenger aircraft (eVTOL) taking off vertically from an urban rooftop pad at dusk, city skyline in the background, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** Aviation International News (China low-altitude economy, Jan 2026), lowaltitudeeconomy.aero 2026 coverage.
+
+## 2026-09-12 — GlobalTechTour — EHang eVTOL certification (18:00, sales)
+**Slug:** ehang-evtol-certification-2026
+
+**Post text (HTML, ready to send):**
+<b>EHang прошёл полную сертификацию eVTOL за 31 месяц вместо привычных 7 лет</b>
+
+EHang первым в мире завершил полную «четырёхсертификатную» коммерческую сертификацию eVTOL EH216-S (тип, производство, лётная годность, эксплуатант) — процесс занял 31 месяц и 40 000 тестовых полётов, тогда как аналогичный путь у FAA и EASA обычно растягивается на 5-7 лет; о новых индустриях, меняющих облик китайских городов, — в программе <a href="https://globaltechtour.ru/expeditions/china-tech-parks-expedition">по технопаркам Китая</a>. Уже сегодня можно купить билет на низковысотную туристическую экскурсию в Гуанчжоу или Хэфэе — эра пассажирских беспилотных полётов в Китае официально началась.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #EHang #eVTOL
+
+**Character count:** 754
+
+**Image prompt:**
+Photorealistic editorial photo of a sleek autonomous passenger drone aircraft on a landing pad with a small group of curious onlookers, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-parks-expedition (verified exists: tours.json tour_id "china-tech-parks-expedition", sector "government"; no dedicated company card for EHang).
+
+**Sources checked:** EHang official press release (Air Operator Certificate), businessaviation.aero certification timeline comparison.
+
+---
+
+# 2026-09-13
+
+## 2026-09-13 — GlobalTechTour — Semiconductor self-sufficiency (09:00, analytical)
+**Slug:** china-chip-self-sufficiency-2026
+
+**Post text (HTML, ready to send):**
+<b>28% вместо 16%: как быстро Китай наращивает собственное производство чипов</b>
+
+Доля отечественного производства полупроводников в Китае выросла до 28% в четвёртом квартале 2025 года против 16% годом ранее — рост подпитывают свыше 150 млрд долларов государственных субсидий и прорыв в 7-нанометровом производстве. С 2026 года действует требование использовать не менее 50% отечественного оборудования при вводе новых производственных мощностей — политика, которая уже меняет закупочные решения по всей отрасли. Официальная цель — 80% самообеспеченности, хотя аналогичная цель на 2025 год (70%) была ощутимо не выполнена.
+
+#GTT #GlobalTechTour #Техтуризм #Полупроводники #Китай
+
+**Character count:** 705
+
+**Image prompt:**
+Photorealistic editorial photo of a semiconductor cleanroom with technicians in full protective suits working near wafer fabrication equipment, sterile bright lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** TechWireAsia (China chip self-sufficiency, May 2026), Astute Group coverage of domestic equipment mandate.
+
+## 2026-09-13 — GlobalTechTour — SMIC 7nm production (18:00, sales)
+**Slug:** smic-7nm-production-2026
+
+**Post text (HTML, ready to send):**
+<b>SMIC освоил 7-нм чипы без EUV-литографии — в обход западных ограничений</b>
+
+中芯国际 / SMIC объявил об успешном массовом производстве 7-нанометровых чипов без использования EUV-литографии, применив многократное мультипатернирование — техническое решение, обходящее западные экспортные ограничения на самое передовое литографическое оборудование; о полупроводниковой отрасли Китая подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-tech-giants-expedition">«Технологические гиганты Китая»</a>. Компания также запустила массовое производство ИИ-чипа Huawei Ascend 910B и планирует удвоить мощности 7-нм линии в 2026 году.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #SMIC #Полупроводники
+
+**Character count:** 718
+
+**Image prompt:**
+Photorealistic editorial photo of a close-up of a silicon wafer being inspected under bright industrial lighting in a semiconductor fab, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (verified exists: sector "flagship"; company card exists: /companies/smic, sector "electronics").
+
+**Sources checked:** SCMP (SMIC action plan, 2026), TechWireAsia 7nm EUV-free production coverage.
+
+# 2026-09-14
+
+## 2026-09-14 — GlobalTechTour — China outbound tourism recovery (09:00, analytical)
+**Slug:** china-outbound-tourism-2026
+
+**Post text (HTML, ready to send):**
+<b>Китай возвращает себе титул крупнейшего рынка выездного туризма</b>
+
+Число выездных поездок из Китая достигнет 101 млн в 2026 году, вплотную приближаясь к допандемийному уровню 2019-го, а расходы китайских туристов за рубежом вырастут на 22,5% — почти до 280 млрд долларов. Япония лидирует среди направлений с прогнозом в 8,6 млн визитов (89% восстановления), за ней следуют Южная Корея (6 млн) и Таиланд (5,1 млн). Любопытный нюанс: восстановление спроса опережает восстановление провозных мощностей — на отдельных направлениях уже не хватает прямых рейсов под растущий поток пассажиров.
+
+#GTT #GlobalTechTour #Техтуризм #Туризм #Китай
+
+**Character count:** 685
+
+**Image prompt:**
+Photorealistic editorial photo of a group of Chinese tourists with luggage at a busy international airport departure gate, bright terminal lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** IAG/asgam.com (China outbound tourism 2026), Skift (aviation capacity constraints, July 2026).
+
+## 2026-09-14 — GlobalTechTour — Meituan KeeTa Middle East (18:00, sales)
+**Slug:** meituan-keeta-middle-east-2026
+
+**Post text (HTML, ready to send):**
+<b>Keeta от Meituan уже в Дубае, Эр-Рияде и Дохе — экспансия день за днём</b>
+
+美团 / Meituan через международный бренд Keeta вышла в Саудовскую Аравию, Катар, Кувейт и ОАЭ, покрыв свыше 20 городов Саудовской Аравии, а к июню 2026 года планирует присутствие в 15 крупнейших мегаполисах региона — про экосистему китайских интернет-платформ подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-retail-showrooms-expedition">по ритейл-шоурумам Китая</a>. В Гонконге Keeta стал лидером рынка доставки еды после ухода Deliveroo в 2025 году — показательный пример того, как китайские платформы занимают освобождающиеся ниши за рубежом.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Meituan #Экспансия
+
+**Character count:** 723
+
+**Image prompt:**
+Photorealistic editorial photo of a food delivery courier on an electric scooter navigating a modern Middle Eastern city street at dusk, city lights and skyline in the background, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-retail-showrooms-expedition (verified exists: tours.json tour_id "china-retail-showrooms-expedition", sector "internet"; company card exists: /companies/meituan, sector "internet").
+
+**Sources checked:** SCMP (Meituan Keeta Middle East, 2026), Momentum Works thelowdown coverage.
+
+---
+
+# 2026-09-15
+
+## 2026-09-15 — GlobalTechTour — RCEP/SEA trade growth (09:00, analytical)
+**Slug:** rcep-asean-trade-growth-2026
+
+**Post text (HTML, ready to send):**
+<b>ЮВА окончательно стала вторым домом для китайского капитала</b>
+
+Соглашение RCEP продолжает углублять торговые связи Китая с Юго-Восточной Азией — регион уже несколько лет подряд остаётся крупнейшим торговым партнёром Китая, а поток прямых инвестиций туда усиливается на фоне переноса части производственных цепочек из самого Китая. Параллельно расширяется финансовая интеграция: национальные QR-системы Индонезии, Малайзии, Таиланда и Вьетнама в 2026 году напрямую интегрированы с китайскими платёжными платформами, что упрощает как туристические, так и B2B-расчёты между регионами.
+
+#GTT #GlobalTechTour #Техтуризм #ЮВА #RCEP
+
+**Character count:** 645
+
+**Image prompt:**
+Photorealistic editorial photo of a bustling Southeast Asian port with cargo ships and container cranes at sunrise, wide industrial shot, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** SCMP (China-Indonesia cross-border QR payments, 2026), digitalinasia.com SEA payments overview.
+
+## 2026-09-15 — GlobalTechTour — Alibaba Cloud international data centers (18:00, sales)
+**Slug:** alibaba-cloud-international-2026
+
+**Post text (HTML, ready to send):**
+<b>Alibaba Cloud открывает дата-центры в Париже и Джохоре, выручка облака — 41,6 млрд юаней за квартал</b>
+
+阿里云 / Alibaba Cloud нарастил квартальную выручку до 41,63 млрд юаней (+40% год к году за счёт внешней коммерциализации) и одновременно объявил о новых дата-центрах в Париже, Джохоре, Мексике, Японии, Корее и Дубае — про облачную и ИИ-инфраструктуру Китая подробнее в программе <a href="https://globaltechtour.ru/expeditions/uae-ai-tech-expedition">по ИИ и технологиям ОАЭ</a>. Компания делает ставку на спрос со стороны ИИ-инференса, напрямую конкурируя с AWS и Azure за зарубежных корпоративных клиентов.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #AlibabaCloud #ИИ
+
+**Character count:** 706
+
+**Image prompt:**
+Photorealistic editorial photo of a modern data center facility interior with rows of server racks and blue ambient lighting, technician monitoring systems, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/uae-ai-tech-expedition (verified exists: tours.json tour_id "uae-ai-tech-expedition", sector "ai"; company card exists: /companies/alibaba-cloud-me, sector "ai").
+
+**Sources checked:** Pandaily (Alibaba Cloud overseas expansion, July 2026), DatacenterDynamics coverage.
+
+---
+
+# 2026-09-16
+
+## 2026-09-16 — GlobalTechTour — Short-video/live-commerce ecosystem (09:00, analytical)
+**Slug:** china-short-video-livecommerce-2026
+
+**Post text (HTML, ready to send):**
+<b>Короткое видео как экспортный товар: китайские приложения захватывают мировой топ загрузок</b>
+
+Китайские приложения для создания и монтажа видео устойчиво занимают верхние строчки мировых рейтингов загрузок — формат, рождённый внутри китайской live-commerce экосистемы, оказался универсальным продуктом для глобального рынка. Успех подобных приложений строится на плотной интеграции ИИ-инструментов монтажа прямо в потребительский продукт — то, что западные аналоги пока предлагают заметно позже и по частям, а не единым интегрированным решением.
+
+#GTT #GlobalTechTour #Техтуризм #Видео #ИИ
+
+**Character count:** 570
+
+**Image prompt:**
+Photorealistic editorial photo of a young content creator recording a video with a smartphone gimbal in a bright modern home studio, warm ambient lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** ExpandedRamblings/SendShort CapCut statistics 2026, RestOfWorld CapCut MAU coverage.
+
+## 2026-09-16 — GlobalTechTour — ByteDance CapCut global growth (18:00, sales)
+**Slug:** bytedance-capcut-global-growth-2026
+
+**Post text (HTML, ready to send):**
+<b>CapCut от ByteDance: 800 млн активных пользователей в месяц по всему миру</b>
+
+字节跳动 / ByteDance довёл месячную аудиторию видеоредактора CapCut до свыше 800 млн активных пользователей к апрелю 2026 года, сделав его самым скачиваемым приложением для монтажа видео в мире — про экосистему китайских интернет-платформ подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-tech-giants-expedition">«Технологические гиганты Китая»</a>. В мае 2026 года компания анонсировала интеграцию с Google Gemini прямо внутри приложения — редкий пример прямого партнёрства китайского и американского ИИ-продукта на потребительском уровне.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #ByteDance #CapCut
+
+**Character count:** 719
+
+**Image prompt:**
+Photorealistic editorial photo of a smartphone screen showing a video editing app interface with colorful timeline tracks, held by a hand, blurred creative studio background, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (company card exists: /companies/bytedance, sector "internet").
+
+**Sources checked:** SendShort CapCut statistics 2026, MLQ News (CapCut Gemini integration, May 2026).
+
+# 2026-09-17
+
+## 2026-09-17 — GlobalTechTour — China's silver economy (09:00, analytical)
+**Slug:** china-silver-economy-2026
+
+**Post text (HTML, ready to send):**
+<b>«Серебряная экономика»: как стареющий Китай превращается в рынок для новых продуктов</b>
+
+Демографический сдвиг в Китае формирует спрос, который ещё пять лет назад почти не рассматривался как отдельный потребительский сегмент: товары и услуги для пожилых людей — от медтеха и реабилитации до туризма и финансовых продуктов. Компании из самых разных отраслей — от бытовой техники до фармацевтики — уже перестраивают продуктовые линейки под эту аудиторию, а не рассматривают её как побочный сегмент. Для бизнеса это не благотворительность, а один из немногих сегментов внутреннего спроса, который гарантированно продолжит расти на фоне общего замедления демографии.
+
+#GTT #GlobalTechTour #Техтуризм #СереднаяЭкономика #Китай
+
+**Character count:** 723
+
+**Image prompt:**
+Photorealistic editorial photo of an active elderly Chinese couple using a modern tablet device in a bright comfortable home setting, warm natural lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** People's Daily Online (robotics eldercare fast track), Global Times (eldercare sector resilience, 2026).
+
+## 2026-09-17 — GlobalTechTour — Midea overseas OBM growth (18:00, sales)
+**Slug:** midea-overseas-obm-growth-2026
+
+**Post text (HTML, ready to send):**
+<b>Midea: зарубежная выручка почти 196 млрд юаней, и уже почти половина — под собственным брендом</b>
+
+美的集团 / Midea заработал за рубежом 195,948 млрд юаней в 2025 году (+15,92% год к году), а доля зарубежного бизнеса под собственными брендами (OBM), а не по контракту для чужих марок, превысила 45% международной розничной выручки — про бытовую электронику Китая подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-appliances-expedition">по электронике и умному дому</a>. К концу 2025 года компания добавила 18 новых зарубежных производственных площадок, доведя их общее число до 63 — от контрактного производителя до владельца собственных заводов и брендов за рубежом.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Midea #БытоваяТехника
+
+**Character count:** 745
+
+**Image prompt:**
+Photorealistic editorial photo of a modern appliance manufacturing facility exterior with company delivery trucks loading products, bright daylight, wide angle, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-appliances-expedition (company card exists: /companies/midea, sector "electronics").
+
+**Sources checked:** Caixin Global (Midea OBM strategy, 2025), 36kr (Midea overseas expansion 2026).
+
+---
+
+# 2026-09-18
+
+## 2026-09-18 — GlobalTechTour — EV battery swap standardization (09:00, analytical)
+**Slug:** china-battery-swap-standard-2026
+
+**Post text (HTML, ready to send):**
+<b>Обмен батареи вместо зарядки: китайская альтернатива заправке набирает 9000+ станций</b>
+
+Сеть станций замены аккумуляторов для электромобилей в Китае превысила 9000 объектов по всему миру, а совокупное число операций замены батарей приближается к 110 млн — модель, альтернативная классической зарядной инфраструктуре: замена батареи занимает минуты вместо десятков минут зарядки. Ставка на этот формат остаётся дорогостоящей (речь о миллиардных инвестициях в развитие сети), но там, где она прижилась, потребители явно предпочитают её обычной быстрой зарядке для повседневного использования.
+
+#GTT #GlobalTechTour #Техтуризм #EV #Инфраструктура
+
+**Character count:** 660
+
+**Image prompt:**
+Photorealistic editorial photo of an automated battery swap station for electric vehicles with a car positioned for service, bright clean facility lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** NIO official press release (100 million battery swaps, Feb 2026), FuelCellsWorks (9,000 stations milestone, June 2026).
+
+## 2026-09-18 — GlobalTechTour — NIO Europe battery swap (18:00, sales)
+**Slug:** nio-europe-battery-swap-2026
+
+**Post text (HTML, ready to send):**
+<b>NIO: 60 станций замены батарей уже работают в шести странах Европы</b>
+
+蔚来 / NIO развернул 60 станций замены аккумуляторов в шести европейских странах, преимущественно в Норвегии и Германии, и рассчитывает выйти на отметку в 500 станций к концу 2026 года — про экосистему китайских электромобилей подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-auto-plants-expedition">по автозаводам Китая</a>. Компания привлекла 2,6 млрд долларов на развитие технологии замены батарей и планирует добавить ещё 1000 станций по всему миру в 2026 году — при этом рост именно европейской сети заметно замедлился после сокращения региональных инвестиций.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #NIO #EV
+
+**Character count:** 743
+
+**Image prompt:**
+Photorealistic editorial photo of a modern NIO-style battery swap station in a European city setting with an electric car being serviced, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-auto-plants-expedition (company card exists: /companies/nio, sector "auto").
+
+**Sources checked:** SCMP (NIO $2.6B battery swap bet), NIO.com Europe expansion press release.
+
+---
+
+# 2026-09-19
+
+## 2026-09-19 — GlobalTechTour — Chinese condiment export growth (09:00, analytical)
+**Slug:** china-condiment-export-growth-2026
+
+**Post text (HTML, ready to send):**
+<b>Соевый соус как экспортный товар: скромная доля, но растущий аппетит</b>
+
+Мировой спрос на азиатские соусы и приправы, включая соевый соус, по прогнозам, будет расти в среднем на 7,9% в год — драйвером выступает растущий интерес западных потребителей к азиатской кулинарной культуре, особенно заметный в Европе. Пока зарубежная выручка у большинства китайских производителей приправ остаётся минимальной долей общих продаж, но именно это делает сегмент интересным: рынок ещё далёк от насыщения, а конкуренция с устоявшимися брендами вроде Kikkoman только начинается по-настоящему.
+
+#GTT #GlobalTechTour #Техтуризм #Пищепром #Экспорт
+
+**Character count:** 653
+
+**Image prompt:**
+Photorealistic editorial photo of glass bottles of dark soy sauce and condiments displayed on a wooden kitchen counter with fresh ingredients nearby, warm natural lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** Coherent Market Insights (dark soy sauce market forecast), thebambooworks.com Haitian IPO coverage.
+
+## 2026-09-19 — GlobalTechTour — Haitian Flavouring global push (18:00, sales)
+**Slug:** haitian-flavouring-global-push-2026
+
+**Post text (HTML, ready to send):**
+<b>Haitian привлёк 1,29 млрд долларов на бирже Гонконга — и почти пятую часть направит на глобальный бренд</b>
+
+海天味业 / Foshan Haitian Flavouring — крупнейший производитель соевого соуса и приправ в Китае — привлёк около 1,29 млрд долларов на IPO в Гонконге в 2025 году, направив порядка 20% средств на построение глобального бренда, расширение каналов сбыта и цепочки поставок за рубежом; про пищевую индустрию Китая подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-tea-coffee-retail-expedition">по чаю, кофе и ритейлу</a>. Разница в подходах к рынку и вкусовым стандартам разных стран остаётся главным барьером — компания открыто называет её основным вызовом собственной экспансии.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Haitian #Пищепром
+
+**Character count:** 794
+
+**Image prompt:**
+Photorealistic editorial photo of a modern condiment bottling production line with glass bottles moving along a conveyor, bright clean industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tea-coffee-retail-expedition (company card exists: /companies/haitian, sector "food").
+
+**Sources checked:** EqualOcean (Haitian HKEX listing, 2025), thebambooworks.com IPO analysis.
+
+# 2026-09-20
+
+## 2026-09-20 — GlobalTechTour — China pharma CDMO boom (09:00, analytical)
+**Slug:** china-pharma-cdmo-boom-2026
+
+**Post text (HTML, ready to send):**
+<b>Китайские CDMO выходят в мировые лидеры контрактной фармпроизводства</b>
+
+Контрактные производители лекарств и биопрепаратов (CDMO) из Китая последовательно наращивают долю мирового рынка — компании этого профиля сочетают более низкую себестоимость с растущей технологической базой, изначально выстроенной для внутреннего рынка. Модель, при которой китайская компания зарабатывает на производстве и разработке чужих препаратов, а не на продаже собственных лекарств, оказалась на удивление устойчивой к колебаниям спроса на конкретные молекулы — заказы поступают от десятков фармгигантов одновременно, а не от одного клиента.
+
+#GTT #GlobalTechTour #Техтуризм #Фарма #CDMO
+
+**Character count:** 662
+
+**Image prompt:**
+Photorealistic editorial photo of a modern pharmaceutical manufacturing cleanroom with bioreactor tanks and technicians in protective gear, bright clinical lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** BigGo Finance (WuXi AppTec H1 2026 results), BioSpace (WuXi AppTec Q1 2026 growth).
+
+## 2026-09-20 — GlobalTechTour — WuXi AppTec overtakes Lonza (18:00, sales)
+**Slug:** wuxi-apptec-overtakes-lonza-2026
+
+**Post text (HTML, ready to send):**
+<b>WuXi AppTec обошёл швейцарский Lonza и стал №1 в мире по контрактному производству лекарств</b>
+
+药明康德 / WuXi AppTec заработал 28,9 млрд юаней (около 4,3 млрд долларов) выручки за первое полугодие 2026 года, впервые обойдя швейцарского конкурента Lonza и заняв первое место в мире среди CDMO-компаний, а выручка сегмента малых молекул выросла на 80,1% год к году; про биотех и фарму Китая подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-tech-giants-expedition">«Технологические гиганты Китая»</a>. На конец 2025 года зарубежные заказы составляли 68% портфеля компании, а выручка от клиентов из США достигла 31,25 млрд юаней.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #WuXiAppTec #Фарма
+
+**Character count:** 749
+
+**Image prompt:**
+Photorealistic editorial photo of scientists in a modern pharmaceutical research lab examining molecular structure models on a large screen, bright clean lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (company card exists: /companies/wuxi-apptec, sector "medtech").
+
+**Sources checked:** BigGo Finance (WuXi AppTec overtakes Lonza, H1 2026), PRNewswire Q1 2026 results.
+
+---
+
+# 2026-09-21
+
+## 2026-09-21 — GlobalTechTour — Huawei-backed smart EV ecosystem (09:00, analytical)
+**Slug:** huawei-smart-ev-ecosystem-2026
+
+**Post text (HTML, ready to send):**
+<b>Huawei не делает машины сама — но определяет, как выглядит салон китайского электромобиля</b>
+
+Модель, при которой Huawei поставляет автопроизводителям программную платформу, автопилот и мультимедийную систему, а не собственный автомобиль, стала одной из самых успешных стратегий выхода технологической компании на автомобильный рынок Китая — партнёрские бренды вроде Aito (от Seres) целятся на миллион продаж в год к 2030 году. Такая модель снимает с Huawei капиталоёмкие риски автопроизводства, при этом позволяя монетизировать разработки в области ИИ и автопилота через десятки партнёрских автоконцернов одновременно.
+
+#GTT #GlobalTechTour #Техтуризм #Huawei #EV
+
+**Character count:** 674
+
+**Image prompt:**
+Photorealistic editorial photo of a modern electric car interior showcasing a large touchscreen infotainment display and minimalist dashboard design, soft ambient lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** ChoZan (Seres/Aito/Huawei smart EV strategy), Reuters via Timeslive (Aito 1M sales target, April 2026).
+
+## 2026-09-21 — GlobalTechTour — Aito Middle East expansion (18:00, sales)
+**Slug:** aito-middle-east-expansion-2026
+
+**Post text (HTML, ready to send):**
+<b>Aito, бренд на платформе Huawei, выходит в ОАЭ, Саудовскую Аравию и Катар</b>
+
+问界 / Aito — автомобильный бренд Seres Group на программной платформе Huawei — в феврале 2026 года подписал соглашение с абудабийским дилером Performance Plus Motors для выхода на рынок Ближнего Востока, а к концу года планирует розничное присутствие по всему региону Персидского залива с фокусом на Саудовскую Аравию и Катар; про технологическую экосистему Huawei подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-tech-giants-expedition">«Технологические гиганты Китая»</a>. Сейчас на зарубежные продажи приходится менее 1% объёма бренда — компания рассчитывает довести эту долю до 20% в течение трёх лет.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Aito #Huawei
+
+**Character count:** 786
+
+**Image prompt:**
+Photorealistic editorial photo of a modern electric SUV parked at a luxury car dealership showroom in the Middle East with desert-inspired architecture visible outside, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (no dedicated Aito/Seres company card; linking via Huawei ecosystem tour as closest thematic fallback — company card /companies/huawei exists separately for direct Huawei mentions).
+
+**Sources checked:** Technobezz (Aito UAE market entry), chinaglobalsouth.com (Aito Middle East, Feb 2026).
+
+---
+
+# 2026-09-22
+
+## 2026-09-22 — GlobalTechTour — Foreign heavy-industry FDI resilience (09:00, analytical)
+**Slug:** foreign-heavy-industry-fdi-china-2026
+
+**Post text (HTML, ready to send):**
+<b>Пока часть капитала уходит из Китая, тяжёлая химия продолжает получать миллиардные инвестиции</b>
+
+На фоне общего охлаждения интереса иностранных инвесторов к Китаю отдельные сегменты тяжёлой промышленности продолжают привлекать капитал в прежних масштабах — крупные интегрированные химические и нефтехимические комплексы остаются исключением из общего тренда. Причина простая: такие проекты строятся на горизонте 5-10 лет и завязаны на доступ к местному рынку сбыта и цепочкам поставок, которые невозможно быстро воспроизвести в другой стране — инвестор, вложивший миллиарды в стройку, не станет сворачивать проект из-за краткосрочной геополитической турбулентности.
+
+#GTT #GlobalTechTour #Техтуризм #Инвестиции #ТяжПром
+
+**Character count:** 725
+
+**Image prompt:**
+Photorealistic editorial photo of a massive modern petrochemical industrial complex with steam and pipelines under a clear sky, wide industrial shot, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** company data from GlobalTechTour's own companies.json (BASF Zhanjiang Verbund record, verified against public BASF project announcements).
+
+## 2026-09-22 — GlobalTechTour — BASF Zhanjiang Verbund (18:00, sales)
+**Slug:** basf-zhanjiang-verbund-2026
+
+**Post text (HTML, ready to send):**
+<b>BASF запустил в Чжанцзяне первый в мире паровой крекинг на возобновляемой энергии</b>
+
+BASF Zhanjiang Verbund — седьмая интегрированная производственная площадка BASF в мире и третья по величине после Людвигсхафена и Антверпена — запустила паровой крекинг в январе 2026 года, и это первая в мире подобная установка, чьи основные компрессоры работают на 100% возобновляемой электроэнергии; про промышленные кластеры юга Китая подробнее в программе <a href="https://globaltechtour.ru/expeditions/china-petrochemicals-guangdong-expedition">по нефтехимии Гуандуна</a>. Мощность по этилену — 1 млн тонн в год, инвестиции — около 8,7 млрд евро (уложились ниже первоначального бюджета), штат превышает 2000 человек.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #BASF #Нефтехимия
+
+**Character count:** 793
+
+**Image prompt:**
+Photorealistic editorial photo of a large modern chemical plant with steam crackers and industrial towers powered by visible wind turbines in the background, bright daylight, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-petrochemicals-guangdong-expedition (verified exists: tours.json tour_id "china-petrochemicals-guangdong-expedition", sector "heavy"; company card exists: /companies/basf-zhanjiang, sector "heavy").
+
+**Sources checked:** GlobalTechTour's own companies.json record (basf-zhanjiang), consistent with public BASF Zhanjiang Verbund project announcements (steam cracker startup January 2026).
+
+# 2026-09-23
+
+## 2026-09-23 — GlobalTechTour — Robotics investment draws benchmarking demand (09:00, analytical)
+**Slug:** china-robotics-investment-benchmarking-2026
+
+**Post text (HTML, ready to send):**
+<b>Всемирная конференция роботов в Пекине собрала рекордные 300+ компаний — и рекордный интерес зарубежного бизнеса</b>
+
+Всемирная конференция роботов (WRC) 2026 в Пекине (19-23 августа) собрала свыше 300 компаний — на 69% больше, чем годом ранее — и более 3000 экспонатов, из них свыше 150 премьер. Для иностранного бизнеса, который хочет увидеть не рекламные ролики, а реальное производство и реальные пилотные внедрения, подобные выставки становятся точкой входа в китайскую робототехнику — компактный способ оценить масштаб отрасли за несколько дней вместо месяцев переписки с отдельными поставщиками.
+
+#GTT #GlobalTechTour #Техтуризм #Робототехника #WRC2026
+
+**Character count:** 660
+
+**Image prompt:**
+Photorealistic editorial photo of international business visitors examining robotic exhibits at a large trade show booth, bright convention lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** robot-china.com (WRC 2026 coverage), CGTN (World Robot Conference, Aug 2026).
+
+## 2026-09-23 — GlobalTechTour — Robotics Expedition tour (18:00, sales)
+**Slug:** robotics-expedition-tour-2026
+
+**Post text (HTML, ready to send):**
+<b>Прямой доступ на производства лидеров робототехники Китая — без месяцев переговоров</b>
+
+Пока конференции вроде WRC 2026 показывают отрасль на выставочном стенде, программа <a href="https://globaltechtour.ru/expeditions/robotics-expedition">Robotics Expedition</a> организует закрытые визиты напрямую на производственные площадки лидеров китайской робототехники в Пекине, Шанхае и Шэньчжэне — маршрут из пяти дней и двенадцати компаний, куда самостоятельно попасть практически невозможно. Это разница между просмотром демо на сцене и разговором с инженерами прямо в цехе, где рождается следующее поколение продукции.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Робототехника #БизнесТур
+
+**Character count:** 686
+
+**Image prompt:**
+Photorealistic editorial photo of a small group of international business visitors touring a modern robotics factory floor with an engineer guide explaining equipment, bright industrial lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/robotics-expedition (verified exists: tours.json tour_id "robotics-expedition", sector "robotics").
+
+**Sources checked:** GlobalTechTour's own tours.json (robotics-expedition itinerary, 12 companies, Beijing/Shanghai/Shenzhen route).
+
+---
+
+# 2026-09-24
+
+## 2026-09-24 — GlobalTechTour — Cross-border digital payments in SEA (09:00, analytical)
+**Slug:** china-cross-border-payments-sea-2026
+
+**Post text (HTML, ready to send):**
+<b>Alipay в Джакарте, Ханое и Куала-Лумпуре: китайские платежи становятся региональным стандартом</b>
+
+В 2026 году национальные QR-платёжные системы Индонезии, Малайзии, Таиланда и Вьетнама одна за другой интегрируются напрямую с китайскими платёжными платформами вроде Alipay и WeChat Pay — во Вьетнаме, например, платформа NAPAS совместно с Ant International и Vietcombank запустила трансграничные QR-платежи, позволяющие китайским туристам платить через Alipay по всей торговой сети NAPAS с автоматической конвертацией юаня в донг. Alipay+ уже принимается в более чем 220 странах и регионах мира — для бизнеса это означает, что расчёты с китайскими партнёрами и туристами в регионе становятся всё менее зависимыми от посредников.
+
+#GTT #GlobalTechTour #Техтуризм #ЮВА #Платежи
+
+**Character count:** 794
+
+**Image prompt:**
+Photorealistic editorial photo of a street food vendor in Southeast Asia accepting a mobile QR code payment from a customer's smartphone, warm evening market lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** SCMP (China-Indonesia cross-border QR payments), Xinhua (Indonesia-China QRIS launch, May 2026), Businesswire (Alipay+ bank partners, July 2026).
+
+## 2026-09-24 — GlobalTechTour — China fintech giants tour (18:00, sales)
+**Slug:** china-fintech-giants-tour-2026
+
+**Post text (HTML, ready to send):**
+<b>Увидеть, как устроена платёжная инфраструктура, которая уже работает в 220+ странах</b>
+
+Платёжные экосистемы уровня Alipay строились не за один год — это результат десятилетий выстраивания инфраструктуры, регуляторных партнёрств и интеграций с банками по всему миру, и программа <a href="https://globaltechtour.ru/expeditions/china-fintech-giants-expedition">«Финтех-гиганты Китая»</a> показывает эту машину изнутри: от процессинговых центров до команд, которые ведут переговоры с зарубежными платёжными системами. Для тех, кто работает с трансграничными расчётами или планирует выход на азиатские рынки, это редкая возможность увидеть логику таких партнёрств из первых рук.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Финтех #БизнесТур
+
+**Character count:** 703
+
+**Image prompt:**
+Photorealistic editorial photo of a modern fintech company office with a large screen displaying global payment transaction flows, professionals discussing near the display, bright office lighting, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-fintech-giants-expedition (verified exists: tours.json tour_id "china-fintech-giants-expedition", sector "finance").
+
+**Sources checked:** GlobalTechTour's own tours.json (china-fintech-giants-expedition itinerary).
+
+---
+
+# 2026-09-25
+
+## 2026-09-25 — GlobalTechTour — Half-year China business scorecard (09:00, analytical)
+**Slug:** china-business-2026-mid-year-scorecard
+
+**Post text (HTML, ready to send):**
+<b>Полугодовой счёт китайского бизнеса: от 45 000 машин XPeng за рубежом до 32 000 экспонентов на Canton Fair</b>
+
+Первая половина 2026 года дала china-watcher'ам необычно плотный поток данных: XPeng нарастил зарубежные поставки на 96% за год, WuXi AppTec обошёл швейцарский Lonza в контрактной фарме, Midea заработал за рубежом почти 196 млрд юаней, а Canton Fair собрала 32 000 экспонентов при заметном сдвиге в сторону робототехники. Общий знаменатель у всех этих историй один: китайские компании во всё большем числе отраслей перестают быть просто экспортёрами дешёвых товаров и превращаются в игроков с собственными брендами, локальным производством за рубежом и растущей рыночной властью.
+
+#GTT #GlobalTechTour #Техтуризм #Итоги #Китай
+
+**Character count:** 780
+
+**Image prompt:**
+Photorealistic editorial photo of a diverse montage-style scene showing a modern factory, a shipping port, and a retail storefront in soft transition lighting, cinematic wide shot, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** none (analytical 09:00 slot).
+
+**Sources checked:** recap of previously verified sources from this batch (CnEVPost XPeng, BigGo Finance WuXi AppTec, Caixin Midea, CGTN Canton Fair).
+
+## 2026-09-25 — GlobalTechTour — China Tech Giants tour wrap-up (18:00, sales)
+**Slug:** china-tech-giants-tour-wrapup-2026
+
+**Post text (HTML, ready to send):**
+<b>Один маршрут — весь спектр китайского технологического бизнеса</b>
+
+От облачной инфраструктуры Alibaba Cloud до платёжных систем, от полупроводниковых фабрик до экосистемы коротких видео — весь этот срез китайского бизнеса собран в одном маршруте программы <a href="https://globaltechtour.ru/expeditions/china-tech-giants-expedition">«Технологические гиганты Китая»</a>, где встречи организованы напрямую с компаниями, а не через посредников. Осенний сезон — удачное время для визита: деловая активность после летнего затишья восстанавливается, а именно в этот период проходят и крупные отраслевые выставки вроде осенней сессии Canton Fair.
+
+🔗 https://globaltechtour.ru/ — программы туров
+
+#GTT #GlobalTechTour #Техтуризм #Технологии #БизнесТур
+
+**Character count:** 693
+
+**Image prompt:**
+Photorealistic editorial photo of a small group of international business travelers being welcomed at a modern Chinese tech company headquarters entrance, bright daylight, cinematic color grading, high detail. No text, no logos, no brand names, no watermarks anywhere in the image.
+
+**Internal link target:** https://globaltechtour.ru/expeditions/china-tech-giants-expedition (verified exists: tours.json tour_id "china-tech-giants-expedition", sector "flagship").
+
+**Sources checked:** GlobalTechTour's own tours.json (china-tech-giants-expedition itinerary), Canton Fair official autumn 2026 schedule (Oct 15 – Nov 4).

@@ -33,7 +33,7 @@
           "https://benchmarking.duibiao.org"
         ],
         "priority": "medium",
-        "note": "Крупнейший каталог целей, ориентир по ценам",
+        "note": "Крупнейший каталог целей, ориентир по ценам. ПРИМЕЧАНИЕ 2026-09-08: duibiao.org не резолвится по DNS (аналогично retailinasia.com и robotsci.com.cn) — возможно домен сменился/мёртв, стоит проверить website_alt (qykc.cn) в ближайшем цикле.",
         "social": {
           "linkedin": "https://cn.linkedin.com/company/中国标杆学习俱乐部"
         }

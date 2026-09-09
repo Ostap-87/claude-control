@@ -1,5 +1,9 @@
 {
-  "ostapdotcenko": "https://hook.eu1.make.com/gxpzqodbic6f1xmvfahdvwgeh6li1q0p",
-  "globaltechtour": null,
-  "aura": null
+  "webhook_url": "https://hook.eu1.make.com/gxpzqodbic6f1xmvfahdvwgeh6li1q0p",
+  "page_ids": {
+    "ostapdotcenko": "1209545262252175",
+    "aura": "1275368875661067",
+    "globaltechtour": "1254540414416697"
+  },
+  "note": "Single shared Make.com scenario (fb-post-ostapdotcenko) with a Facebook Pages 'Create a Post' module whose Page field is mapped to {{1.page_id}} from the webhook payload. Send {\"page_id\": \"<one of the above>\", \"text\": \"...\"} to webhook_url to post to that project's page."
 }

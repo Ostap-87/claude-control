@@ -5,5 +5,7 @@
     "aura": "1275368875661067",
     "globaltechtour": "1254540414416697"
   },
-  "note": "Single shared Make.com scenario (fb-post-ostapdotcenko) with a Facebook Pages 'Create a Post' module whose Page field is mapped to {{1.page_id}} from the webhook payload. Send {\"page_id\": \"<one of the above>\", \"text\": \"...\"} to webhook_url to post to that project's page."
+  "verified": true,
+  "verified_at": "2026-09-09",
+  "note": "Single shared Make.com scenario ('Integration Webhooks', id 7324763) with a Facebook Pages 'Create a Post' module. Its Page field is mapped to {{1.page_id}} and Post caption to {{1.text}} from the webhook payload. To post: POST {\"page_id\": \"<one of the above>\", \"text\": \"...\"} to webhook_url. All three page_ids verified working via live test posts on 2026-09-09."
 }

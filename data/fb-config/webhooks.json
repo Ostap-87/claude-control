@@ -1,11 +1,30 @@
 {
-  "webhook_url": "https://hook.eu1.make.com/gxpzqodbic6f1xmvfahdvwgeh6li1q0p",
-  "page_ids": {
-    "ostapdotcenko": "1209545262252175",
-    "aura": "1275368875661067",
-    "globaltechtour": "1254540414416697"
+  "scenarios": {
+    "ostapdotcenko": {
+      "webhook_url": "https://hook.eu1.make.com/snp4of292sf84wop6lpdrax2o2r697jc",
+      "page_id": "1209545262252175",
+      "scenario_name": "FB-POST-OSTAPDOTCENKO",
+      "content_mode": "mirrors_blog",
+      "payload_shape": "{\"text\": \"...\", \"image\": \"https://...\"}",
+      "verified": true
+    },
+    "aura": {
+      "webhook_url": "https://hook.eu1.make.com/jxacbw4cc6n7tqrhbxt5362bxjfi760f",
+      "page_id": "1275368875661067",
+      "scenario_name": "FB-POST-AURA-GTT",
+      "content_mode": "original",
+      "payload_shape": "{\"project\": \"aura\", \"text\": \"...\", \"image\": \"https://...\"}",
+      "verified": true
+    },
+    "globaltechtour": {
+      "webhook_url": "https://hook.eu1.make.com/jxacbw4cc6n7tqrhbxt5362bxjfi760f",
+      "page_id": "1254540414416697",
+      "scenario_name": "FB-POST-AURA-GTT",
+      "content_mode": "original",
+      "payload_shape": "{\"project\": \"globaltechtour\", \"text\": \"...\", \"image\": \"https://...\"}",
+      "verified": true
+    }
   },
-  "verified": true,
-  "verified_at": "2026-09-09",
-  "note": "Single shared Make.com scenario ('Integration Webhooks', id 7324763) with a Facebook Pages 'Create a Post' module. Its Page field is mapped to {{1.page_id}} and Post caption to {{1.text}} from the webhook payload. To post: POST {\"page_id\": \"<one of the above>\", \"text\": \"...\"} to webhook_url. All three page_ids verified working via live test posts on 2026-09-09."
+  "rebuilt_at": "2026-09-11",
+  "note": "Two Make.com scenarios total (free-plan limit is 2 active scenarios): (1) FB-POST-OSTAPDOTCENKO — its own webhook, Page fixed to ostapdotcenko, payload {text, image}, no 'project' field needed. (2) FB-POST-AURA-GTT — ONE shared webhook for both Aura and Global Tech Tour, with a Router splitting on the payload's 'project' field ('aura' or 'globaltechtour', lowercase exact match — filters are case-sensitive, this bit us once) into two Facebook Pages 'Create a Post with Photos' branches, each with its Page fixed. All Facebook Pages modules: Photos->URL mapped to {{1.image}}, Post caption mapped to {{1.text}}. No 'link' field anywhere — the article/site URL is folded into the text itself since these are native photo posts, not link-preview cards. content_mode 'mirrors_blog' (ostapdotcenko only): the FB post reuses that project's own blog article title/excerpt/cover image directly — see ostapdotcenko/scripts/post-to-facebook.mjs, run manually after publishing a new RU blog article. content_mode 'original' (aura, globaltechtour): the FB post MUST be original content, meaningfully different from that day's blog article and Telegram posts — drafted as JSON ({text, image}) in claude-control/data/fb-queue/<project>/<name>.json, posted via `node claude-control/scripts/post-to-facebook.mjs <project> <name>.json`, which reads this file for the right webhook_url and folds in the project field automatically, then moves the draft to fb-queue/<project>/sent/."
 }

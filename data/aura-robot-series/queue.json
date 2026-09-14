@@ -1,0 +1,21 @@
+{
+  "source_doc": "https://docs.google.com/document/d/1csafRnBt8sycBTXU6Evu1v0oY0qr86Iw",
+  "photos_folder": "https://drive.google.com/drive/folders/1jFfH8cdOIHlFpei4ZyI71qWRzJH7zNQf",
+  "schedule": "Пн и Ср, только Facebook (RU), аккаунт Aura Robotics",
+  "note": "Каждая запись — одна компания. photo_drive_id ведёт на файл в papке photos_folder. Текст RU нужно скопировать из source_doc целиком (см. инструкцию в самом документе), картинку скачать и запушить в aura/public/fb-media/<slug>.jpg, затем queue+publish через claude-control/scripts/post-to-facebook.mjs aura <file>.json (как это было сделано для matrix-robotics, см. sent/).",
+  "published": [
+    { "company": "Matrix Robotics", "date": "2026-09-14", "photo_drive_id": "19JMIzzH8l9IYFNhOpQljdHOUvdNOY_DO" }
+  ],
+  "pending": [
+    { "company": "DroidUp", "photo_drive_id": "1B0vuYyuEbOX41uqVJnUT3ynDwwXkZQCl", "photo_filename": "DroidUp.jpeg" },
+    { "company": "UBTech", "photo_drive_id": "17w-3DFHaTsi-9iJkE7fHEfq24IWtouNg", "photo_filename": "UBtech.jpeg" },
+    { "company": "Robotera", "photo_drive_id": "12RIIQKK2o_vYP9XWnIo50IasA9BcvLBk", "photo_filename": "Robotera.jpeg" },
+    { "company": "AgiBot", "photo_drive_id": "1BdMiOLfsCswwIv5PborfDCkvCFtDjsH4", "photo_filename": "Agibot.jpeg" },
+    { "company": "Fourier", "photo_drive_id": "1AFLOjMQvQ7KxljGch1T8FTl0RP-doEMo", "photo_filename": "Fourier.jpeg" },
+    { "company": "Kepler", "photo_drive_id": "17cV7ngS9EwegLMpxv_e740G4tA6DEb0h", "photo_filename": "Kepler.jpeg" },
+    { "company": "Leju Robotics", "photo_drive_id": "1MSzW4gTm5Qvij_B2NOliMjhdyTsFkzoH", "photo_filename": "Leju Robotics.jpeg" },
+    { "company": "LimX Dynamics", "photo_drive_id": "1nkj206k0UQXbL6STSqSJ18gieDgbYUko", "photo_filename": "Lymx Dynamics.jpeg" },
+    { "company": "EngineAI", "photo_drive_id": "1FeM-MCtlYgho3U8fd2qKiAjsne5peoHG", "photo_filename": "EngineAI.jpeg" },
+    { "company": "Galbot", "photo_drive_id": "1OZst7Wy5vIBruASQfAJG-fQwp2pKIB9J", "photo_filename": "Galbot.jpeg" }
+  ]
+}

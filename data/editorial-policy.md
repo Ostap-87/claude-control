@@ -366,14 +366,15 @@
 
 Отдельная серия из 11 постов про конкретные компании-производители гуманоидов (Matrix Robotics, DroidUp, UBTech, Robotera, AgiBot, Fourier, Kepler, Leju Robotics, LimX Dynamics, EngineAI, Galbot) — готовые тексты (RU+EN) взяты из документа пользователя, фото — из его папки на Google Drive. Работает по правилу `content_mode: original` выше (это оригинальный, не блоговый контент), но публикуется **только в Facebook на русском**, LinkedIn не участвует (для Aura LinkedIn-канал вообще не настроен, есть только для ostapdotcenko).
 
-- **Расписание**: по понедельникам и средам, один пост за раз, по порядку из очереди.
-- **Состояние очереди**: `data/aura-robot-series/queue.json` — поле `published` (что уже вышло) и `pending` (что осталось, по порядку). Каждая запись — `{company, photo_drive_id, photo_filename}`.
+- **Расписание**: по понедельникам и средам в 09:00 МСК, один пост за раз, по порядку из очереди. Durable-триггер `trig_01ATFBCogrL8rbhwScCphazT` ("Aura FB: серия постов про робокомпании (пн/ср)") будит эту же сессию по cron `0 6 * * 1,3` (UTC).
+- **Всё уже подготовлено заранее, без зависимости от Google Drive/Docs при публикации**: все 11 фото скачаны и лежат в репозитории `aura` под `public/fb-media/<slug>.jpg`, все 11 текстов (RU) извлечены из исходного документа и лежат локально в `claude-control/data/aura-robot-series/texts/<slug>.txt`. Триггер, которым это запускается, не хранит коннектор Google Drive — поэтому публикация следующих постов не должна на него полагаться.
+- **Состояние очереди**: `data/aura-robot-series/queue.json` — поле `published` (что уже вышло) и `pending` (что осталось, по порядку). Каждая запись — `{company, slug}`, где `slug` — общее имя файла в `texts/<slug>.txt` (claude-control) и `public/fb-media/<slug>.jpg` (aura).
 - **Как публиковать следующий пост по расписанию**:
   1. Взять первую запись из `pending` в `queue.json`.
-  2. Скачать её фото по `photo_drive_id` с Google Drive (`mcp__Google_Drive__download_file_content`), сохранить как `<slug-компании>.jpg`.
-  3. Запушить фото в `aura` репозиторий: `public/fb-media/<slug-компании>.jpg`, взять публичный URL вида `https://raw.githubusercontent.com/Ostap-87/aura/main/public/fb-media/<slug-компании>.jpg`.
-  4. Скопировать RU-текст поста для этой компании из исходного документа (`source_doc` в queue.json) **целиком, без сокращений** — с подзаголовками и финальной строкой ссылок.
-  5. Создать черновик `data/fb-queue/aura/<slug-компании>.json` — `{"text": "...", "image": "https://..."}`.
-  6. Опубликовать: `node scripts/post-to-facebook.mjs aura <slug-компании>.json`.
-  7. Обновить `queue.json`: перенести компанию из `pending` в `published` (с датой), закоммитить и запушить claude-control.
-- Если для компании из очереди не находится файл с фото по названию — не публиковать без фото и не подставлять случайное изображение, сообщить пользователю, для какой компании фото отсутствует (см. исходную инструкцию в документе).
+  2. Прочитать текст `data/aura-robot-series/texts/<slug>.txt` (claude-control) — публиковать целиком, без сокращений.
+  3. Картинка уже в репозитории `aura`, публичный URL: `https://raw.githubusercontent.com/Ostap-87/aura/main/public/fb-media/<slug>.jpg`.
+  4. Создать черновик `data/fb-queue/aura/<slug>.json` — `{"text": "...", "image": "https://..."}`.
+  5. Опубликовать: `node scripts/post-to-facebook.mjs aura <slug>.json`.
+  6. Обновить `queue.json`: перенести компанию из `pending` в `published` (с датой), закоммитить и запушить claude-control.
+- Если `pending` пуст — серия закончена, сообщить пользователю через `commands/outbox/` и ничего больше не делать.
+- Если понадобится расширить серию новыми компаниями — новые фото/тексты нужно будет добавить тем же способом (скачать из Drive/Docs вручную, когда есть доступ к коннектору, и так же сохранить локально) — см. исходную инструкцию про соответствие фото/компании в документе-источнике.

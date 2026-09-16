@@ -4,10 +4,10 @@
   "schedule": "Пн и Ср, 09:30 МСК, только Facebook (RU), аккаунт Aura Robotics",
   "note": "Все тексты (RU) уже извлечены из source_doc и лежат локально в data/aura-robot-series/texts/<slug>.txt — дальнейшие публикации НЕ требуют доступа к Google Docs/Drive. Все фото уже скачаны и запушены в репозиторий aura под public/fb-media/<slug>.jpg. slug в этом файле = имя .txt/.jpg файла без расширения.",
   "published": [
-    { "company": "Matrix Robotics", "slug": "matrix-robotics", "date": "2026-09-14" }
+    { "company": "Matrix Robotics", "slug": "matrix-robotics", "date": "2026-09-14" },
+    { "company": "DroidUp", "slug": "droidup", "date": "2026-09-16" }
   ],
   "pending": [
-    { "company": "DroidUp", "slug": "droidup" },
     { "company": "UBTech", "slug": "ubtech" },
     { "company": "Robotera", "slug": "robotera" },
     { "company": "AgiBot", "slug": "agibot" },

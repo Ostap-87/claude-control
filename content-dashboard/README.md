@@ -7,7 +7,7 @@ Read-only наблюдатель за публикационным пайпла�
 ## Статус
 
 - [x] Фаза 1 — Fastify + SQLite-схема + миграции + seed 9 потоков
-- [~] Фаза 2 — коллекторы: блоги ✅ (Aura/ГТТ/личный) → Telegram ✅ (Aura/ГТТ) → Facebook ⏳ (осталось)
+- [x] Фаза 2 — коллекторы: блоги ✅ (Aura/ГТТ/личный) → Telegram ✅ (Aura/ГТТ) → Facebook ✅ (Aura/ГТТ, включая точный прогноз дат через `src/lib/cadence.js`)
 - [x] Фаза 3 — webhook-приёмник для fb-personal/linkedin-personal (`src/routes/webhooks.js`, сквозной тест пройден)
 - [ ] Фаза 4 — внешние интеграции (Graph API, GA4, Yandex Metrika)
 - [ ] Фаза 5 — уведомления об ошибках
@@ -34,7 +34,7 @@ DASHBOARD_WORKSPACE_ROOT=/workspace npm start   # http://localhost:4100
 - `GET /api/streams` — агрегаты по всем 9 потокам (реальные цифры с продовых данных на 18.09.2026: blog-aura 50 опубл./9 в очереди, blog-gtt то же, blog-personal 12 опубл., tg-aura/tg-gtt 87 опубл./2 в очереди)
 - `GET /api/posts`, `GET /api/posts/:id`, `PATCH /api/posts/:id`
 - `POST /api/webhooks/publish-receipt` — тестовый вызов создаёт `Post(status=published)` + `PublicationEvent`
-- Коллекторы блогов (Aura/ГТТ/личный) и Telegram (Aura/ГТТ) прогнаны на реальных данных — числа опубликованных/в очереди совпали с ручными подсчётами из этого же чата
+- Все 7 коллекторов (блоги ×3, TG ×2, FB ×2) прогнаны на реальных данных — числа опубликованных/в очереди совпали с ручными подсчётами из этого же чата: fb-aura 2 опубл./9 в очереди, fb-gtt 0/26, причём первый пост ГТТ спрогнозирован ровно на сегодня (18.09, пятница — по расписанию пн/ср/пт), а Aura — на понедельник 21.09 (пн/ср). Прогноз считается точно по календарю (`src/lib/cadence.js`), не эвристикой.
 
 ## Структура
 
@@ -49,6 +49,8 @@ content-dashboard/
   src/collectors/index.js      — оркестратор коллекторов
   src/collectors/blog.js       — Aura/ГТТ/личный блог
   src/collectors/telegram.js   — Aura/ГТТ Telegram (tg-queue/tg-publish/sent)
+  src/collectors/facebook.js   — Aura/ГТТ Facebook (разные схемы queue.json у каждого проекта)
+  src/lib/cadence.js           — точный расчёт N-го ближайшего слота по расписанию (не эвристика)
 ```
 
 ## Открытые вопросы (см. чат)

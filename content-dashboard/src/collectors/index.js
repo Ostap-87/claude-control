@@ -1,15 +1,43 @@
-// Phase 2 will implement one function per source here (blogs -> Telegram -> Facebook,
-// in that order per the build plan). Each collector only READS its source and writes
-// normalized rows into Post/PublicationEvent — never writes back to the source itself.
+// Phase 2: blog + Telegram collectors wired up. Facebook (Phase 2 cont'd) still pending.
+import { collectAuraBlog, collectGttBlog, collectPersonalBlog } from "./blog.js";
+import { collectTelegram } from "./telegram.js";
+
+const WORKSPACE = process.env.DASHBOARD_WORKSPACE_ROOT || "/workspace";
+const CLAUDE_CONTROL_DIR = `${WORKSPACE}/claude-control`;
+const AURA_DIR = `${WORKSPACE}/aura`;
+const SINOTECH_DIR = `${WORKSPACE}/sinotech`;
+const OSTAPDOTCENKO_DIR = `${WORKSPACE}/ostapdotcenko`;
+
 export async function runCollectors(db) {
-  // Placeholder for Phase 1: no collectors wired up yet.
-  // Phase 2 will add, in order:
-  //   - collectBlog(db, { streamId: 'blog-aura', repoPath: '...' })
-  //   - collectBlog(db, { streamId: 'blog-gtt', repoPath: '...' })
-  //   - collectBlogPersonal(db)
-  //   - collectTelegram(db, { streamId: 'tg-aura', queuePath: '...' })
-  //   - collectTelegram(db, { streamId: 'tg-gtt', queuePath: '...' })
-  //   - collectFacebookQueue(db, { streamId: 'fb-aura', queueFile: '...' })
-  //   - collectFacebookQueue(db, { streamId: 'fb-gtt', queueFile: '...' })
-  return { ranAt: new Date().toISOString(), collectors: [] };
+  const ran = [];
+  const errors = [];
+
+  const steps = [
+    ["blog-aura", () => collectAuraBlog(db, {
+      repoDir: AURA_DIR,
+      batchFile: `${CLAUDE_CONTROL_DIR}/data/content-plan/aura-blog-15day-batch.json`,
+    })],
+    ["blog-gtt", () => collectGttBlog(db, {
+      repoDir: SINOTECH_DIR,
+      siteContentPath: `${SINOTECH_DIR}/src/data/site_content.example.json`,
+      batchFile: `${CLAUDE_CONTROL_DIR}/data/content-plan/gtt-blog-15day-batch.json`,
+    })],
+    ["blog-personal", () => collectPersonalBlog(db, {
+      repoDir: OSTAPDOTCENKO_DIR,
+      i18nFile: `${OSTAPDOTCENKO_DIR}/src/i18n/ru.ts`,
+    })],
+    ["tg-aura", () => collectTelegram(db, { streamId: "tg-aura", claudeControlDir: CLAUDE_CONTROL_DIR, project: "aura" })],
+    ["tg-gtt", () => collectTelegram(db, { streamId: "tg-gtt", claudeControlDir: CLAUDE_CONTROL_DIR, project: "globaltechtour" })],
+  ];
+
+  for (const [name, fn] of steps) {
+    try {
+      fn();
+      ran.push(name);
+    } catch (err) {
+      errors.push({ name, message: err.message });
+    }
+  }
+
+  return { ranAt: new Date().toISOString(), collectors: ran, errors };
 }

@@ -13,13 +13,14 @@
       "company": "DroidUp",
       "slug": "droidup",
       "date": "2026-09-16"
+    },
+    {
+      "company": "UBTech",
+      "slug": "ubtech",
+      "date": "2026-09-21"
     }
   ],
   "pending": [
-    {
-      "company": "UBTech",
-      "slug": "ubtech"
-    },
     {
       "company": "Robotera",
       "slug": "robotera"

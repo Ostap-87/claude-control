@@ -271,6 +271,7 @@
         "name": "SauceTour",
         "website": "https://saucetour.ru",
         "priority": "high",
+        "note": "ПРИМЕЧАНИЕ 2026-09-28: список кейсов на сайте (saucetour.ru) давно не обновляется (последний публичный кейс — ноябрь 2024). Реальная активность отражается в Telegram-канале (t.me/saucetour) — например, майский 2026 тур в Freshippo/DingDong/JD Logistics/Ele.me/Meituan/Bianlifeng с цифрами по AI. Рекомендация: при мониторинге проверять в первую очередь Telegram-канал, а не сайт.",
         "social": {
           "telegram": "https://t.me/DariaSecrets",
           "telegram_channel": "https://t.me/saucetour",

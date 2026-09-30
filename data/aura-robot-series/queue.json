@@ -28,13 +28,14 @@
       "company": "AgiBot",
       "slug": "agibot",
       "date": "2026-09-28"
+    },
+    {
+      "company": "Fourier",
+      "slug": "fourier",
+      "date": "2026-09-30"
     }
   ],
   "pending": [
-    {
-      "company": "Fourier",
-      "slug": "fourier"
-    },
     {
       "company": "Kepler",
       "slug": "kepler"

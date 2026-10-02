@@ -49,7 +49,8 @@
       "num": 7,
       "slug": "petrochemicals",
       "title": "Нефтехимия — самая скучная тема, которую невозможно сделать смешной, и именно поэтому нужно попробовать",
-      "photo": "https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/fb-media/petrochemicals.jpg"
+      "photo": "https://raw.githubusercontent.com/Ostap-87/sinotech/main/public/fb-media/petrochemicals.jpg",
+      "published_date": "2026-10-02"
     },
     {
       "num": 8,

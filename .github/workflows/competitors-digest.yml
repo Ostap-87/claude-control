@@ -1,0 +1,50 @@
+name: competitors-digest
+on:
+  schedule:
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and send competitors digest
+        env:
+          TG_COMMAND_BOT_TOKEN: ${{ secrets.TG_COMMAND_BOT_TOKEN }}
+          TG_ADMIN_CHAT_ID: ${{ secrets.TG_ADMIN_CHAT_ID }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, urllib.request, urllib.parse
+          TOKEN = os.environ["TG_COMMAND_BOT_TOKEN"]
+          CHAT = os.environ["TG_ADMIN_CHAT_ID"]
+          d = json.load(open("data/competitors.json"))
+          PRIO = {"high": 0, "medium": 1, "low": 2}
+          lines = ["📊 <b>Сводка по конкурентам</b>"]
+          for project, block in d.items():
+              if not isinstance(block, dict):
+                  continue
+              lines.append(f"\n<b>═══ {project} ═══</b>")
+              for key in ("competitors", "international_media", "international_sources", "china_industry_media"):
+                  items = block.get(key) or []
+                  if not items:
+                      continue
+                  lines.append(f"\n<i>{key}:</i>")
+                  items = sorted(items, key=lambda x: PRIO.get(x.get("priority", ""), 3))
+                  for it in items:
+                      name = it.get("name", "?")
+                      web = it.get("website", "")
+                      note = (it.get("note") or "")[:80]
+                      pr = it.get("priority", "")
+                      line = f"• {name} [{pr}] — {web}"
+                      if note:
+                          line += f"\n   {note}"
+                      lines.append(line)
+          msg = "\n".join(lines)
+          for i in range(0, len(msg), 3900):
+              part = msg[i:i+3900]
+              data = urllib.parse.urlencode({"chat_id": CHAT, "text": part, "parse_mode": "HTML"}).encode()
+              req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/sendMessage", data=data)
+              r = json.load(urllib.request.urlopen(req, timeout=30))
+              print("ok" if r.get("ok") else r)
+          PYEOF

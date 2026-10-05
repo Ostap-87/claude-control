@@ -1,0 +1,72 @@
+name: industry-news
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect and send industry news
+        env:
+          TG_COMMAND_BOT_TOKEN: ${{ secrets.TG_COMMAND_BOT_TOKEN }}
+          TG_ADMIN_CHAT_ID: ${{ secrets.TG_ADMIN_CHAT_ID }}
+        run: |
+          python3 - <<'PYEOF'
+          import urllib.request, urllib.parse, xml.etree.ElementTree as ET
+          import json, os, datetime
+
+          TOKEN = os.environ["TG_COMMAND_BOT_TOKEN"]
+          CHAT = os.environ["TG_ADMIN_CHAT_ID"]
+
+          FEEDS = {
+            "🤖 Робототехника": [
+              "https://www.therobotreport.com/feed/",
+              "https://techcrunch.com/category/robotics/feed/",
+              "https://spectrum.ieee.org/feed/",
+            ],
+            "🏬 Китайский бизнес и ритейл": [
+              "https://technode.com/feed/",
+              "https://jingdaily.com/feed/",
+              "https://www.china-briefing.com/news/feed/",
+            ],
+          }
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=15) as r:
+                  return r.read()
+
+          today = datetime.datetime.utcnow().strftime("%d.%m.%Y")
+          lines = [f"📰 <b>Новости индустрии — {today}</b>"]
+
+          for section, feeds in FEEDS.items():
+              lines.append(f"\n<b>{section}</b>")
+              count = 0
+              for url in feeds:
+                  try:
+                      root = ET.fromstring(fetch(url))
+                      items = root.iter("item")
+                      for it in items:
+                          if count >= 5:
+                              break
+                          title = (it.findtext("title") or "").strip()
+                          link = (it.findtext("link") or "").strip()
+                          if title:
+                              lines.append(f"• <a href=\"{link}\">{title[:110]}</a>")
+                              count += 1
+                  except Exception as e:
+                      print("feed failed:", url, e)
+              if count == 0:
+                  lines.append("<i>(нет данных)</i>")
+
+          msg = "\n".join(lines)
+          for i in range(0, len(msg), 3900):
+              part = msg[i:i+3900]
+              data = urllib.parse.urlencode({"chat_id": CHAT, "text": part, "parse_mode": "HTML", "disable_web_page_preview": "true"}).encode()
+              req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/sendMessage", data=data)
+              r = json.load(urllib.request.urlopen(req, timeout=30))
+              print("ok" if r.get("ok") else r)
+          PYEOF

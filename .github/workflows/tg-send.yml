@@ -8,16 +8,19 @@ on:
 jobs:
   send:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Send queued posts to Telegram
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_BOT_TOKEN_AURA: ${{ secrets.TG_BOT_TOKEN_AURA }}
         run: |
           python3 - <<'PYEOF'
           import json, glob, os, subprocess, urllib.request, urllib.parse
-          token = os.environ["TG_BOT_TOKEN"]
-          def tg(method, data):
+          TOKENS = {"aura": os.environ.get("TG_BOT_TOKEN_AURA"), "globaltechtour": os.environ.get("TG_BOT_TOKEN")}
+          def tg(token, method, data):
               req = urllib.request.Request(
                   f"https://api.telegram.org/bot{token}/{method}",
                   data=urllib.parse.urlencode(data).encode(),
@@ -26,14 +29,15 @@ jobs:
           for f in sorted(glob.glob("data/tg-publish/*/sending/*.json")):
               channel = f.split("/")[2]
               chat = {"aura": "@aura_robots", "globaltechtour": "-1003942618148"}.get(channel)
-              if not chat:
-                  print("skip", f); continue
+              token = TOKENS.get(channel)
+              if not chat or not token:
+                  print("SKIP", f, "(нет токена или канала)"); continue
               post = json.load(open(f))
               try:
                   if post.get("image"):
-                      r = tg("sendPhoto", {"chat_id": chat, "caption": post["text"], "parse_mode": "HTML", "photo": post["image"]})
+                      r = tg(token, "sendPhoto", {"chat_id": chat, "caption": post["text"], "parse_mode": "HTML", "photo": post["image"]})
                   else:
-                      r = tg("sendMessage", {"chat_id": chat, "text": post["text"], "parse_mode": "HTML"})
+                      r = tg(token, "sendMessage", {"chat_id": chat, "text": post["text"], "parse_mode": "HTML"})
               except Exception as e:
                   print("FAILED", f, e); continue
               if r.get("ok"):
@@ -46,5 +50,6 @@ jobs:
           subprocess.run(["git", "config", "user.name", "tg-publisher"], check=False)
           subprocess.run(["git", "add", "-A"], check=False)
           subprocess.run(["git", "commit", "-m", "tg-send sync"], check=False)
-          subprocess.run(["git", "push"], check=False)
+          r = subprocess.run(["git", "push"], capture_output=True, text=True)
+          print("push:", "ok" if r.returncode == 0 else r.stderr[-200:])
           PYEOF

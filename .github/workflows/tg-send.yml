@@ -1,0 +1,50 @@
+name: tg-send
+on:
+  push:
+    branches: [main]
+    paths: ['data/tg-publish/**/sending/**']
+  workflow_dispatch:
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send queued posts to Telegram
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, glob, os, subprocess, urllib.request, urllib.parse
+          token = os.environ["TG_BOT_TOKEN"]
+          def tg(method, data):
+              req = urllib.request.Request(
+                  f"https://api.telegram.org/bot{token}/{method}",
+                  data=urllib.parse.urlencode(data).encode(),
+                  headers={"Content-Type": "application/x-www-form-urlencoded"})
+              return json.load(urllib.request.urlopen(req, timeout=30))
+          for f in sorted(glob.glob("data/tg-publish/*/sending/*.json")):
+              channel = f.split("/")[2]
+              chat = {"aura": "@aura_robots", "globaltechtour": "-1003942618148"}.get(channel)
+              if not chat:
+                  print("skip", f); continue
+              post = json.load(open(f))
+              try:
+                  if post.get("image"):
+                      r = tg("sendPhoto", {"chat_id": chat, "caption": post["text"], "parse_mode": "HTML", "photo": post["image"]})
+                  else:
+                      r = tg("sendMessage", {"chat_id": chat, "text": post["text"], "parse_mode": "HTML"})
+              except Exception as e:
+                  print("FAILED", f, e); continue
+              if r.get("ok"):
+                  os.makedirs(f"data/tg-publish/{channel}/sent", exist_ok=True)
+                  os.rename(f, f"data/tg-publish/{channel}/sent/" + os.path.basename(f))
+                  print("SENT", f)
+              else:
+                  print("FAILED", f, str(r)[:150])
+          subprocess.run(["git", "config", "user.email", "bot@server"], check=False)
+          subprocess.run(["git", "config", "user.name", "tg-publisher"], check=False)
+          subprocess.run(["git", "add", "-A"], check=False)
+          subprocess.run(["git", "commit", "-m", "tg-send sync"], check=False)
+          subprocess.run(["git", "push"], check=False)
+          PYEOF

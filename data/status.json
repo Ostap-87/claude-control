@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T12:00:01",
+ "updated": "2026-10-06T12:15:02",
  "date": "2026-10-06",
  "tg_queue": {
   "aura": 53,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   92dcac2..d61a0c9  main -> main\n",
-  "snapshot 2026-10-06T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   d61a0c9..a14e60c  main -> main\n",
-  "snapshot 2026-10-06T11:45:01\n"
+  "   a14e60c..85161b5  main -> main\n",
+  "snapshot 2026-10-06T12:00:01\n",
+  "[2026-10-06 12:00:02] Следующая: 地平线机器人 / D-Robotics и чип Sunrise: конкуренция гуманоидов пе\n",
+  "[2026-10-06 12:00:02] Остаток в батче: 29\n",
+  "[2026-10-06 12:00:02] Записано: /opt/aura/content/blog/d-robotics-sunrise-chip-export.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-06 12:00:46] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

@@ -1,0 +1,85 @@
+name: assistant
+on:
+  workflow_dispatch:
+
+jobs:
+  assistant:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: TG assistant poller
+        env:
+          TG_ASSISTANT_TOKEN: ${{ secrets.TG_ASSISTANT_TOKEN }}
+          TG_ADMIN_CHAT_ID: ${{ secrets.TG_ADMIN_CHAT_ID }}
+          GH_TOK: ${{ github.token }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, urllib.request, urllib.parse, subprocess, datetime
+          TG = os.environ["TG_ASSISTANT_TOKEN"]; CHAT = str(os.environ["TG_ADMIN_CHAT_ID"])
+          STATE = "data/assistant-state.json"
+          def tg(method, data):
+              req = urllib.request.Request(f"https://api.telegram.org/bot{TG}/{method}", data=urllib.parse.urlencode(data).encode())
+              return json.load(urllib.request.urlopen(req, timeout=30))
+          def send(text):
+              for i in range(0, len(text), 3900):
+                  tg("sendMessage", {"chat_id": CHAT, "text": text[i:i+3900], "parse_mode": "HTML", "disable_web_page_preview": "true"})
+          def dispatch(workflow):
+              req = urllib.request.Request(f"https://api.github.com/repos/Ostap-87/claude-control/actions/workflows/{workflow}/dispatches",
+                  data=json.dumps({"ref": "main"}).encode(),
+                  headers={"Authorization": f"Bearer {os.environ['GH_TOK']}", "Accept": "application/vnd.github+json", "Content-Type": "application/json"}, method="POST")
+              urllib.request.urlopen(req, timeout=15)
+          offset = json.load(open(STATE)).get("offset", 0) if os.path.exists(STATE) else 0
+          ups = tg("getUpdates", {"offset": offset + 1, "timeout": 0}).get("result", [])
+          new_offset = offset
+          status = json.load(open("data/status.json")) if os.path.exists("data/status.json") else {}
+          HELP = ("🤖 <b>Команды</b>\nстатус — состояние системы\nочередь — запасы контента\n"
+                  "анонс — посты сегодня\nсводка / новости — запустить дайджеты\nпомощь — справка\n\n"
+                  "ИИ-диалог на любые вопросы — после пополнения баланса Moonshot.")
+          for u in ups:
+              new_offset = max(new_offset, u["update_id"])
+              m = u.get("message") or {}
+              if str(m.get("chat", {}).get("id")) != CHAT: continue
+              text = (m.get("text") or "").strip(); low = text.lower().lstrip("/")
+              try:
+                  if low in ("помощь", "help", "start"): send(HELP)
+                  elif low in ("статус", "status"):
+                      s = status; tq = s.get("tg_queue", {}); bb = s.get("blog_batches", {})
+                      lines = [f"📊 <b>Статус</b> (обновлено {s.get('updated','?')[:16]})", "",
+                               f"TG-очередь: aura {tq.get('aura','?')} · GTT {tq.get('globaltechtour','?')}",
+                               f"Сегодня: {', '.join(s.get('tg_today', [])) or 'нет постов'}",
+                               f"FB-черновики: {s.get('fb_queue','?')} · Батчи: GTT {bb.get('gtt','?')} · aura {bb.get('aura','?')}"]
+                      log = s.get("recent_log", [])
+                      if log: lines += ["", "<b>Лог:</b>"] + [l.rstrip()[:110] for l in log]
+                      send("\n".join(lines))
+                  elif low in ("очередь", "queue"):
+                      s = status; tq = s.get("tg_queue", {}); bb = s.get("blog_batches", {})
+                      send("📦 <b>Запасы</b>\n• TG-посты: aura — %s, GTT — %s\n• Статьи: GTT %s · aura %s\n• FB-черновики: %s"
+                           % (tq.get('aura','?'), tq.get('globaltechtour','?'), bb.get('gtt','?'), bb.get('aura','?'), s.get('fb_queue','?')))
+                  elif low in ("анонс", "preview"):
+                      today = datetime.datetime.now(datetime.UTC).date().isoformat(); found = False
+                      for channel in ("aura", "globaltechtour"):
+                          for slot in ("0900", "1800"):
+                              p = f"data/tg-queue/{channel}/{today}-{slot}.json"
+                              if os.path.exists(p):
+                                  found = True; post = json.load(open(p))
+                                  cap = f"{'🤖 aura' if channel=='aura' else '🌏 GTT'} · слот {slot}\n\n{post.get('text','')[:400]}"
+                                  if post.get("image"): tg("sendPhoto", {"chat_id": CHAT, "photo": post["image"], "caption": cap})
+                                  else: send(cap)
+                      if not found: send(f"На {today} постов в очереди нет.")
+                  elif low == "сводка": dispatch("competitors-digest.yml"); send("⏳ Сводка запущена — придёт через минуту.")
+                  elif low == "новости": dispatch("industry-news.yml"); send("⏳ Новости запущены — придут через минуту.")
+                  else: send("Пока работаю только командами (напиши «помощь»). ИИ-режим на любые вопросы — после добавления секрета MOONSHOT_API_KEY.")
+              except Exception as e:
+                  send(f"⚠️ Ошибка: {e}")
+          if new_offset != offset:
+              json.dump({"offset": new_offset}, open(STATE, "w"))
+              subprocess.run(["git", "config", "user.email", "assistant@bot"], check=False)
+              subprocess.run(["git", "config", "user.name", "tg-assistant"], check=False)
+              subprocess.run(["git", "add", "-A"], check=False)
+              subprocess.run(["git", "commit", "-m", "assistant state"], check=False)
+              subprocess.run(["git", "push"], check=False)
+          print("processed", len(ups), "updates")
+          PYEOF

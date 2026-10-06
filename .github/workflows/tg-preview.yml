@@ -1,0 +1,50 @@
+name: tg-preview
+on:
+  workflow_dispatch:
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send today's TG posts preview
+        env:
+          TG_COMMAND_BOT_TOKEN: ${{ secrets.TG_COMMAND_BOT_TOKEN }}
+          TG_ADMIN_CHAT_ID: ${{ secrets.TG_ADMIN_CHAT_ID }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, datetime, urllib.request, urllib.parse
+          TOKEN = os.environ["TG_COMMAND_BOT_TOKEN"]
+          CHAT = os.environ["TG_ADMIN_CHAT_ID"]
+          today = datetime.datetime.now(datetime.UTC).date().isoformat()
+          SLOTS = [("0900", "09:00 МСК · 14:00 Пекин"), ("1800", "18:00 МСК · 23:00 Пекин")]
+          CHANNELS = {"aura": "🤖 Aura Robotics", "globaltechtour": "🌏 GlobalTechTour"}
+          def tg(method, data):
+              req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/{method}",
+                  data=urllib.parse.urlencode(data).encode(),
+                  headers={"Content-Type": "application/x-www-form-urlencoded"})
+              return json.load(urllib.request.urlopen(req, timeout=30))
+          def send_msg(text):
+              return tg("sendMessage", {"chat_id": CHAT, "text": text, "parse_mode": "HTML"})
+          def send_photo(photo, caption):
+              return tg("sendPhoto", {"chat_id": CHAT, "photo": photo, "caption": caption, "parse_mode": "HTML"})
+          send_msg(f"📋 <b>Посты в каналы на сегодня — {today}</b>")
+          any_post = False
+          for channel, cname in CHANNELS.items():
+              for slot, label in SLOTS.items() if isinstance(SLOTS, dict) else SLOTS:
+                  p = f"data/tg-queue/{channel}/{today}-{slot}.json"
+                  if not os.path.exists(p):
+                      continue
+                  any_post = True
+                  post = json.load(open(p))
+                  text = post.get("text", "")
+                  snippet = text[:400] + ("…" if len(text) > 400 else "")
+                  caption = f"{cname} · ⏰ {label}\n\n{snippet}"
+                  if post.get("image"):
+                      r = send_photo(post["image"], caption)
+                  else:
+                      r = send_msg(caption + "\n\n⚠️ пост без картинки")
+                  print(channel, slot, "ok" if r.get("ok") else r)
+          if not any_post:
+              send_msg("На сегодня постов в очереди нет.")
+          PYEOF

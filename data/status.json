@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T11:00:01",
+ "updated": "2026-10-06T11:15:01",
  "date": "2026-10-06",
  "tg_queue": {
   "aura": 53,
@@ -9,17 +9,17 @@
   "2026-10-06-1800.json",
   "2026-10-06-1800.json"
  ],
- "fb_queue": 1,
+ "fb_queue": 0,
  "blog_batches": {
   "gtt": 73,
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   d3056af..e258d21  main -> main\n",
-  "snapshot 2026-10-06T10:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e258d21..3932995  main -> main\n",
-  "snapshot 2026-10-06T10:45:01\n"
+  " 1 file changed, 0 insertions(+), 0 deletions(-)\n",
+  " rename data/fb-queue/aura/{ => sent}/robotera.json (100%)\n",
+  "[2026-10-06 11:00:03] [aura] публикую: robotera.json\n",
+  "[2026-10-06 11:00:05] [aura] ✅ опубликовано\n",
+  "[2026-10-06 11:00:05] [globaltechtour] очередь пуста — пропуск\n",
+  "[2026-10-06 11:00:07] состояние синхронизировано с GitHub\n"
  ]
 }

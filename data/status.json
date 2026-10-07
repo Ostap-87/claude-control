@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T12:00:01",
+ "updated": "2026-10-07T12:15:01",
  "date": "2026-10-07",
  "tg_queue": {
   "aura": 51,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   171dcc7..f62b942  main -> main\n",
-  "snapshot 2026-10-07T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   f62b942..c30d38b  main -> main\n",
-  "snapshot 2026-10-07T11:45:01\n"
+  "   c30d38b..8bb6e08  main -> main\n",
+  "snapshot 2026-10-07T12:00:01\n",
+  "[2026-10-07 12:00:01] Следующая: Sharpa привлекла $670 млн: как Сингапур становится финансовы\n",
+  "[2026-10-07 12:00:01] Остаток в батче: 28\n",
+  "[2026-10-07 12:00:01] Записано: /opt/aura/content/blog/sharpa-southeast-asia-warehouse-robots.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-07 12:00:38] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

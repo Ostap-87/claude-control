@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T12:00:01",
+ "updated": "2026-10-08T12:15:01",
  "date": "2026-10-08",
  "tg_queue": {
   "aura": 49,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   bcffb99..54edc03  main -> main\n",
-  "snapshot 2026-10-08T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   54edc03..0582ca4  main -> main\n",
-  "snapshot 2026-10-08T11:45:01\n"
+  "snapshot 2026-10-08T12:00:01\n",
+  "[2026-10-08 12:00:02] Следующая: Keenon Robotics: 100 000 сервисных роботов и ставка на франш\n",
+  "[2026-10-08 12:00:02] Остаток в батче: 27\n",
+  "[2026-10-08 12:00:02] Записано: /opt/aura/content/blog/keenon-robotics-hotel-franchise-model.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-08 12:00:39] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-08 12:00:39] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

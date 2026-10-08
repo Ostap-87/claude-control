@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T12:15:01",
+ "updated": "2026-10-08T12:30:02",
  "date": "2026-10-08",
  "tg_queue": {
   "aura": 49,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-08T12:00:01\n",
-  "[2026-10-08 12:00:02] Следующая: Keenon Robotics: 100 000 сервисных роботов и ставка на франш\n",
-  "[2026-10-08 12:00:02] Остаток в батче: 27\n",
-  "[2026-10-08 12:00:02] Записано: /opt/aura/content/blog/keenon-robotics-hotel-franchise-model.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-08 12:00:39] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-08 12:00:39] ✅ Опубликовано на aura-robotics.ru\n"
+  "[2026-10-08 12:00:39] ✅ Опубликовано на aura-robotics.ru\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   22a756a..f8f2eb6  main -> main\n",
+  "snapshot 2026-10-08T12:15:01\n",
+  "fatal: unable to access 'https://github.com/Ostap-87/claude-control.git/': Could not resolve host: github.com\n",
+  "fatal: unable to access 'https://github.com/Ostap-87/claude-control.git/': Could not resolve host: github.com\n"
  ]
 }

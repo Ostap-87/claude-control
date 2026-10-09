@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T12:00:01",
+ "updated": "2026-10-09T12:15:01",
  "date": "2026-10-09",
  "tg_queue": {
   "aura": 47,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   780f81b..587ff20  main -> main\n",
-  "snapshot 2026-10-09T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   587ff20..8721510  main -> main\n",
-  "snapshot 2026-10-09T11:45:01\n"
+  "snapshot 2026-10-09T12:00:01\n",
+  "[2026-10-09 12:00:01] Следующая: 梅卡曼德 / Mech-Mind: машинное зрение как инфраструктура гуманои\n",
+  "[2026-10-09 12:00:01] Остаток в батче: 26\n",
+  "[2026-10-09 12:00:01] Записано: /opt/aura/content/blog/mech-mind-vision-after-ipo.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-09 12:00:46] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-09 12:00:46] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

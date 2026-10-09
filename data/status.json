@@ -1,25 +1,22 @@
 {
- "updated": "2026-10-09T15:00:01",
+ "updated": "2026-10-09T15:15:01",
  "date": "2026-10-09",
  "tg_queue": {
-  "aura": 47,
-  "globaltechtour": 48
+  "aura": 46,
+  "globaltechtour": 47
  },
- "tg_today": [
-  "2026-10-09-1800.json",
-  "2026-10-09-1800.json"
- ],
+ "tg_today": [],
  "fb_queue": 0,
  "blog_batches": {
   "gtt": 73,
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   07ea67d..fa17861  main -> main\n",
-  "snapshot 2026-10-09T14:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   fa17861..63c6465  main -> main\n",
-  "snapshot 2026-10-09T14:45:02\n"
+  "[2026-10-09 15:00:01] [aura] пост поставлен в очередь отправки\n",
+  "[2026-10-09 15:00:01] [globaltechtour] пост поставлен в очередь отправки\n",
+  "[2026-10-09 15:00:03] ОШИБКА PUSH: ps://github.com/Ostap-87/claude-control.git\n",
+  " ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f617c8d7310c8254b2acd68a9312a9d4023533e2 but expected 63c646522b8769ae81bda460ef37d1714ce1299d)\n",
+  "error: failed to push some refs to 'https://github.com/Ostap-87/claude-control.git'\n",
+  "\n"
  ]
 }

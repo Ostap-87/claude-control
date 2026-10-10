@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T00:00:01",
+ "updated": "2026-10-10T00:15:01",
  "date": "2026-10-10",
  "tg_queue": {
   "aura": 46,
@@ -17,11 +17,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   1628c37..e0e2c46  main -> main\n",
-  "snapshot 2026-10-09T23:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e0e2c46..40612da  main -> main\n",
-  "snapshot 2026-10-09T23:45:01\n",
-  "=== Публикация: 002-india-the-countrys-biggest-kitchen-is-the-school-one ===\n"
+  "   40612da..7b6a01f  main -> main\n",
+  "snapshot 2026-10-10T00:00:01\n",
+  "Сборка OK ✓\n",
+  "Коммит: [main 51eb9ea] Publish blog article: india-the-countrys-biggest-kitchen-is-the-school-one (queue)\n",
+  "Пуш:    ef50f25..51eb9ea  main -> main\n",
+  "=== ГОТОВО: india-the-countrys-biggest-kitchen-is-the-school-one. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T15:15:01",
+ "updated": "2026-10-10T15:30:01",
  "date": "2026-10-10",
  "tg_queue": {
   "aura": 44,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "Applied autostash.\n",
-  "[2026-10-10 15:00:01] [aura] пост поставлен в очередь отправки\n",
-  "[2026-10-10 15:00:01] [globaltechtour] пост поставлен в очередь отправки\n",
   "[2026-10-10 15:00:04] ✅ Отправлено в GitHub — Actions доставит в Telegram\n",
   "Created autostash: 8261f67\n",
-  "Applied autostash.\n"
+  "Applied autostash.\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   6dbf3f3..b15d4cb  main -> main\n",
+  "snapshot 2026-10-10T15:15:01\n"
  ]
 }

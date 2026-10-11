@@ -1,13 +1,11 @@
 {
- "updated": "2026-10-11T05:45:01",
+ "updated": "2026-10-11T06:00:02",
  "date": "2026-10-11",
  "tg_queue": {
-  "aura": 44,
-  "globaltechtour": 45
+  "aura": 43,
+  "globaltechtour": 44
  },
  "tg_today": [
-  "2026-10-11-0900.json",
-  "2026-10-11-0900.json",
   "2026-10-11-1800.json",
   "2026-10-11-1800.json"
  ],
@@ -17,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   282d057..e1698e8  main -> main\n",
-  "snapshot 2026-10-11T05:15:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e1698e8..6c2f8eb  main -> main\n",
-  "snapshot 2026-10-11T05:30:02\n"
+  "   6c2f8eb..b68eebf  main -> main\n",
+  "snapshot 2026-10-11T05:45:01\n",
+  "[main 0ed92a8] Queue TG posts: 0900 (2026-10-11)\n",
+  " 2 files changed, 0 insertions(+), 0 deletions(-)\n",
+  " rename data/{tg-queue/aura => tg-publish/aura/sending}/2026-10-11-0900.json (100%)\n",
+  " rename data/{tg-queue/globaltechtour => tg-publish/globaltechtour/sending}/2026-10-11-0900.json (100%)\n"
  ]
 }

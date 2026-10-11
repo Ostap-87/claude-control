@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T13:00:01",
+ "updated": "2026-10-11T13:15:01",
  "date": "2026-10-11",
  "tg_queue": {
   "aura": 43,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   064c04a..b746eea  main -> main\n",
-  "snapshot 2026-10-11T12:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   b746eea..ba5bdec  main -> main\n",
-  "snapshot 2026-10-11T12:45:01\n"
+  "   5019ddc..3c356bf  main -> main\n",
+  "[2026-10-11 10:00:01] Следующая статья: 2026-10-08 | Alibaba Cloud идёт на Запад (и на Юг): дата-центры как новая карт\n",
+  "[2026-10-11 10:00:01] Остаток после неё: 22 шт.\n",
+  "[2026-10-11 10:00:01] Записано в site_content.example.json. Сборка сайта...\n",
+  "[2026-10-11 13:12:47] Коммит пропущен: \n",
+  "[2026-10-11 13:12:47] ✅ Статья опубликована на globaltechtour.ru\n"
  ]
 }

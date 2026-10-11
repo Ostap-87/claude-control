@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T00:15:01",
+ "updated": "2026-10-11T00:30:01",
  "date": "2026-10-11",
  "tg_queue": {
   "aura": 44,
@@ -17,11 +17,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   229beb1..f6ed982  main -> main\n",
-  "snapshot 2026-10-11T00:00:01\n",
-  "Сборка OK ✓\n",
   "Коммит: [main bcd6a36] Publish blog article: indonesia-the-kitchen-that-feeds-57-million (queue)\n",
   "Пуш:    51eb9ea..bcd6a36  main -> main\n",
-  "=== ГОТОВО: indonesia-the-kitchen-that-feeds-57-million. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n"
+  "=== ГОТОВО: indonesia-the-kitchen-that-feeds-57-million. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   f6ed982..c5c2c3c  main -> main\n",
+  "snapshot 2026-10-11T00:15:01\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T15:15:01",
+ "updated": "2026-10-11T15:30:02",
  "date": "2026-10-11",
  "tg_queue": {
   "aura": 42,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "\tdata/tg-publish/globaltechtour/sending/\n",
-  "\n",
-  "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n",
   "[2026-10-11 15:00:02] [aura] пост поставлен в очередь отправки\n",
   "[2026-10-11 15:00:02] [globaltechtour] пост поставлен в очередь отправки\n",
-  "[2026-10-11 15:00:03] ✅ Отправлено в GitHub — Actions доставит в Telegram\n"
+  "[2026-10-11 15:00:03] ✅ Отправлено в GitHub — Actions доставит в Telegram\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   1dbd067..a1b9c83  main -> main\n",
+  "snapshot 2026-10-11T15:15:01\n"
  ]
 }

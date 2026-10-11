@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T12:00:01",
+ "updated": "2026-10-11T12:15:01",
  "date": "2026-10-11",
  "tg_queue": {
   "aura": 43,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   9602d58..c5b8eb6  main -> main\n",
-  "snapshot 2026-10-11T11:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   c5b8eb6..9cf7454  main -> main\n",
-  "snapshot 2026-10-11T11:45:01\n"
+  "snapshot 2026-10-11T12:00:01\n",
+  "[2026-10-11 12:00:01] Следующая: AI2 Robotics: единорог на $2,93 млрд, о котором почти никто \n",
+  "[2026-10-11 12:00:01] Остаток в батче: 24\n",
+  "[2026-10-11 12:00:01] Записано: /opt/aura/content/blog/ai2-robotics-hidden-unicorn.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-11 12:01:27] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-11 12:01:27] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

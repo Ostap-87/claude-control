@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T06:00:02",
+ "updated": "2026-10-11T06:15:01",
  "date": "2026-10-11",
  "tg_queue": {
   "aura": 43,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   6c2f8eb..b68eebf  main -> main\n",
-  "snapshot 2026-10-11T05:45:01\n",
-  "[main 0ed92a8] Queue TG posts: 0900 (2026-10-11)\n",
-  " 2 files changed, 0 insertions(+), 0 deletions(-)\n",
-  " rename data/{tg-queue/aura => tg-publish/aura/sending}/2026-10-11-0900.json (100%)\n",
-  " rename data/{tg-queue/globaltechtour => tg-publish/globaltechtour/sending}/2026-10-11-0900.json (100%)\n"
+  "[2026-10-11 06:00:01] [globaltechtour] пост поставлен в очередь отправки\n",
+  "[2026-10-11 06:00:04] ✅ Отправлено в GitHub — Actions доставит в Telegram\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  " ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0fdb239e3069c1eefad3ec15b059882fcc28740d but expected b68eebf683bec4ad8d5354e90a0acb92774439d2)\n",
+  "error: failed to push some refs to 'https://github.com/Ostap-87/claude-control.git'\n",
+  "snapshot 2026-10-11T06:00:02\n"
  ]
 }

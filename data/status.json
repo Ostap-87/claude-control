@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T12:00:02",
+ "updated": "2026-10-12T12:15:02",
  "date": "2026-10-12",
  "tg_queue": {
   "aura": 41,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e7b3239..9bee76a  main -> main\n",
-  "snapshot 2026-10-12T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   9bee76a..fb1e24a  main -> main\n",
-  "snapshot 2026-10-12T11:45:01\n"
+  "snapshot 2026-10-12T12:00:02\n",
+  "[2026-10-12 12:00:02] Следующая: Rainbow Robotics × Samsung: тайная разработка и открытая инв\n",
+  "[2026-10-12 12:00:02] Остаток в батче: 23\n",
+  "[2026-10-12 12:00:02] Записано: /opt/aura/content/blog/rainbow-robotics-samsung-secret-humanoid.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-12 12:01:23] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-12 12:01:23] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

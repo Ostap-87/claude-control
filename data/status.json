@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T00:15:01",
+ "updated": "2026-10-12T00:30:01",
  "date": "2026-10-12",
  "tg_queue": {
   "aura": 42,
@@ -17,11 +17,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   8eb99db..c58bec7  main -> main\n",
-  "snapshot 2026-10-12T00:00:01\n",
-  "Сборка OK ✓\n",
   "Коммит: [main b4fb293] Publish blog article: cambodia-laos-and-myanmar-the-kitchen-that-barely-exists (queue)\n",
   "Пуш:    bcd6a36..b4fb293  main -> main\n",
-  "=== ГОТОВО: cambodia-laos-and-myanmar-the-kitchen-that-barely-exists. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n"
+  "=== ГОТОВО: cambodia-laos-and-myanmar-the-kitchen-that-barely-exists. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   c58bec7..bf30c98  main -> main\n",
+  "snapshot 2026-10-12T00:15:01\n"
  ]
 }

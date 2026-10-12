@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T12:30:02",
+ "updated": "2026-10-12T12:45:01",
  "date": "2026-10-12",
  "tg_queue": {
   "aura": 41,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-12 12:00:02] Записано: /opt/aura/content/blog/rainbow-robotics-samsung-secret-humanoid.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-12 12:01:23] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-12 12:01:23] ✅ Опубликовано на aura-robotics.ru\n",
   "To https://github.com/Ostap-87/claude-control.git\n",
   "   f5e59b4..d539f65  main -> main\n",
-  "snapshot 2026-10-12T12:15:02\n"
+  "snapshot 2026-10-12T12:15:02\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   d539f65..d844807  main -> main\n",
+  "snapshot 2026-10-12T12:30:02\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T15:15:01",
+ "updated": "2026-10-13T15:30:02",
  "date": "2026-10-13",
  "tg_queue": {
   "aura": 38,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-13 15:00:02] [globaltechtour] пост поставлен в очередь отправки\n",
-  "[2026-10-13 15:00:04] ОШИБКА PUSH: ps://github.com/Ostap-87/claude-control.git\n",
-  " ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a58fe7bb374195b869bf03bb2a04a1272faf7c58 but expected 4069cdeaf9e5d2bb3f952520d13b793ee8157b04)\n",
   "error: failed to push some refs to 'https://github.com/Ostap-87/claude-control.git'\n",
   "\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  "fatal: Cannot rebase onto multiple branches.\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   df9be60..d6d78cb  main -> main\n",
+  "snapshot 2026-10-13T15:15:01\n"
  ]
 }

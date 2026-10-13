@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T00:00:01",
+ "updated": "2026-10-13T00:15:01",
  "date": "2026-10-13",
  "tg_queue": {
   "aura": 40,
@@ -17,11 +17,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   a621be4..dca3d96  main -> main\n",
-  "snapshot 2026-10-12T23:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   dca3d96..1615467  main -> main\n",
-  "snapshot 2026-10-12T23:45:01\n"
+  "   1615467..610c468  main -> main\n",
+  "snapshot 2026-10-13T00:00:01\n",
+  "Сборка OK ✓\n",
+  "Коммит: [main 026f1f7] Publish blog article: malaysia-the-kitchen-with-a-halal-certificate (queue)\n",
+  "Пуш:    b4fb293..026f1f7  main -> main\n",
+  "=== ГОТОВО: malaysia-the-kitchen-with-a-halal-certificate. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n"
  ]
 }

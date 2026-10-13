@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:00:01",
+ "updated": "2026-10-13T12:15:01",
  "date": "2026-10-13",
  "tg_queue": {
   "aura": 39,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   2c052dd..39d1478  main -> main\n",
-  "snapshot 2026-10-13T11:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   39d1478..f959ef7  main -> main\n",
-  "snapshot 2026-10-13T11:45:01\n"
+  "snapshot 2026-10-13T12:00:01\n",
+  "[2026-10-13 12:00:01] Следующая: Boston Dynamics Atlas в Джорджии: что значит «промышленный» \n",
+  "[2026-10-13 12:00:01] Остаток в батче: 22\n",
+  "[2026-10-13 12:00:01] Записано: /opt/aura/content/blog/boston-dynamics-atlas-georgia-factory.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-13 12:01:23] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-13 12:01:23] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T00:00:02",
+ "updated": "2026-10-14T00:15:01",
  "date": "2026-10-14",
  "tg_queue": {
   "aura": 38,
@@ -17,11 +17,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   3123102..a609b55  main -> main\n",
-  "snapshot 2026-10-13T23:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   a609b55..d18bd63  main -> main\n",
-  "snapshot 2026-10-13T23:45:01\n",
-  "=== Публикация: 006-thailand-sixteen-thousand-7-elevens-and-one-kitchen ===\n"
+  "   d18bd63..1508e4e  main -> main\n",
+  "snapshot 2026-10-14T00:00:02\n",
+  "Сборка OK ✓\n",
+  "Коммит: [main 961cd2d] Publish blog article: thailand-sixteen-thousand-7-elevens-and-one-kitchen (queue)\n",
+  "Пуш:    026f1f7..961cd2d  main -> main\n",
+  "=== ГОТОВО: thailand-sixteen-thousand-7-elevens-and-one-kitchen. Деплой и автопост FB/LinkedIn — деплой-крон (~2 мин) ===\n"
  ]
 }

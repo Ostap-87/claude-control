@@ -1,13 +1,11 @@
 {
- "updated": "2026-10-14T05:45:01",
+ "updated": "2026-10-14T06:00:02",
  "date": "2026-10-14",
  "tg_queue": {
-  "aura": 38,
-  "globaltechtour": 39
+  "aura": 37,
+  "globaltechtour": 38
  },
  "tg_today": [
-  "2026-10-14-0900.json",
-  "2026-10-14-0900.json",
   "2026-10-14-1800.json",
   "2026-10-14-1800.json"
  ],
@@ -17,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   d16e914..38cd4e0  main -> main\n",
-  "snapshot 2026-10-14T05:15:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   38cd4e0..726dffd  main -> main\n",
-  "snapshot 2026-10-14T05:30:02\n"
+  "fatal: Cannot rebase onto multiple branches.\n",
+  "fatal: Cannot rebase onto multiple branches.\n",
+  "[main aa4cb17] Queue TG posts: 0900 (2026-10-14)\n",
+  " 2 files changed, 0 insertions(+), 0 deletions(-)\n",
+  " rename data/{tg-queue/aura => tg-publish/aura/sending}/2026-10-14-0900.json (100%)\n",
+  " rename data/{tg-queue/globaltechtour => tg-publish/globaltechtour/sending}/2026-10-14-0900.json (100%)\n"
  ]
 }

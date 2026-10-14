@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T12:00:02",
+ "updated": "2026-10-14T12:15:01",
  "date": "2026-10-14",
  "tg_queue": {
   "aura": 37,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   a221f6f..a194041  main -> main\n",
-  "snapshot 2026-10-14T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   a194041..639f4b9  main -> main\n",
-  "snapshot 2026-10-14T11:45:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  "snapshot 2026-10-14T12:00:02\n",
+  "[2026-10-14 12:00:02] Следующая: Toyota в Айти: автопром Японии хеджирует ставку на гуманоидо\n",
+  "[2026-10-14 12:00:02] Остаток в батче: 21\n",
+  "[2026-10-14 12:00:02] Записано: /opt/aura/content/blog/toyota-aichi-humanoid-assembly-line.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-14 12:01:39] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-14 12:01:39] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

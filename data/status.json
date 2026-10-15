@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T13:30:02",
+ "updated": "2026-10-15T13:45:02",
  "date": "2026-10-15",
  "tg_queue": {
   "aura": 35,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-15 10:00:01] Следующая статья: 2026-10-12 | Lenovo: битва за рынок ПК и серверов для ИИ\n",
-  "[2026-10-15 10:00:01] Остаток после неё: 18 шт.\n",
-  "[2026-10-15 10:00:01] Записано в site_content.example.json. Сборка сайта...\n",
   "[2026-10-15 13:19:16] Коммит пропущен: \n",
   "[2026-10-15 13:19:16] ✅ Статья опубликована на globaltechtour.ru\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  "fatal: Cannot rebase onto multiple branches.\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   3e375f2..9986c6c  main -> main\n",
+  "snapshot 2026-10-15T13:30:02\n"
  ]
 }

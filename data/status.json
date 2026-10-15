@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:30:02",
+ "updated": "2026-10-15T12:45:01",
  "date": "2026-10-15",
  "tg_queue": {
   "aura": 35,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-15 12:00:01] Записано: /opt/aura/content/blog/kawasaki-kaleido-9-humanoid.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-15 12:01:23] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-15 12:01:23] ✅ Опубликовано на aura-robotics.ru\n",
   "To https://github.com/Ostap-87/claude-control.git\n",
   "   dd7def8..2b9cb6c  main -> main\n",
-  "snapshot 2026-10-15T12:15:02\n"
+  "snapshot 2026-10-15T12:15:02\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   2b9cb6c..11291dd  main -> main\n",
+  "snapshot 2026-10-15T12:30:02\n"
  ]
 }

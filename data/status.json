@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:00:01",
+ "updated": "2026-10-15T12:15:02",
  "date": "2026-10-15",
  "tg_queue": {
   "aura": 35,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   0dc9395..e3d0868  main -> main\n",
-  "snapshot 2026-10-15T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e3d0868..9a06c25  main -> main\n",
-  "snapshot 2026-10-15T11:45:01\n"
+  "snapshot 2026-10-15T12:00:01\n",
+  "[2026-10-15 12:00:01] Следующая: Kawasaki Kaleido 9: гуманоид 180 см, 41 степень свободы\n",
+  "[2026-10-15 12:00:01] Остаток в батче: 20\n",
+  "[2026-10-15 12:00:01] Записано: /opt/aura/content/blog/kawasaki-kaleido-9-humanoid.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-15 12:01:23] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-15 12:01:23] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

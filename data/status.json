@@ -1,25 +1,22 @@
 {
- "updated": "2026-10-16T14:45:01",
+ "updated": "2026-10-16T15:15:01",
  "date": "2026-10-16",
  "tg_queue": {
-  "aura": 33,
-  "globaltechtour": 34
+  "aura": 32,
+  "globaltechtour": 33
  },
- "tg_today": [
-  "2026-10-16-1800.json",
-  "2026-10-16-1800.json"
- ],
+ "tg_today": [],
  "fb_queue": 0,
  "blog_batches": {
   "gtt": 73,
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e2fb8fe..fa0f80d  main -> main\n",
-  "snapshot 2026-10-16T14:15:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   fa0f80d..1bd19a0  main -> main\n",
-  "snapshot 2026-10-16T14:30:02\n"
+  " rename data/{tg-queue/globaltechtour => tg-publish/globaltechtour/sending}/2026-10-16-1800.json (100%)\n",
+  "[2026-10-16 15:00:02] [aura] пост поставлен в очередь отправки\n",
+  "[2026-10-16 15:00:02] [globaltechtour] пост поставлен в очередь отправки\n",
+  "[2026-10-16 15:00:05] ✅ Отправлено в GitHub — Actions доставит в Telegram\n",
+  "Created autostash: e6f7e5a\n",
+  "Applied autostash.\n"
  ]
 }

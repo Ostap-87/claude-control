@@ -1,22 +1,27 @@
 {
- "updated": "2026-10-15T23:45:01",
- "date": "2026-10-15",
+ "updated": "2026-10-16T00:00:01",
+ "date": "2026-10-16",
  "tg_queue": {
   "aura": 34,
   "globaltechtour": 35
  },
- "tg_today": [],
+ "tg_today": [
+  "2026-10-16-0900.json",
+  "2026-10-16-0900.json",
+  "2026-10-16-1800.json",
+  "2026-10-16-1800.json"
+ ],
  "fb_queue": 0,
  "blog_batches": {
   "gtt": 73,
   "aura": 73
  },
  "recent_log": [
-  "   c1958f6..2d14364  main -> main\n",
-  "snapshot 2026-10-15T23:15:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
   "   2d14364..d690f9c  main -> main\n",
-  "snapshot 2026-10-15T23:30:01\n"
+  "snapshot 2026-10-15T23:30:01\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   d690f9c..c41e8bf  main -> main\n",
+  "snapshot 2026-10-15T23:45:01\n",
+  "Очередь пуста — нечего публиковать.\n"
  ]
 }

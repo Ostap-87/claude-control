@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T12:30:01",
+ "updated": "2026-10-16T12:45:01",
  "date": "2026-10-16",
  "tg_queue": {
   "aura": 33,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-16 12:00:02] Записано: /opt/aura/content/blog/jal-gmo-haneda-airport-humanoids.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-16 12:01:26] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-16 12:01:26] ✅ Опубликовано на aura-robotics.ru\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
   "   8f2538e..a2e5cae  main -> main\n",
-  "snapshot 2026-10-16T12:15:02\n"
+  "snapshot 2026-10-16T12:15:02\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   a2e5cae..a8da01a  main -> main\n",
+  "snapshot 2026-10-16T12:30:01\n",
+  "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T12:00:01",
+ "updated": "2026-10-18T12:15:01",
  "date": "2026-10-18",
  "tg_queue": {
   "aura": 29,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   b38fac2..60439b9  main -> main\n",
-  "snapshot 2026-10-18T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   60439b9..b522643  main -> main\n",
-  "snapshot 2026-10-18T11:45:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  "snapshot 2026-10-18T12:00:01\n",
+  "[2026-10-18 12:00:01] Следующая: Вьетнам: VinDynamics × Schaeffler — локальная компания как п\n",
+  "[2026-10-18 12:00:01] Остаток в батче: 17\n",
+  "[2026-10-18 12:00:01] Записано: /opt/aura/content/blog/vietnam-vindynamics-schaeffler-partnership.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-18 12:01:30] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-18 12:01:30] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

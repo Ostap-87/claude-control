@@ -1,13 +1,11 @@
 {
- "updated": "2026-10-18T06:00:01",
+ "updated": "2026-10-18T06:15:01",
  "date": "2026-10-18",
  "tg_queue": {
-  "aura": 30,
-  "globaltechtour": 31
+  "aura": 29,
+  "globaltechtour": 30
  },
  "tg_today": [
-  "2026-10-18-0900.json",
-  "2026-10-18-0900.json",
   "2026-10-18-1800.json",
   "2026-10-18-1800.json"
  ],
@@ -17,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   baade78..8e3d8d4  main -> main\n",
-  "snapshot 2026-10-18T05:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   8e3d8d4..bfb57b2  main -> main\n",
-  "snapshot 2026-10-18T05:45:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  " rename data/{tg-queue/globaltechtour => tg-publish/globaltechtour/sending}/2026-10-18-0900.json (100%)\n",
+  "Created autostash: 970d9e0\n",
+  "Applied autostash.\n",
+  "[2026-10-18 06:00:01] [aura] пост поставлен в очередь отправки\n",
+  "[2026-10-18 06:00:01] [globaltechtour] пост поставлен в очередь отправки\n",
+  "[2026-10-18 06:00:03] ✅ Отправлено в GitHub — Actions доставит в Telegram\n"
  ]
 }

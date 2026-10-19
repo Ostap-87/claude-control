@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T12:30:01",
+ "updated": "2026-10-19T12:45:01",
  "date": "2026-10-19",
  "tg_queue": {
   "aura": 27,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-19 12:00:02] Записано: /opt/aura/content/blog/foxconn-vietnam-humanoid-first-time.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-19 12:01:32] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-19 12:01:32] ✅ Опубликовано на aura-robotics.ru\n",
   "To https://github.com/Ostap-87/claude-control.git\n",
   "   76bbb44..0eb017d  main -> main\n",
-  "snapshot 2026-10-19T12:15:01\n"
+  "snapshot 2026-10-19T12:15:01\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   0eb017d..d8680f9  main -> main\n",
+  "snapshot 2026-10-19T12:30:01\n"
  ]
 }

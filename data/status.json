@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:00:02",
+ "updated": "2026-10-20T14:15:01",
  "date": "2026-10-20",
  "tg_queue": {
   "aura": 25,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-20 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
-  "[2026-10-20 13:44:24] Коммит пропущен: \n",
-  "[2026-10-20 13:44:24] ✅ Статья опубликована на globaltechtour.ru\n",
   "To https://github.com/Ostap-87/claude-control.git\n",
   "   d743b5b..9886282  main -> main\n",
-  "snapshot 2026-10-20T13:45:02\n"
+  "snapshot 2026-10-20T13:45:02\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   9886282..3aed43a  main -> main\n",
+  "snapshot 2026-10-20T14:00:02\n"
  ]
 }

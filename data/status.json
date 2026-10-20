@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T13:30:02",
+ "updated": "2026-10-20T13:45:02",
  "date": "2026-10-20",
  "tg_queue": {
   "aura": 25,
@@ -16,10 +16,10 @@
  },
  "recent_log": [
   "fatal: Cannot rebase onto multiple branches.\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   b58e0f5..df67026  main -> main\n",
-  "snapshot 2026-10-20T13:15:02\n",
-  "fatal: unable to access 'https://github.com/Ostap-87/claude-control.git/': Could not resolve host: github.com\n",
-  "fatal: unable to access 'https://github.com/Ostap-87/claude-control.git/': Could not resolve host: github.com\n"
+  "[2026-10-20 10:00:02] Следующая статья: 2026-10-17 | Цифровой банкинг Залива: местный финтех копирует китайский playbo\n",
+  "[2026-10-20 10:00:02] Остаток после неё: 13 шт.\n",
+  "[2026-10-20 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
+  "[2026-10-20 13:44:24] Коммит пропущен: \n",
+  "[2026-10-20 13:44:24] ✅ Статья опубликована на globaltechtour.ru\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T12:00:02",
+ "updated": "2026-10-21T12:15:01",
  "date": "2026-10-21",
  "tg_queue": {
   "aura": 23,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   3ef4359..d370cca  main -> main\n",
-  "snapshot 2026-10-21T11:30:02\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   d370cca..7672860  main -> main\n",
-  "snapshot 2026-10-21T11:45:02\n"
+  "snapshot 2026-10-21T12:00:02\n",
+  "[2026-10-21 12:00:02] Следующая: Индия без гуманоида: рынок роботов растёт на 17% в год\n",
+  "[2026-10-21 12:00:02] Остаток в батче: 14\n",
+  "[2026-10-21 12:00:02] Записано: /opt/aura/content/blog/india-robot-market-growth-no-humanoid.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-21 12:01:42] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-21 12:01:42] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

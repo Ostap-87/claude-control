@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T12:30:01",
+ "updated": "2026-10-21T12:45:02",
  "date": "2026-10-21",
  "tg_queue": {
   "aura": 23,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-21 12:00:02] Записано: /opt/aura/content/blog/india-robot-market-growth-no-humanoid.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-21 12:01:42] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-21 12:01:42] ✅ Опубликовано на aura-robotics.ru\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
   "   316ae9a..df95c52  main -> main\n",
-  "snapshot 2026-10-21T12:15:01\n"
+  "snapshot 2026-10-21T12:15:01\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   df95c52..84a92c2  main -> main\n",
+  "snapshot 2026-10-21T12:30:01\n",
+  "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T12:45:02",
+ "updated": "2026-10-22T13:00:01",
  "date": "2026-10-22",
  "tg_queue": {
   "aura": 21,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   e541f79..ef78321  main -> main\n",
-  "snapshot 2026-10-22T12:15:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   ef78321..6732db9  main -> main\n",
-  "snapshot 2026-10-22T12:30:02\n"
+  "[2026-10-22 10:00:02] Следующая статья: 2026-10-19 | Перенос электронной сборки из Китая в Таиланд на фоне тарифов\n",
+  "[2026-10-22 10:00:02] Остаток после неё: 11 шт.\n",
+  "[2026-10-22 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
+  "[2026-10-22 12:56:44] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-22 12:56:44] ✅ Статья опубликована на globaltechtour.ru\n",
+  "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

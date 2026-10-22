@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T12:15:01",
+ "updated": "2026-10-22T12:30:02",
  "date": "2026-10-22",
  "tg_queue": {
   "aura": 21,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-22T12:00:02\n",
-  "[2026-10-22 12:00:02] Следующая: Индонезия и никель: неожиданный ресурсный драйвер робототехн\n",
-  "[2026-10-22 12:00:02] Остаток в батче: 13\n",
-  "[2026-10-22 12:00:02] Записано: /opt/aura/content/blog/indonesia-nickel-robotics-driver.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
   "[2026-10-22 12:01:39] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-22 12:01:39] ✅ Опубликовано на aura-robotics.ru\n"
+  "[2026-10-22 12:01:39] ✅ Опубликовано на aura-robotics.ru\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   e541f79..ef78321  main -> main\n",
+  "snapshot 2026-10-22T12:15:01\n",
+  "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

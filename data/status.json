@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T12:00:02",
+ "updated": "2026-10-23T12:15:01",
  "date": "2026-10-23",
  "tg_queue": {
   "aura": 19,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   49f52f6..eccbb9f  main -> main\n",
-  "snapshot 2026-10-23T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   eccbb9f..ee6958b  main -> main\n",
-  "snapshot 2026-10-23T11:45:02\n",
+  "[2026-10-23 12:00:02] Следующая: Малайзия: AGiBot и первый в стране центр опыта ИИ и робототе\n",
+  "[2026-10-23 12:00:02] Остаток в батче: 12\n",
+  "[2026-10-23 12:00:02] Записано: /opt/aura/content/blog/malaysia-agibot-ai-experience-center.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-23 12:01:48] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-23 12:01:48] ✅ Опубликовано на aura-robotics.ru\n",
   "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T13:00:01",
+ "updated": "2026-10-23T13:15:01",
  "date": "2026-10-23",
  "tg_queue": {
   "aura": 19,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-23T12:45:02\n",
-  "[2026-10-23 10:00:02] Следующая статья: 2026-10-20 | Bosideng: как китайский пуховик стал экспортным товаром премиум-к\n",
-  "[2026-10-23 10:00:02] Остаток после неё: 10 шт.\n",
-  "[2026-10-23 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
-  "[2026-10-23 12:46:36] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-23 12:46:36] ✅ Статья опубликована на globaltechtour.ru\n"
+  "   1100e18..bd31876  main -> main\n",
+  "snapshot 2026-10-23T13:00:01\n",
+  "=== push-blogs 2026-10-23 13:05:01 ===\n",
+  "   22ad8da..451d12c  claude/sinotech-voyage-setup -> claude/sinotech-voyage-setup\n",
+  "   3a466f5..6de1a20  main -> main\n",
+  "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

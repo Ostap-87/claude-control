@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T15:00:03",
+ "updated": "2026-10-23T15:15:01",
  "date": "2026-10-23",
  "tg_queue": {
   "aura": 18,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "There is no candidate for rebasing against among the refs that you just fetched.\n",
-  "Generally this means that you provided a wildcard refspec which had no\n",
-  "matches on the remote end.\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   210c548..9852f2b  main -> main\n",
-  "snapshot 2026-10-23T14:45:01\n"
+  " 3 files changed, 8 insertions(+), 11 deletions(-)\n",
+  " rename data/{tg-queue/aura => tg-publish/aura/sending}/2026-10-23-1800.json (100%)\n",
+  " rename data/{tg-queue/globaltechtour => tg-publish/globaltechtour/sending}/2026-10-23-1800.json (100%)\n",
+  "[2026-10-23 15:00:03] [aura] пост поставлен в очередь отправки\n",
+  "[2026-10-23 15:00:03] [globaltechtour] пост поставлен в очередь отправки\n",
+  "[2026-10-23 15:00:05] ✅ Отправлено в GitHub — Actions доставит в Telegram\n"
  ]
 }

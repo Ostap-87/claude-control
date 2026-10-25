@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:30:01",
+ "updated": "2026-10-25T11:45:02",
  "date": "2026-10-25",
  "tg_queue": {
   "aura": 15,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-25 11:00:03] [globaltechtour] очередь пуста — пропуск\n",
-  "[2026-10-25 11:00:05] состояние синхронизировано с GitHub\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   0748c17..b69f1cd  main -> main\n",
   "snapshot 2026-10-25T11:15:01\n",
+  "fatal: Cannot rebase onto multiple branches.\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   b69f1cd..3e7a7e0  main -> main\n",
+  "snapshot 2026-10-25T11:30:01\n",
   "fatal: Cannot rebase onto multiple branches.\n"
  ]
 }

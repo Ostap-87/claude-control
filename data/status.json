@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:00:01",
+ "updated": "2026-10-25T13:15:01",
  "date": "2026-10-25",
  "tg_queue": {
   "aura": 15,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-25T12:45:01\n",
-  "[2026-10-25 10:00:02] Следующая статья: 2026-10-22 | Текстиль и обувь: почему производство мигрирует из Китая в Индоне\n",
-  "[2026-10-25 10:00:02] Остаток после неё: 8 шт.\n",
-  "[2026-10-25 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
-  "[2026-10-25 12:51:05] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-25 12:51:05] ✅ Статья опубликована на globaltechtour.ru\n"
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   f5d2da7..f89d1e8  main -> main\n",
+  "snapshot 2026-10-25T13:00:01\n",
+  "=== push-blogs 2026-10-25 13:05:01 ===\n",
+  "   e923b9b..49103cb  claude/sinotech-voyage-setup -> claude/sinotech-voyage-setup\n",
+  "   77ade9f..17bfc8a  main -> main\n"
  ]
 }

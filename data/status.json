@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:00:02",
+ "updated": "2026-10-25T12:15:02",
  "date": "2026-10-25",
  "tg_queue": {
   "aura": 15,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "   b69f1cd..3e7a7e0  main -> main\n",
-  "snapshot 2026-10-25T11:30:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   3e7a7e0..8980ecd  main -> main\n",
-  "snapshot 2026-10-25T11:45:02\n"
+  "snapshot 2026-10-25T12:00:02\n",
+  "[2026-10-25 12:00:02] Следующая: ОАЭ: полицейские роботы Дубая и государственная ставка на ав\n",
+  "[2026-10-25 12:00:02] Остаток в батче: 10\n",
+  "[2026-10-25 12:00:02] Записано: /opt/aura/content/blog/uae-dubai-police-service-robots.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-25 12:01:31] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-25 12:01:31] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

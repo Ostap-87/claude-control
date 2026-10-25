@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:30:01",
+ "updated": "2026-10-25T12:45:01",
  "date": "2026-10-25",
  "tg_queue": {
   "aura": 15,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-25 12:00:02] Записано: /opt/aura/content/blog/uae-dubai-police-service-robots.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
-  "[2026-10-25 12:01:31] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-25 12:01:31] ✅ Опубликовано на aura-robotics.ru\n",
   "To https://github.com/Ostap-87/claude-control.git\n",
   "   764e5a8..f5e79c1  main -> main\n",
-  "snapshot 2026-10-25T12:15:02\n"
+  "snapshot 2026-10-25T12:15:02\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   f5e79c1..1246c3f  main -> main\n",
+  "snapshot 2026-10-25T12:30:01\n"
  ]
 }

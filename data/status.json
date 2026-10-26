@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T13:00:01",
+ "updated": "2026-10-26T13:15:01",
  "date": "2026-10-26",
  "tg_queue": {
   "aura": 13,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   5874f89..b3b5357  main -> main\n",
-  "snapshot 2026-10-26T12:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   b3b5357..645a1dd  main -> main\n",
-  "snapshot 2026-10-26T12:45:02\n"
+  "   17bfc8a..8cc0940  main -> main\n",
+  "[2026-10-26 10:00:02] Следующая статья: 2026-10-23 | Индийская e-commerce-логистика: как страна стала полигоном для бы\n",
+  "[2026-10-26 10:00:02] Остаток после неё: 7 шт.\n",
+  "[2026-10-26 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
+  "[2026-10-26 13:10:56] Коммит пропущен: \n",
+  "[2026-10-26 13:10:56] ✅ Статья опубликована на globaltechtour.ru\n"
  ]
 }

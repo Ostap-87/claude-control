@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:30:01",
+ "updated": "2026-10-26T17:45:02",
  "date": "2026-10-26",
  "tg_queue": {
   "aura": 12,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-26T17:00:02\n",
-  "fatal: Cannot rebase onto multiple branches.\n",
-  "fatal: Cannot rebase onto multiple branches.\n",
   "To https://github.com/Ostap-87/claude-control.git\n",
-  "   05425ec..eb0c31d  main -> main\n",
-  "snapshot 2026-10-26T17:15:01\n"
+  "   eb0c31d..e7724f7  main -> main\n",
+  "snapshot 2026-10-26T17:30:01\n",
+  "There is no candidate for rebasing against among the refs that you just fetched.\n",
+  "Generally this means that you provided a wildcard refspec which had no\n",
+  "matches on the remote end.\n"
  ]
 }

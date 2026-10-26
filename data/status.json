@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:15:01",
+ "updated": "2026-10-26T12:30:01",
  "date": "2026-10-26",
  "tg_queue": {
   "aura": 13,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-26T12:00:02\n",
-  "[2026-10-26 12:00:02] Следующая: Таиланд: локализация роботизированных линий на заводах BYD и\n",
-  "[2026-10-26 12:00:02] Остаток в батче: 9\n",
   "[2026-10-26 12:00:02] Записано: /opt/aura/content/blog/thailand-byd-greatwall-robotic-lines.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
   "[2026-10-26 12:01:36] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-26 12:01:36] ✅ Опубликовано на aura-robotics.ru\n"
+  "[2026-10-26 12:01:36] ✅ Опубликовано на aura-robotics.ru\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   f5e4ace..5874f89  main -> main\n",
+  "snapshot 2026-10-26T12:15:01\n"
  ]
 }

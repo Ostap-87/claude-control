@@ -1,11 +1,16 @@
 {
- "updated": "2026-10-26T23:45:01",
- "date": "2026-10-26",
+ "updated": "2026-10-27T00:00:02",
+ "date": "2026-10-27",
  "tg_queue": {
   "aura": 12,
   "globaltechtour": 13
  },
- "tg_today": [],
+ "tg_today": [
+  "2026-10-27-0900.json",
+  "2026-10-27-0900.json",
+  "2026-10-27-1800.json",
+  "2026-10-27-1800.json"
+ ],
  "fb_queue": 0,
  "blog_batches": {
   "gtt": 73,
@@ -13,10 +18,10 @@
  },
  "recent_log": [
   "To https://github.com/Ostap-87/claude-control.git\n",
-  "   e45a1e3..34ce1b6  main -> main\n",
-  "snapshot 2026-10-26T23:15:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
   "   34ce1b6..3d37415  main -> main\n",
-  "snapshot 2026-10-26T23:30:02\n"
+  "snapshot 2026-10-26T23:30:02\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   3d37415..0149085  main -> main\n",
+  "snapshot 2026-10-26T23:45:01\n"
  ]
 }

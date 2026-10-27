@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T13:00:02",
+ "updated": "2026-10-27T13:15:01",
  "date": "2026-10-27",
  "tg_queue": {
   "aura": 11,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-27T12:45:01\n",
-  "[2026-10-27 10:00:01] Следующая статья: 2026-10-24 | Иу: как один город стал мировым складом мелкого опта\n",
-  "[2026-10-27 10:00:01] Остаток после неё: 6 шт.\n",
-  "[2026-10-27 10:00:01] Записано в site_content.example.json. Сборка сайта...\n",
-  "[2026-10-27 12:45:52] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-27 12:45:52] ✅ Статья опубликована на globaltechtour.ru\n"
+  "=== push-blogs 2026-10-27 13:05:01 ===\n",
+  "   749ffad..6ad7630  claude/sinotech-voyage-setup -> claude/sinotech-voyage-setup\n",
+  "   8cc0940..6d2099e  main -> main\n",
+  "There is no candidate for rebasing against among the refs that you just fetched.\n",
+  "Generally this means that you provided a wildcard refspec which had no\n",
+  "matches on the remote end.\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:00:01",
+ "updated": "2026-10-27T11:15:01",
  "date": "2026-10-27",
  "tg_queue": {
   "aura": 11,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-27T10:30:01\n",
-  "fatal: Cannot rebase onto multiple branches.\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   174b963..e76c816  main -> main\n",
-  "snapshot 2026-10-27T10:45:02\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  "snapshot 2026-10-27T11:00:01\n",
+  "[2026-10-27 11:00:02] [aura] очередь пуста — пропуск\n",
+  "[2026-10-27 11:00:02] [globaltechtour] очередь пуста — пропуск\n",
+  "[2026-10-27 11:00:04] состояние синхронизировано с GitHub\n",
+  "fatal: unable to access 'https://github.com/Ostap-87/claude-control.git/': Could not resolve host: github.com\n",
+  "fatal: unable to access 'https://github.com/Ostap-87/claude-control.git/': Could not resolve host: github.com\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T15:15:01",
+ "updated": "2026-10-28T15:30:02",
  "date": "2026-10-28",
  "tg_queue": {
   "aura": 8,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-28 15:00:02] [globaltechtour] пост поставлен в очередь отправки\n",
-  "[2026-10-28 15:00:05] ✅ Отправлено в GitHub — Actions доставит в Telegram\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
   " ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4ab8b48d7d14b95879afa6a748df556221dd58b3 but expected ccfa38011b834e913dbede8de2f5463266371a84)\n",
   "error: failed to push some refs to 'https://github.com/Ostap-87/claude-control.git'\n",
-  "snapshot 2026-10-28T15:00:03\n"
+  "snapshot 2026-10-28T15:00:03\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   9e32bc8..0be6513  main -> main\n",
+  "snapshot 2026-10-28T15:15:01\n"
  ]
 }

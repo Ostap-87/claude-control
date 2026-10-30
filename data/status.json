@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:15:01",
+ "updated": "2026-10-30T12:30:01",
  "date": "2026-10-30",
  "tg_queue": {
   "aura": 5,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-30T12:00:02\n",
-  "[2026-10-30 12:00:02] Следующая: LiDAR против камер: как разные архитектуры видят мир робота\n",
-  "[2026-10-30 12:00:02] Остаток в батче: 5\n",
   "[2026-10-30 12:00:02] Записано: /opt/aura/content/blog/lidar-vs-cameras-robot-perception.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
   "[2026-10-30 12:01:48] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-30 12:01:48] ✅ Опубликовано на aura-robotics.ru\n"
+  "[2026-10-30 12:01:48] ✅ Опубликовано на aura-robotics.ru\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   144d81a..22eb8fa  main -> main\n",
+  "snapshot 2026-10-30T12:15:01\n"
  ]
 }

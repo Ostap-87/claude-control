@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:45:01",
+ "updated": "2026-10-30T13:00:01",
  "date": "2026-10-30",
  "tg_queue": {
   "aura": 5,
@@ -15,11 +15,11 @@
   "aura": 73
  },
  "recent_log": [
-  "[2026-10-30 10:00:01] Следующая статья: 2026-10-27 | GITEX в Дубае: почему Ближний Восток стал альтернативной витриной\n",
-  "[2026-10-30 10:00:01] Остаток после неё: 3 шт.\n",
-  "[2026-10-30 10:00:01] Записано в site_content.example.json. Сборка сайта...\n",
   "[2026-10-30 12:38:54] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
   "[2026-10-30 12:38:54] ✅ Статья опубликована на globaltechtour.ru\n",
-  "fatal: Cannot rebase onto multiple branches.\n"
+  "fatal: Cannot rebase onto multiple branches.\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   e9da52b..ef00704  main -> main\n",
+  "snapshot 2026-10-30T12:45:01\n"
  ]
 }

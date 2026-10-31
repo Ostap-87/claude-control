@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:00:02",
+ "updated": "2026-10-31T12:15:01",
  "date": "2026-10-31",
  "tg_queue": {
   "aura": 4,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   6b9caf1..8d57c76  main -> main\n",
-  "snapshot 2026-10-31T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   8d57c76..a815272  main -> main\n",
-  "snapshot 2026-10-31T11:45:01\n"
+  "snapshot 2026-10-31T12:00:02\n",
+  "[2026-10-31 12:00:02] Следующая: Стандарт, которого нет: сертификация гуманоидов сразу в 80+ \n",
+  "[2026-10-31 12:00:02] Остаток в батче: 4\n",
+  "[2026-10-31 12:00:02] Записано: /opt/aura/content/blog/humanoid-certification-standard-gap.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-10-31 12:01:42] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-10-31 12:01:42] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:00:01",
+ "updated": "2026-10-31T13:15:01",
  "date": "2026-10-31",
  "tg_queue": {
   "aura": 4,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-10-31T12:45:02\n",
-  "[2026-10-31 10:00:02] Следующая статья: 2026-10-28 | Singles Day 11.11: как готовится крупнейший шопинг-фестиваль мира\n",
-  "[2026-10-31 10:00:02] Остаток после неё: 2 шт.\n",
-  "[2026-10-31 10:00:02] Записано в site_content.example.json. Сборка сайта...\n",
-  "[2026-10-31 12:58:10] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-10-31 12:58:10] ✅ Статья опубликована на globaltechtour.ru\n"
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   e4e3faa..67ea8b3  main -> main\n",
+  "snapshot 2026-10-31T13:00:01\n",
+  "=== push-blogs 2026-10-31 13:05:01 ===\n",
+  "   91e05ea..1cc66f4  claude/sinotech-voyage-setup -> claude/sinotech-voyage-setup\n",
+  "   cc8b8bf..e3c9819  main -> main\n"
  ]
 }

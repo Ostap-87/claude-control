@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:15:02",
+ "updated": "2026-11-02T12:30:01",
  "date": "2026-11-02",
  "tg_queue": {
   "aura": 4,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "snapshot 2026-11-02T12:00:01\n",
-  "[2026-11-02 12:00:02] Следующая: M-Robots OS: свой ROS у Китая как стратегия технологического\n",
-  "[2026-11-02 12:00:02] Остаток в батче: 2\n",
   "[2026-11-02 12:00:02] Записано: /opt/aura/content/blog/m-robots-os-china-sovereignty.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
   "[2026-11-02 12:01:36] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
-  "[2026-11-02 12:01:36] ✅ Опубликовано на aura-robotics.ru\n"
+  "[2026-11-02 12:01:36] ✅ Опубликовано на aura-robotics.ru\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   391837e5..02e5ef94  main -> main\n",
+  "snapshot 2026-11-02T12:15:02\n"
  ]
 }

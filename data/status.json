@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:15:01",
+ "updated": "2026-11-03T11:30:01",
  "date": "2026-11-03",
  "tg_queue": {
   "aura": 4,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   6315f536..82c1c9e5  main -> main\n",
-  "snapshot 2026-11-03T11:00:02\n",
   "[2026-11-03 11:00:03] [aura] очередь пуста — пропуск\n",
   "[2026-11-03 11:00:03] [globaltechtour] очередь пуста — пропуск\n",
-  "[2026-11-03 11:00:04] ⚠️ push не удался\n"
+  "[2026-11-03 11:00:04] ⚠️ push не удался\n",
+  "To https://github.com/Ostap-87/claude-control.git\n",
+  "   82c1c9e5..9f6acf41  main -> main\n",
+  "snapshot 2026-11-03T11:15:01\n"
  ]
 }

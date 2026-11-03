@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:00:02",
+ "updated": "2026-11-03T12:15:02",
  "date": "2026-11-03",
  "tg_queue": {
   "aura": 4,
@@ -12,11 +12,11 @@
   "aura": 73
  },
  "recent_log": [
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   9f6acf41..dd360b2d  main -> main\n",
-  "snapshot 2026-11-03T11:30:01\n",
-  "To https://github.com/Ostap-87/claude-control.git\n",
-  "   dd360b2d..1d4130c3  main -> main\n",
-  "snapshot 2026-11-03T11:45:01\n"
+  "snapshot 2026-11-03T12:00:02\n",
+  "[2026-11-03 12:00:02] Следующая: Embodied intelligence как специальность: китайские вузы гото\n",
+  "[2026-11-03 12:00:02] Остаток в батче: 1\n",
+  "[2026-11-03 12:00:02] Записано: /opt/aura/content/blog/embodied-intelligence-university-major.json. Сборка Next.js (~3-8 мин) + restart aura...\n",
+  "[2026-11-03 12:00:49] Закоммичено локально ✓ (пуш в 13:05 UTC)\n",
+  "[2026-11-03 12:00:49] ✅ Опубликовано на aura-robotics.ru\n"
  ]
 }
